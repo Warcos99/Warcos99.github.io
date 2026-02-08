@@ -146,3 +146,71 @@ push update to be live, either the whole thing, or a specific branch
 git push
 git push -u origin main
 ```
+
+---
+
+### Steps for adding a new page
+
+1. Make the Markdown file for the page you want.  Put it in the appropriate folder.
+2. On the `loadcontent.js` file in `main`, Add a new call for the markdown file you just made. Keep track of the ID you use.
+```
+function loadMarkdown(filePath, elementId) {
+  const el = document.getElementById(elementId);
+  if (!el) return; // <- stop if the element doesn't exist
+
+  fetch(filePath)
+    .then(response => {
+      if (!response.ok) throw new Error('HTTP error ' + response.status);
+      return response.text();
+    })
+    .then(md => {
+      el.innerHTML = marked.parse(md);
+    })
+    .catch(error => console.error('Error loading markdown:', error));
+}
+
+function loadHTML(filePath, elementId) {
+  fetch(filePath)
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById(elementId).innerHTML = data;
+    })
+    .catch(error => console.error('Error loading HTML:', error));
+}
+
+/* ---- Calls ---- */
+
+loadMarkdown('MarkdownFiles/HomePage.md', 'HomePage');
+loadMarkdown('MarkdownFiles/AboutMe.md', 'AboutMe');
+loadMarkdown('MarkdownFiles/Projects.md', 'Projects');
+loadMarkdown('MarkdownFiles/Portfolio.md', 'Portfolio');
+loadMarkdown('MarkdownFiles/Mixtapes.md', 'Mixtapes');
+loadMarkdown('MarkdownFiles/ProjectNotes/WebsiteMakingNotes.md', 'WebsiteNotes');
+
+loadHTML('header.html', 'header');
+```
+
+3. Make an html page for the new page.  It can be whatever you need it to be, but typically it will look like this:  
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>[INSERT-TITLE-HERE]</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="layout">
+      <div id="header"></div>
+      <div class="content">
+          <div id=[INSERT-ID-HERE]></div> 
+      </div>
+    </div>
+	
+<!-- This is where we load content, first the marked library, then our home made script-->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="loadcontent.js"></script>
+
+</body>
+</html>
+```
