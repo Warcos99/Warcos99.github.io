@@ -1,11 +1,14 @@
 function loadMarkdown(filePath, elementId) {
+  const el = document.getElementById(elementId);
+  if (!el) return; // <- stop if the element doesn't exist
+
   fetch(filePath)
     .then(response => {
       if (!response.ok) throw new Error('HTTP error ' + response.status);
       return response.text();
     })
     .then(md => {
-      document.getElementById(elementId).innerHTML = marked.parse(md);
+      el.innerHTML = marked.parse(md);
     })
     .catch(error => console.error('Error loading markdown:', error));
 }
