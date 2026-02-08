@@ -126,3 +126,23 @@ http://localhost:8000/yourfile.html
 
 ---
 
+### Quick Github workflow
+
+Work on your files like normal, but when you are done,   
+
+Add the files to the update, either the whole thing or specific files
+```
+git add .
+git add index.html style.css loadcontent.js
+```
+
+add comments to the update. Very important
+```
+git commit -m "Update HomePage markdown and styling"
+```
+
+push update to be live, either the whole thing, or a specific branch
+```
+git push
+git push -u origin main
+```
