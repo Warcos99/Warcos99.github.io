@@ -24,6 +24,8 @@ function loadHTML(filePath, elementId) {
 loadMarkdown('MarkdownFiles/HomePage.md', 'HomePage');
 loadMarkdown('MarkdownFiles/AboutMe.md', 'AboutMe');
 loadMarkdown('MarkdownFiles/Projects.md', 'Projects');
+loadMarkdown('MarkdownFiles/Portfolio.md', 'Portfolio');
+loadMarkdown('MarkdownFiles/Mixtapes.md', 'Mixtapes');
 loadMarkdown('MarkdownFiles/ProjectNotes/WebsiteMakingNotes.md', 'WebsiteNotes');
 
 loadHTML('header.html', 'header');
