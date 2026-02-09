@@ -22,14 +22,19 @@ function loadHTML(filePath, elementId) {
     .catch(error => console.error('Error loading HTML:', error));
 }
 
-/* ---- Calls ---- */
+/* ---- Calls for Main pages ---- */
+loadMarkdown('/MarkdownFiles/HomePage.md', 'HomePage');
+loadMarkdown('/MarkdownFilesFiles/AboutMe.md', 'AboutMe');
 
-loadMarkdown('MarkdownFiles/HomePage.md', 'HomePage');
-loadMarkdown('MarkdownFiles/AboutMe.md', 'AboutMe');
-loadMarkdown('MarkdownFiles/Projects.md', 'Projects');
-loadMarkdown('MarkdownFiles/Portfolio.md', 'Portfolio');
-loadMarkdown('MarkdownFiles/Mixtapes.md', 'Mixtapes');
-loadMarkdown('MarkdownFiles/ProjectNotes/WebsiteMakingNotes.md', 'WebsiteNotes');
+/* ---- Calls for Projects page ---- */
+loadMarkdown('/MarkdownFiles/Projects/ProjectsIndex.md', 'Projects');
+loadMarkdown('/MarkdownFiles/Projects/WebsiteMakingNotes.md', 'WebsiteNotes');
 
-loadHTML('header.html', 'header');
+/* ---- Calls for Portfolio page ---- */
+loadMarkdown('/MarkdownFiles/Portfolio/PortfolioIndex.md', 'Portfolio');
 
+/* ---- Calls for Mixtapes page ---- */
+loadMarkdown('/MarkdownFiles/Mixtapes/MixtapesIndex.md', 'Mixtapes');
+
+/* ---- Calls for other files ---- */
+loadHTML('/Assets/header.html', 'header');

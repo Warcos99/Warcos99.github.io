@@ -153,64 +153,81 @@ git push -u origin main
 
 1. Make the Markdown file for the page you want.  Put it in the appropriate folder.
 2. On the `loadcontent.js` file in `main`, Add a new call for the markdown file you just made. Keep track of the ID you use.
-```
-function loadMarkdown(filePath, elementId) {
-  const el = document.getElementById(elementId);
-  if (!el) return; // <- stop if the element doesn't exist
 
-  fetch(filePath)
-    .then(response => {
-      if (!response.ok) throw new Error('HTTP error ' + response.status);
-      return response.text();
-    })
-    .then(md => {
-      el.innerHTML = marked.parse(md);
-    })
-    .catch(error => console.error('Error loading markdown:', error));
-}
+3. Make an html page for the new page.  It can be whatever you need it to be, but here is a template of what I am using.
 
-function loadHTML(filePath, elementId) {
-  fetch(filePath)
-    .then(response => response.text())
-    .then(data => {
-      document.getElementById(elementId).innerHTML = data;
-    })
-    .catch(error => console.error('Error loading HTML:', error));
-}
-
-/* ---- Calls ---- */
-
-loadMarkdown('MarkdownFiles/HomePage.md', 'HomePage');
-loadMarkdown('MarkdownFiles/AboutMe.md', 'AboutMe');
-loadMarkdown('MarkdownFiles/Projects.md', 'Projects');
-loadMarkdown('MarkdownFiles/Portfolio.md', 'Portfolio');
-loadMarkdown('MarkdownFiles/Mixtapes.md', 'Mixtapes');
-loadMarkdown('MarkdownFiles/ProjectNotes/WebsiteMakingNotes.md', 'WebsiteNotes');
-
-loadHTML('header.html', 'header');
-```
-
-3. Make an html page for the new page.  It can be whatever you need it to be, but typically it will look like this:  
 ```
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>[INSERT-TITLE-HERE]</title>
-    <link rel="stylesheet" href="style.css">
+    <title>[INSERT TITLE]</title>  <!--- insert title --->
+    <link rel='stylesheet' href="/Assets/Styles/style.css">
 </head>
 <body>
     <div class="layout">
       <div id="header"></div>
       <div class="content">
-          <div id=[INSERT-ID-HERE]></div> 
+          <div id="[INSERT ID FOR PAGE]"></div> <!--- insert ID --->
       </div>
     </div>
-	
-<!-- This is where we load content, first the marked library, then our home made script-->
+
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="loadcontent.js"></script>
+    <script src="/Assets/Scripts/loadcontent.js"></script>
 
 </body>
 </html>
 ```
+
+```
+```
+
+---
+
+### File structure
+
+Let's look at how to structure your files, so things don't get confusing as scope increases.
+
+#### Root 
+  - index.html
+  - AboutMe.html
+  - Assets
+    - Fonts
+    - Images
+    - Scripts
+    - Styles
+  - HTML
+    - Mixtapes
+      - index.html
+      - mixtapes1.html
+      - mixtapes2.html
+    - Portfolio
+      - index.html
+      - portfolio1.html
+      - portfolio2.html 
+    - Projects
+      - index.html
+      - Projects1.html
+      - Projects2.html 
+    -template.html 
+  - MarkdownFiles
+    - AboutMe.md 
+    - HomePage.md 
+    - Mixtapes 
+      - MixtapesIndex.md 
+      - Mixtapes1.md 
+      - Mixtapes2.md 
+    - Portfolio 
+      - PortfolioIndex.md 
+      - Portfolio1.md 
+      - Portfolio2.md 
+    - Projects 
+      - ProjectsIndex.md 
+      - Projects1.md 
+      - Projects2.md 
+
+---
+
+
+
+

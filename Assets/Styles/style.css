@@ -1,0 +1,21 @@
+body {
+    background-color: beige;
+    font-family: "Times New Roman", Times, serif;
+    margin: 20px;
+}
+
+div {
+    padding: 20px;
+}
+
+pre { /* for code blocks */
+    border: 2px solid black;
+    padding: 20px;
+    background-color: #f5f0e6; /* optional light background */
+    overflow-x: auto; /* prevents long lines from breaking layout */
+}
+
+code { /* for text in code blocks */
+    font-family: "Courier New", monospace;
+    font-size: 12px;
+}
