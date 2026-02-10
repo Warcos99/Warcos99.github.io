@@ -1,15 +1,12 @@
 # Hello World
 
-Hello World, I come here to tell you the wonderful world that is my love.  See things really change whenever one tells the truth, and things really fall apart whenever one really does not.  
-So Here I am, telling you of the washer in the dryer, of the cat in the dog, of the day we will all see the truths that are kept from us. No, my friend, I cannot say for sure why, but I can tell you how.
-The How comes from the death of the donkey. the how comes from my heart.
-Good bie.
+<!--- For images, use straight html, markdown is not enough to set an image correctly.--->
+<div style="text-align: center;">
+  <img src="/Assets/Images/image.jpg" alt="A Possum!" style="width: 500px; ">
+</div>
 
+This website is subject to change as my sensibilities change, but for now, this is the home of my project logs, my photography portfolio-blog, and my mixtapes and playlists I want to share with the world.
 
-- bullet 1 
-- bullet 2 
-- bullet 3 
+Once the infrastructure is in place, I would like to share my other art on here, like the zines I produce as well as some walkthroughs for some of my more complex hobbies.  
 
-
-**bold Text** and *italic text*
-
+This is meant to be as a repository for myself to keep all my references and notes, as well as a way to share my art with my community and friends.  Not really intended to be a mass traffic site.

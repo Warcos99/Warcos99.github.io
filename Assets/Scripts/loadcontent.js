@@ -24,7 +24,7 @@ function loadHTML(filePath, elementId) {
 
 /* ---- Calls for Main pages ---- */
 loadMarkdown('/MarkdownFiles/HomePage.md', 'HomePage');
-loadMarkdown('/MarkdownFilesFiles/AboutMe.md', 'AboutMe');
+loadMarkdown('/MarkdownFiles/AboutMe.md', 'AboutMe');
 
 /* ---- Calls for Projects page ---- */
 loadMarkdown('/MarkdownFiles/Projects/ProjectsIndex.md', 'Projects');
