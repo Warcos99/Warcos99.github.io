@@ -160,9 +160,13 @@ In this last line, we are loading our javascript document called "loadcontent.js
 ## loadcontent.js
 
 This is a pretty important file, so let's talk about it.
-As the title suggests, it is the script we wrote that load the markdown files into html.  Javascript and scripting in general are my weakest here, so there is definetly room for improvement.
+As the title suggests, it is the script we wrote that load the markdown files into html.  
 
-But if you follow along with my process, you will need to create this file, let me show you what I put in there.  I The file starts with two functions, one to load standard html files into the final.html site.  the other to load markdown files into the final.html site.
+Javascript is not my strong suit , so bare with with me, as I attempt to explain it.  
+
+The big picture understanding of the code below is that this script is split into two parts. 
+1. (a) the function that loads markdowns into html. (b) also the function that loads other html files into html
+2. the calling of the function for all the pages we need to create.
 
 This first one is the function to load markdown files:
 ```
@@ -182,7 +186,15 @@ function loadMarkdown(filePath, elementId) {
 }
 ```
 
-As I mentioned before, javascript is my weakest bone here, so these were lines of code i found online, they seem to work really well for me, but it may not be the best solution.
+Let me try to explain this function.
+
+the first line is pretty simple, we are creating a function, calling it 'loadMarkdown' and getting two inputs for the function, one called the filePath and one called the elementID
+
+Because this one script services all of the pages, if you call for the "AboutMe" page, it is also going to call for all the other pages, like the "Projects" and the "Mixtape" pages.  this doesn't break anything, but it causes unecessary work for the computer, and also spits some errors on the backend that give me anxiety.  So the next line of code deals with that.
+
+`const el = document.getElementByID(elementID);` and so on will check what page we are looking for, and if we are looking for "AboutMe" it will only run the rest of the code if the elementId is "AboutMe".
+
+The rest of the function is basically just fetching the markdown file from the filepath provided, converting it to pure text, then converting the text to html.  Along the way, if there are any errors, it spits out error messages to help troubleshoot.
 
 Here is the other function to load html files:
 ```
@@ -195,7 +207,9 @@ function loadHTML(filePath, elementId) {
     .catch(error => console.error('Error loading HTML:', error));
 }
 ```
-I can't honestly explain these very well to you, just know they work, haha.
+It's basically the same as the function above, except since it's already in html, we don't have to worry about converting to text or anything.  
+  
+Also, my only html call here is for the header. and since every single page will call for the header, there is no error of this function being called when the id for it is not being called, like above.  SO FAR, I have not needed to fix this function with that first two lines of code from the markdown function, but If you are calling several html files and not all on every page, then consider this might be an issue.
 
 The next step, once we have those functions is to call them to create our key word connections:
 
@@ -219,11 +233,47 @@ loadHTML('/Assets/header.html', 'header');
 ```
 As you can see this process is pretty straight forward, you just run your function `loadMarkdown('fileDestination','ID');` and it generates that connection for you.  This is the ID that is used in the html file to connect things together.
 
+When you are putting in the file address, start with a `/`.  I learned that putting in the file address as `MarkdownFiles/Mixtapes/Portfolio` without the slash at the beggining will make the file start looking for a "markdownfiles" folder in the scripts current directory.  Since this script lives in `Assets/Scripts` there is not Markdown folder in here, and it will spit out an error.
+
+Adding the slash at the beggining of the address tells the code to start looking for these directories in the root folder of the website.  This is distinction is what is called relative vs absolute pathing.  Using the slash at the beggining tells the program to use the absolute path, without it, it looks for the relative path.  
+
+In general anytime you path to a specific file, I found it good practice to keep to absolute paths, since it will consistently always work.
+
 
 ---
 ## CSS
 
-As previously alluded, the style.css file governs the aesthetics for the whole site.  I saw some people with specific css files for different aspects, like different pages and different buttons.  But my page is pretty minimal So I will leave this one up to you.  You don't even need a css page at all, but if you do you can find some really good examples online elsewhere.
+I will post my own style.css file here, so you can see how one would look like. Just know that as far as style goes, my website is more minimal, and as such you can get much much much more creative with yours.
+
+```
+body {
+    background-color: beige;
+    font-family: "Times New Roman", Times, serif;
+    margin: 20px;
+}
+
+div {
+    padding: 20px;
+}
+
+pre { /* for code blocks */
+    border: 2px solid black;
+    padding: 20px;
+    background-color: #f5f0e6; /* light background, close to beige*/
+    overflow-x: auto; /* prevents long lines from breaking layout */
+}
+
+code { /* for text in code blocks */
+    font-family: "Courier New", monospace;
+    font-size: 12px;
+}
+```
+
+As you can see a css file is organized pretty intuitivly, and you can find much better examples of them online elsewhere.  this simple one just works for me.
+
+A quick note, if you want to quickly exeriment with changing style option and seeing changes on the file, analyzing your website on a browser will often let you mess the css file there directly and see those changes happen instanteniously.
+
+Want to see what a black background looks like? or a different font? just make the change on the browser included analyzer!  The only thing is that changes here won't  save, make sure to make those changes officially on the proper file.
 
 ---
 

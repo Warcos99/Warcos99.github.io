@@ -11,7 +11,7 @@ div {
 pre { /* for code blocks */
     border: 2px solid black;
     padding: 20px;
-    background-color: #f5f0e6; /* optional light background */
+    background-color: #f5f0e6; /* light background, close to beige*/
     overflow-x: auto; /* prevents long lines from breaking layout */
 }
 
