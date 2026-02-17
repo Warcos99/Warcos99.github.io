@@ -29,6 +29,7 @@ loadMarkdown('/MarkdownFiles/AboutMe.md', 'AboutMe');
 /* ---- Calls for Projects page ---- */
 loadMarkdown('/MarkdownFiles/Projects/ProjectsIndex.md', 'Projects');
 loadMarkdown('/MarkdownFiles/Projects/WebsiteMakingNotes.md', 'WebsiteNotes');
+loadMarkdown('/MarkdownFiles/Projects/LinuxNotes.md', 'LinuxNotes')
 
 /* ---- Calls for Portfolio page ---- */
 loadMarkdown('/MarkdownFiles/Portfolio/PortfolioIndex.md', 'Portfolio');
