@@ -50,7 +50,7 @@ The ideal bookbinding knife has a long straight edge, and is consistently razor 
 This makes box cutters a perfect bookbinding knife.
 If you wish to upgrade, just get yourself a sturdier and nicer box cutter.
 
-<img src="/Assets/Images/BeginnerBookbinding/knife.jpg" style="height:80vh">
+<img src="/Assets/Images/BeginnerBookbinding/knife.jpg" style="width:80vw">
 
 ---
 
@@ -61,7 +61,7 @@ Ideal ruler
 - Millimeter Graduations
 - Graduations start at the edge
 
-<img src="/Assets/Images/BeginnerBookbinding/ruler.jpg" style="height:80vh">
+<img src="/Assets/Images/BeginnerBookbinding/ruler.jpg" style="width:80vw">
 
 ---
 
@@ -98,7 +98,7 @@ You can use your brick to
 	- All you need: Wheat Starch, Water, Clove Oil
 	- A batch will last 7 days in the fridge
 
-<img src="/Assets/Images/BeginnerBookbinding/glue.jpg" style="height:80vh">
+<img src="/Assets/Images/BeginnerBookbinding/glue.jpg" style="width:80vw">
 
 ---
 
@@ -131,7 +131,7 @@ The umbrella term for all the crafts having to do with creating or working on bo
 
 Colloquially you will see it when referring to the most open-ended bookbinding projects with an emphasis on self expression.  While techniques are important, they are not the focus.
 
-<img src="/Assets/Images/BeginnerBookbinding/Bookarts.jpg" style="height:80vh">
+<img src="/Assets/Images/BeginnerBookbinding/Bookarts.jpg" style="width:80vw">
 
 ---
 
@@ -139,7 +139,7 @@ Colloquially you will see it when referring to the most open-ended bookbinding p
 
 Classical bookbinding with named techniques tested by time. A large emphasis is placed on craft and tradition, as opposed to self-expression.
 
-<img src="/Assets/Images/BeginnerBookbinding/Bookbinding.jpg" style="height:80vh">
+<img src="/Assets/Images/BeginnerBookbinding/Bookbinding.jpg" style="width:80vw">
 
 ---
 
@@ -147,7 +147,7 @@ Classical bookbinding with named techniques tested by time. A large emphasis is 
 
 Can be highly technical, requiring knowledge of historical bookbinding techniques alongside chemical reactions between different materials.
 
-<img src="/Assets/Images/BeginnerBookbinding/BookRestoration.jpg" style="height:80vh">
+<img src="/Assets/Images/BeginnerBookbinding/BookRestoration.jpg" style="width:80vw">
 
 ---
 
@@ -158,7 +158,7 @@ Can be highly technical, requiring knowledge of historical bookbinding technique
 - Spine Lining
 - Cover Material
 
-<img src="/Assets/Images/BeginnerBookbinding/bookanatomy.jpg" style="height:80vh">
+<img src="/Assets/Images/BeginnerBookbinding/bookanatomy.jpg" style="width:80vw">
 
 ---
 
@@ -169,7 +169,7 @@ Can be highly technical, requiring knowledge of historical bookbinding technique
 - The bottom edge is called the tail
 - Made out of folded papers called signatures
 
-<img src="/Assets/Images/BeginnerBookbinding/textblock.png" style="height:80vh">
+<img src="/Assets/Images/BeginnerBookbinding/textblock.png" style="width:80vw">
 
 ---
 
@@ -180,7 +180,7 @@ Can be highly technical, requiring knowledge of historical bookbinding technique
 - Can be decorative
 - Good folding and pasting technique can be implemented to reduce stress on structure
 
-<img src="/Assets/Images/BeginnerBookbinding/endpaper.jpg" style="height:80vh">
+<img src="/Assets/Images/BeginnerBookbinding/endpaper.jpg" style="width:80vw">
 
 ---
 
@@ -191,7 +191,7 @@ Can be highly technical, requiring knowledge of historical bookbinding technique
 - Then with Mull (fabric similar to cheese cloth)
 - Depending on book style, tapes or chords might also be used
 
-<img src="/Assets/Images/BeginnerBookbinding/spinelining.jpg" style="height:80vh">
+<img src="/Assets/Images/BeginnerBookbinding/spinelining.jpg" style="width:80vw">
 
 ---
 
@@ -201,7 +201,7 @@ Can be highly technical, requiring knowledge of historical bookbinding technique
 - Like all paper, chipboard has grain direction
 - Gluing while being conscious about grain reduces warping
 
-<img src="/Assets/Images/BeginnerBookbinding/hardcoverbook.jpg" style="height:80vh">
+<img src="/Assets/Images/BeginnerBookbinding/hardcoverbook.jpg" style="width:80vw">
 
 ---
 
@@ -211,7 +211,7 @@ Can be highly technical, requiring knowledge of historical bookbinding technique
 - Instead of marking a measurement with a pencil, do so with a sharp knife
 - The thickness of the knife is much more precise than the thickness of a pencil or pen
 
-<img src="/Assets/Images/BeginnerBookbinding/markingmeasure.jpg" style="height:80vh">
+<img src="/Assets/Images/BeginnerBookbinding/markingmeasure.jpg" style="width:80vw">
 
 ---
 
@@ -224,7 +224,7 @@ Can be highly technical, requiring knowledge of historical bookbinding technique
 - Push other end of ruler into knife
 - Repeat
 
-<img src="/Assets/Images/BeginnerBookbinding/cutting.jpg" style="height:80vh">
+<img src="/Assets/Images/BeginnerBookbinding/cutting.jpg" style="width:80vw">
 
 ---
 
@@ -234,7 +234,7 @@ Can be highly technical, requiring knowledge of historical bookbinding technique
 - on dominant hand, wield the knife. Gently glide the knife across ruler
 - Trust the knife is sharp enough, and only apply as much pressure as you need  Applying too much pressure can cause the ruler to move
 
-<img src="/Assets/Images/BeginnerBookbinding/cutting.jpg" style="height:80vh">
+<img src="/Assets/Images/BeginnerBookbinding/cutting.jpg" style="width:80vw">
 
 ---
 
@@ -244,7 +244,7 @@ Can be highly technical, requiring knowledge of historical bookbinding technique
 - then gently bend back until fold point
 - This ensures the folds leave a nice even edge
 
-<img src="/Assets/Images/BeginnerBookbinding/edge.jpg" style="height:80vh">
+<img src="/Assets/Images/BeginnerBookbinding/edge.jpg" style="width:80vw">
 
 ---
 
@@ -254,7 +254,7 @@ Can be highly technical, requiring knowledge of historical bookbinding technique
 - Hold Awl at 45 degrees to the signature
 - This ensures all punched holes are even throughout the spine of each signature
 
-<img src="/Assets/Images/BeginnerBookbinding/awl.jpg" style="height:80vh">
+<img src="/Assets/Images/BeginnerBookbinding/awl.jpg" style="width:80vw">
 
 ---
 
@@ -265,23 +265,17 @@ Can be highly technical, requiring knowledge of historical bookbinding technique
 - Three or Four runs of the thread through the bar should suffice
 - When making a book with thread exposed to the elements, you want alot of more wax
 
-<img src="/Assets/Images/BeginnerBookbinding/wax.jpg" style="height:80vh">
+<img src="/Assets/Images/BeginnerBookbinding/wax.jpg" style="width:80vw">
 
 ---
 
 # Pamphlet Style Sewing Pattern
 
-<img src="/Assets/Images/BeginnerBookbinding/pamphlet1.png" style="height:80vh">
-
-<img src="/Assets/Images/BeginnerBookbinding/pamphlet2.png" style="height:80vh">
+<img src="/Assets/Images/BeginnerBookbinding/pamphlet1.png" style="width:80vw">
 
 ---
 
 # Pamphlet Style Sewing Pattern
-
-<img src="/Assets/Images/BeginnerBookbinding/pamphlet3.png" style="height:80vh">
-
-<img src="/Assets/Images/BeginnerBookbinding/pamphlet4.png" style="height:80vh">
 
 ---
 
@@ -291,7 +285,7 @@ Can be highly technical, requiring knowledge of historical bookbinding technique
 - Aesthetically Pretty Visible thread on outside
 - Book lays flat
 
-<img src="/Assets/Images/BeginnerBookbinding/copticstitch.jpg" style="height:80vh">
+<img src="/Assets/Images/BeginnerBookbinding/copticstitch.jpg" style="width:80vw">
 
 ---
 
@@ -301,7 +295,7 @@ Can be highly technical, requiring knowledge of historical bookbinding technique
 - No ribbons or chords in the spine required
 - Sewing provides a lot of structural strength to spine
 
-<img src="/Assets/Images/BeginnerBookbinding/frenchlink.jpg" style="height:80vh">
+<img src="/Assets/Images/BeginnerBookbinding/frenchlink.jpg" style="width:80vw">
 
 ---
 
@@ -311,7 +305,7 @@ Can be highly technical, requiring knowledge of historical bookbinding technique
 - Used in magazine style binding
 - Used to bind single sheets together
 
-<img src="/Assets/Images/BeginnerBookbinding/perfectbinding.jpg" style="height:80vh">
+<img src="/Assets/Images/BeginnerBookbinding/perfectbinding.jpg" style="width:80vw">
 
 ---
 
