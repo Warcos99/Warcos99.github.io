@@ -30,6 +30,7 @@ loadMarkdown('/MarkdownFiles/AboutMe.md', 'AboutMe');
 loadMarkdown('/MarkdownFiles/Projects/ProjectsIndex.md', 'Projects');
 loadMarkdown('/MarkdownFiles/Projects/WebsiteMakingNotes.md', 'WebsiteNotes');
 loadMarkdown('/MarkdownFiles/Projects/LinuxNotes.md', 'LinuxNotes')
+loadMarkdown('/MarkdownFiles/Projects/BeginnerBookbinding.md', 'Bookbinding1')
 
 /* ---- Calls for Portfolio page ---- */
 loadMarkdown('/MarkdownFiles/Portfolio/PortfolioIndex.md', 'Portfolio');
