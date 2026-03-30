@@ -1,21 +1,71 @@
-body {
-    background-color: beige;
-    font-family: "Times New Roman", Times, serif;
-    margin: 20px;
+/* Color Palette 
+ * Ice Light Blue - #B4D3D9
+ * Light Peach - #EFD2B0
+ * Soft Purple - #BDA6CE 
+ * ---
+ * Pallete 2 - Vintage Greens
+ * Dark Green - #2F6B3F
+ * Light Green - #7FB77E
+ * Gold - #F7C85C
+ * Peach - #FFF6C0
+ * */
+
+:root {
+  --dark: #3E2C23;
+  --accent1: #2FA4D7;
+  --accent2: #F7C85C;
+  --light: #F5E9D8;
+
 }
 
-div {
-    padding: 20px;
+body { /* for general page */
+    background-color: var(--light);
+    font-family: "Times New Roman", Times, serif;
+    padding-top: 48px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.content { /* margins that do not interfere with navbar */
+  margin: 0px 100px;
+}
+
+.content a { /* for links */
+  color: var(--dark);
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 2px solid var(--dark);
+}
+
+.content a:hover { /* hovering over links */
+  color: var(--accent1);
+}
+
+.content img { /* images */
+  display: block;
+  margin: 0 auto;
+  border: 2px solid var(--dark);
+  border-radius: 8px;
+  max-width: 50vw;
+  max-height: auto;
 }
 
 pre { /* for code blocks */
     border: 2px solid black;
     padding: 20px;
-    background-color: #f5f0e6; /* light background, close to beige*/
+    background-color: var(--accent2);
     overflow-x: auto; /* prevents long lines from breaking layout */
 }
 
 code { /* for text in code blocks */
     font-family: "Courier New", monospace;
-    font-size: 12px;
+    font-size: 14px;
+    color: var(--dark);
+}
+
+hr { /* the horizontal line */
+  border: none;
+  border-top: 2px solid var(--dark);
+  width: 100%;
+  margin: 20px auto;
 }
