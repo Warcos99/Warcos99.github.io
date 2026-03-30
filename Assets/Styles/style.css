@@ -51,16 +51,23 @@ body { /* for general page */
 }
 
 pre { /* for code blocks */
-    border: 2px solid black;
+    border: 2px solid #00ff41;
     padding: 20px;
-    background-color: var(--accent2);
+    background-color: #0d0d0d;
     overflow-x: auto; /* prevents long lines from breaking layout */
+    box-shadow: 0 0 8px rgba(0, 255, 65, 0.3);
 }
 
-code { /* for text in code blocks */
+pre code { /* for text in code blocks */
     font-family: "Courier New", monospace;
     font-size: 14px;
-    color: var(--dark);
+    color: #00ff41;
+}
+
+code { /* inline code in normal text */
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    color: var(--dark); /* keep your original color here */
 }
 
 hr { /* the horizontal line */

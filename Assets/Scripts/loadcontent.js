@@ -35,6 +35,9 @@ loadMarkdown('/MarkdownFiles/Projects/BeginnerBookbinding.md', 'Bookbinding1')
 /* ---- Calls for Portfolio page ---- */
 loadMarkdown('/MarkdownFiles/Portfolio/PortfolioIndex.md', 'Portfolio');
 
+/* ---- Calls for Writing page ---- */
+loadMarkdown('/MarkdownFiles/Writing/WritingIndex.md', 'Writing');
+
 /* ---- Calls for Mixtapes page ---- */
 loadMarkdown('/MarkdownFiles/Mixtapes/MixtapesIndex.md', 'Mixtapes');
 
