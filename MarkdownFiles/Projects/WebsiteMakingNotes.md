@@ -7,11 +7,11 @@
 
 #### Disclaimer:
 
-This is a walk through of my process for how I made this site.  I am not a professional web developer, and learned all of this in one dedicated week of research. I am not programmer, or at the very least not a very good one, so what you see here worked for me, but you might find some ineficiencies in it.  
+This is a walk through of my process for how I made this site.  I am not a professional web developer, and learned all of this in one dedicated week of research. I am not programmer, or at the very least not a very good one, so what you see here worked for me, but you might find some inefficiencies in it.  
 
 Particularly if you are experienced in this field, and find something offensive about my process, I am open to constructive feedback.  email me at jmarcosavin@gmail.com!
 
-I learned all of this out of order, I will try to place it in an order that makes sense for you to follow along. For example, I did not consider the importance of a file structure until the end of the process, meaning I had to spend several hours changing files and directories so that I could future proof the site.  Here I have placed it at the beggining so you don't commit the same mistake as me.
+I learned all of this out of order, I will try to place it in an order that makes sense for you to follow along. For example, I did not consider the importance of a file structure until the end of the process, meaning I had to spend several hours changing files and directories so that I could future proof the site.  Here I have placed it at the beginning so you don't commit the same mistake as me.
 
 ---
 
@@ -21,7 +21,7 @@ The first thing one should consider when deciding to build a website is the file
 
 See, the website itself will be a collection of html files, one for each page.  For each html file, you will have a data file attached to it, for most it's a json file, for me they happen to be markdown files.  And then you will have script files, typically in javascript, and style files, those ones in css, that will all accomplish different things. 
 
-This results in a bunch of files in a single directory.  This may not be so bad, but once you start to have pages within pages, things start to get messy.  And organizing the files after you have created them becomes a hastle because each file is calling to each other with a "location code".  Once the location of a file is changed, you have to go to all the other files that are calling it and make sure that that location code is updated.  This becomes unwieldly really fast.
+This results in a bunch of files in a single directory.  This may not be so bad, but once you start to have pages within pages, things start to get messy.  And organizing the files after you have created them becomes a hassle because each file is calling to each other with a "location code".  Once the location of a file is changed, you have to go to all the other files that are calling it and make sure that that location code is updated.  This becomes unwieldy really fast.
 
 ```
 [Data]->[MarkdownFile]->[Javascript]->[HTML]-[Website]

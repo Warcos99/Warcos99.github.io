@@ -11,14 +11,18 @@ Here, on this website I have created, I intend to keep all of my hard-sought kno
 
 ---
 
-This page was last updated: 3/30/2026
+This page was last updated: 4/315/2026
 
 To Do List:
 - cleanup writing on all pages
 - Project: Obsidian Slides and MARP as a powerpoint tool
 - Project: making mixtapes - using abcdce and yt-dlp
-- Mixtapes: Add Roots, Burn, and other mixtapes to website
 - Add Short Story "the bookbinder" to website
-- Add Sand Dunes Photos to Portfolio
+- Add photography projects to art tab
 - Add Self Portrait to About Me Page
+- Add other writing projects and essay to art tab
 - Learn about hosting files for others to download.
+-  Add links to friends cool websites
+- Get guest book working
+- get mobile site working better
+- Update notes on KANT page

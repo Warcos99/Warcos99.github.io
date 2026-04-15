@@ -29,17 +29,18 @@ loadMarkdown('/MarkdownFiles/AboutMe.md', 'AboutMe');
 /* ---- Calls for Projects page ---- */
 loadMarkdown('/MarkdownFiles/Projects/ProjectsIndex.md', 'Projects');
 loadMarkdown('/MarkdownFiles/Projects/WebsiteMakingNotes.md', 'WebsiteNotes');
-loadMarkdown('/MarkdownFiles/Projects/LinuxNotes.md', 'LinuxNotes')
-loadMarkdown('/MarkdownFiles/Projects/BeginnerBookbinding.md', 'Bookbinding1')
+loadMarkdown('/MarkdownFiles/Projects/LinuxNotes.md', 'LinuxNotes');
+loadMarkdown('/MarkdownFiles/Projects/BeginnerBookbinding.md', 'Bookbinding1');
+loadMarkdown('/MarkdownFiles/Projects/KantNotes1.md', 'KantNotes1');
 
-/* ---- Calls for Portfolio page ---- */
-loadMarkdown('/MarkdownFiles/Portfolio/PortfolioIndex.md', 'Portfolio');
+/* ---- Calls for Art page ---- */
+loadMarkdown('/MarkdownFiles/Art/ArtIndex.md', 'Art');
 
-/* ---- Calls for Writing page ---- */
-loadMarkdown('/MarkdownFiles/Writing/WritingIndex.md', 'Writing');
+/* ---- Calls for CoolSites ---- */
+loadMarkdown('/MarkdownFiles/CoolSites/CoolSitesIndex.md', 'CoolSites');
 
 /* ---- Calls for Mixtapes page ---- */
-loadMarkdown('/MarkdownFiles/Mixtapes/MixtapesIndex.md', 'Mixtapes');
+loadMarkdown('/MarkdownFiles/GuestBook/GuestBookIndex.md', 'GuestBook');
 
 /* ---- Calls for other files ---- */
 loadHTML('/Assets/header.html', 'header');
