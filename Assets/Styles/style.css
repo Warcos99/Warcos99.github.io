@@ -76,3 +76,15 @@ hr { /* the horizontal line */
   width: 100%;
   margin: 20px auto;
 }
+
+@media screen and (max-width: 600px) {
+  .content {
+    margin: 0px 16px;
+  }
+  .content img {
+    max-width: 90vw;
+  }
+  body {
+    font-size: 17px;
+  }
+}
