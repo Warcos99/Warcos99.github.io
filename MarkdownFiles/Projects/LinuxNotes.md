@@ -106,6 +106,8 @@ where "output.pdf" is whatever we wish the output to be called.
 
 In this particular example, you are running pandoc, a program that turns files into pdf, to turn a list of files listed in a 'filelist.txt' document into a single pdf.  that pdf will be titled "output.pdf"
 
+Find more information here: [Aliases](https://linuxize.com/post/how-to-create-bash-aliases/)
+
 ---
 
 ### Web Browsing

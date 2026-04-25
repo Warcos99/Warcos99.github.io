@@ -40,7 +40,7 @@ So this is guys like Descartes, Spinoza, and Leibniz.  It seems like they are re
 
 They were so big on fundamental truths and principles that they found empirical proofs and physical evidence unnecessary.
 
-"Reason has precedence over other ways of acquiring knowledge" and "Reason is the unique path to knowlege"
+"Reason has precedence over other ways of acquiring knowledge" and "Reason is the unique path to knowledge"
 
 Politically, Rationalism emphasized utilitarianism, secularism, rationality, and deontology.  It became socially conflated with atheism.
 
@@ -49,9 +49,29 @@ but the rationalist holds knowledge is a priori (through the use of logic, indep
 
 ---
 
+## Kant's Philosophical Revolution - A short guide to the Critique of Pure reason by Yirmiyahu Yovel
+
+---
+
 The book is coming from the the Internet Archive: [Critique of Pure Reason, Immanuel Kant](https://archive.org/details/immanuelkantscri032379mbp)
 The particular translation is by Kemp Smith Norman, published 1929
 
-## 1. Preface to the First Edition
+## Prefaces to the First Edition
 
+These notes are from our discussion on the prefaces.
+Metaphysics concerns itself with "what is it for something to be present", and the bulk of our discussion lies in that field.  
+
+The Subject - The Thing in itself.
+
+Before Kant, the experience was conditioning you .  "We have certain things about us as subjects that make the world possible. we condition reality".  Aperception - Before, what makes an experience possible.  Time and Space  (YOU NEED THESE TO EXPERIENCE). The Understanding (12 categories, like cause&effect).  The Trancendental - you cannot have an experience of God, The Soul, Freedom - cannot be synthesized.  Cannot be experimental. these three things are regulative ideas. Without this limit to our thought, we could not have the rest below them
+
+## 1. Of the difference between Pure and Empirical Knowledge
+
+It is clear that knowledge in some part comes from senses (Empirical Knowledge)
+(Senses) -> (Brain) -> (Knowledge) 
+We call this knowledge *a posteriori*. But there is other knowledge out there, let's call it *a priori*. *a priori* knowledge is defined as knowledge that is known independently of the senses.  It is important to note that at this point he have not fully defined  *a priori* knowledge yet, we are just painting a picture to distinguish these two types of knowledge.
+
+ "Every change has a cause" is an example of an impure *a priori* knowledge. I guess this is because as "change" as a concept is only known *a posteriori*.
+
+## 2. The Human Intellect, even in an Unphilosophical State, is in Possession of Certain Cognitions "a priori"
 

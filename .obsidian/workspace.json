@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MarkdownFiles/HomePage.md",
+                "file": "MarkdownFiles/CoolSites/CoolSitesIndex.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HomePage"
+              "title": "CoolSitesIndex"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "2e79c7167ab29c86",
@@ -186,10 +185,15 @@
   },
   "active": "31df33d6446b54f0",
   "lastOpenFiles": [
+    "MarkdownFiles/Art/ArtIndex.md",
+    "MarkdownFiles/GuestBook/GuestBookIndex.md",
+    "MarkdownFiles/Projects/ProjectsIndex.md",
+    "MarkdownFiles/Projects/LinuxNotes.md",
     "MarkdownFiles/Projects/KantNotes1.md",
+    "MarkdownFiles/Projects/BeginnerBookbinding.md",
+    "MarkdownFiles/HomePage.md",
     "Assets/Images/KantNotes1/Kant.jpg",
     "Assets/Images/KantNotes1",
-    "MarkdownFiles/Projects/ProjectsIndex.md",
     "Assets/Scripts/loadcontent.js~",
     "HTML/Projects/KantNotes1.html~",
     "HTML/Projects/KantNotes1.html",
@@ -199,15 +203,11 @@
     "www.britannica.com/biography/Immanuel-Kant.md",
     "www.britannica.com/biography",
     "www.britannica.com",
-    "MarkdownFiles/Art/ArtIndex.md",
     "MarkdownFiles/CoolSites/CoolSitesIndex.md",
     "Assets/Images/BeginnerBookbinding/Bookbinding.jpg",
     "Assets/Images/image.jpg",
     "MarkdownFiles/Writing/WritingIndex.md",
     "MarkdownFiles/Portfolio/PortfolioIndex.md",
-    "MarkdownFiles/Projects/BeginnerBookbinding.md",
-    "MarkdownFiles/Projects/LinuxNotes.md",
-    "MarkdownFiles/HomePage.md",
     "MarkdownFiles/AboutMe.md"
   ]
 }
