@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whiteboard</title>
+    <link rel='stylesheet' href="/Assets/Styles/NavbarStyle.css">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --wb-bg: #f5f0e8;
+    --wb-surface: #fffdf8;
+    --wb-ink: #1a1410;
+    --wb-accent: #c0392b;
+    --wb-muted: #8a7f72;
+    --wb-border: #d4ccc0;
+    --wb-shadow: rgba(26,20,16,0.12);
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'DM Mono', monospace;
+    overflow: hidden;
+  }
+
+  #header {
+    flex-shrink: 0;
+    position: relative;
+    z-index: 100;
+  }
+
+  #whiteboard-app {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  /* ── Toolbar ── */
+  #toolbar {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 14px;
+    background: var(--wb-surface);
+    border-bottom: 1.5px solid var(--wb-border);
+    box-shadow: 0 2px 8px var(--wb-shadow);
+    flex-wrap: wrap;
+    z-index: 10;
+  }
+
+  .toolbar-label {
+    font-size: 10px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--wb-muted);
+    margin-right: 2px;
+  }
+
+  .sep {
+    width: 1px;
+    height: 28px;
+    background: var(--wb-border);
+    margin: 0 6px;
+  }
+
+  .tool-btn {
+    width: 34px;
+    height: 34px;
+    border: 1.5px solid var(--wb-border);
+    border-radius: 6px;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background .12s, border-color .12s, transform .08s;
+    color: var(--wb-ink);
+    font-size: 16px;
+  }
+  .tool-btn:hover { background: var(--wb-bg); }
+  .tool-btn.active {
+    background: var(--wb-ink);
+    border-color: var(--wb-ink);
+    color: var(--wb-surface);
+    transform: scale(1.05);
+  }
+
+  .swatch, .bg-swatch {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: transform .1s, border-color .1s;
+  }
+  .swatch:hover, .bg-swatch:hover { transform: scale(1.15); }
+  .swatch.active, .bg-swatch.active { border-color: var(--wb-ink); transform: scale(1.15); }
+  .bg-swatch[data-bg="#fdf5c0"], .bg-swatch[data-bg="#ffffff"] { outline: 1px solid var(--wb-border); }
+
+  #size-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 80px;
+    height: 4px;
+    background: var(--wb-border);
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+  }
+  #size-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--wb-ink);
+    cursor: pointer;
+  }
+
+  #size-preview {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #size-dot {
+    border-radius: 50%;
+    background: var(--wb-ink);
+    transition: width .1s, height .1s;
+  }
+
+  #btn-clear {
+    margin-left: auto;
+    padding: 0 14px;
+    height: 34px;
+    border: 1.5px solid var(--wb-border);
+    border-radius: 6px;
+    background: transparent;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: .08em;
+    color: var(--wb-muted);
+    cursor: pointer;
+    transition: background .12s, color .12s, border-color .12s;
+  }
+  #btn-clear:hover {
+    background: var(--wb-accent);
+    border-color: var(--wb-accent);
+    color: #fff;
+  }
+
+  /* ── Canvas wrapper ── */
+  #canvas-wrap {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    min-height: 0;
+  }
+
+  #canvas-wrap canvas {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #grid-canvas { z-index: 1; }
+  #wb-canvas   { z-index: 2; cursor: crosshair; touch-action: none; background: transparent; }
+
+  #wb-canvas.eraser-mode { cursor: cell; }
+  #wb-canvas.text-mode   { cursor: text; }
+
+  #text-input-wrap {
+    position: absolute;
+    display: none;
+    z-index: 10;
+  }
+
+  #text-input {
+    font-family: 'DM Mono', monospace;
+    font-size: 18px;
+    border: 2px dashed #2471a3;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.85);
+    padding: 4px 8px;
+    outline: none;
+    min-width: 120px;
+    max-width: 400px;
+    color: #1a1410;
+    line-height: 1.4;
+    white-space: nowrap;
+  }
+</style>
+</head>
+<body>
+
+  <div id="header"></div>
+
+  <div id="whiteboard-app">
+
+    <div id="toolbar">
+      <span class="toolbar-label">Tool</span>
+
+      <button class="tool-btn active" id="btn-pen" title="Pen">✏️</button>
+      <button class="tool-btn" id="btn-line" title="Line">╱</button>
+      <button class="tool-btn" id="btn-rect" title="Rectangle">▭</button>
+      <button class="tool-btn" id="btn-circle" title="Circle">◯</button>
+      <button class="tool-btn" id="btn-eraser" title="Eraser">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="1" y="6" width="13" height="8" rx="1.5" fill="#f48fb1"/>
+          <rect x="7" y="6" width="3" height="8" fill="#c2185b" opacity="0.4"/>
+          <rect x="1" y="6" width="6" height="8" rx="1.5" fill="#f8bbd0"/>
+          <line x1="1" y1="14" x2="14" y2="14" stroke="#ad1457" stroke-width="1" opacity="0.5"/>
+          <rect x="2" y="7.5" width="4" height="1.5" rx="0.5" fill="white" opacity="0.4"/>
+        </svg>
+      </button>
+      <button class="tool-btn" id="btn-text" title="Text" style="font-weight:600;font-size:15px;">T</button>
+
+      <div class="sep"></div>
+      <span class="toolbar-label">Color</span>
+
+      <div class="swatch active" style="background:#1a1410" data-color="#1a1410" title="Black"></div>
+      <div class="swatch" style="background:#c0392b" data-color="#c0392b" title="Red"></div>
+      <div class="swatch" style="background:#2471a3" data-color="#2471a3" title="Blue"></div>
+      <div class="swatch" style="background:#1e8449" data-color="#1e8449" title="Green"></div>
+      <div class="swatch" style="background:#d68910" data-color="#d68910" title="Orange"></div>
+      <div class="swatch" style="background:#7d3c98" data-color="#7d3c98" title="Purple"></div>
+      <div class="swatch" style="background:#f5f0e8" data-color="#f5f0e8" title="White"></div>
+
+      <div class="sep"></div>
+      <span class="toolbar-label">Size</span>
+      <input type="range" id="size-slider" min="1" max="40" value="4">
+      <div id="size-preview"><div id="size-dot" style="width:4px;height:4px"></div></div>
+
+      <div class="sep"></div>
+      <span class="toolbar-label">BG</span>
+      <div class="bg-swatch active" style="background:#fdf5c0" data-bg="#fdf5c0" title="Yellow"></div>
+      <div class="bg-swatch" style="background:#ffffff" data-bg="#ffffff" title="White"></div>
+      <div class="bg-swatch" style="background:#1a1410" data-bg="#1a1410" title="Dark"></div>
+      <div class="bg-swatch" style="background:#1a2a3a" data-bg="#1a2a3a" title="Navy"></div>
+      <div class="bg-swatch" style="background:#1a3a2a" data-bg="#1a3a2a" title="Forest"></div>
+
+      <div class="sep"></div>
+      <button id="btn-undo" class="tool-btn" title="Undo">↩</button>
+      <button id="btn-redo" class="tool-btn" title="Redo">↪</button>
+
+      <button id="btn-clear">Clear</button>
+    </div>
+
+    <div id="canvas-wrap">
+      <canvas id="grid-canvas"></canvas>
+      <canvas id="wb-canvas"></canvas>
+      <div id="text-input-wrap">
+        <input id="text-input" type="text" placeholder="Type here, Enter to place">
+      </div>
+    </div>
+
+  </div><!-- #whiteboard-app -->
+
+<script>
+  const canvas     = document.getElementById('wb-canvas');
+  const ctx        = canvas.getContext('2d');
+  const gridCanvas = document.getElementById('grid-canvas');
+  const gctx       = gridCanvas.getContext('2d');
+  const wrap       = document.getElementById('canvas-wrap');
+
+  let bgColor = '#fdf5c0';
+
+  // ── Grid ─────────────────────────────────────────────────
+  function drawGrid() {
+    gctx.clearRect(0, 0, gridCanvas.width, gridCanvas.height);
+    gctx.fillStyle = bgColor;
+    gctx.fillRect(0, 0, gridCanvas.width, gridCanvas.height);
+    const step = 32;
+    gctx.strokeStyle = 'rgba(180,168,155,0.45)';
+    gctx.lineWidth = 1;
+    gctx.beginPath();
+    for (let x = 0; x <= gridCanvas.width; x += step) {
+      gctx.moveTo(x, 0); gctx.lineTo(x, gridCanvas.height);
+    }
+    for (let y = 0; y <= gridCanvas.height; y += step) {
+      gctx.moveTo(0, y); gctx.lineTo(gridCanvas.width, y);
+    }
+    gctx.stroke();
+  }
+
+  // ── Resize ───────────────────────────────────────────────
+  function resize() {
+    const snapshot = canvas.width > 0
+      ? ctx.getImageData(0, 0, canvas.width, canvas.height) : null;
+    canvas.width = gridCanvas.width = wrap.clientWidth;
+    canvas.height = gridCanvas.height = wrap.clientHeight;
+    drawGrid();
+    if (snapshot) ctx.putImageData(snapshot, 0, 0);
+  }
+  resize();
+  window.addEventListener('resize', resize);
+
+  // ── State ────────────────────────────────────────────────
+  let tool      = 'pen';
+  let color     = '#1a1410';
+  let lineWidth = 4;
+  let drawing   = false;
+  let startX, startY, shapeSnap;
+
+  const undoStack = [], redoStack = [];
+  const MAX_HISTORY = 40;
+
+  function saveState() {
+    undoStack.push(ctx.getImageData(0, 0, canvas.width, canvas.height));
+    if (undoStack.length > MAX_HISTORY) undoStack.shift();
+    redoStack.length = 0;
+  }
+
+  // ── Text tool ────────────────────────────────────────────
+  const textWrap  = document.getElementById('text-input-wrap');
+  const textInput = document.getElementById('text-input');
+  let textX = 0, textY = 0;
+
+  function showTextInput(x, y) {
+    textX = x; textY = y;
+    const fontSize = Math.max(12, lineWidth * 3);
+    textInput.style.fontSize = fontSize + 'px';
+    textInput.style.color    = color;
+    textWrap.style.left      = x + 'px';
+    textWrap.style.top       = y + 'px';
+    textWrap.style.display   = 'block';
+    textInput.value = '';
+    textInput.focus();
+  }
+
+  function commitText() {
+    const txt = textInput.value.trim();
+    if (txt) {
+      saveState();
+      const fontSize = Math.max(12, lineWidth * 3);
+      ctx.font      = `${fontSize}px 'DM Mono', monospace`;
+      ctx.fillStyle = color;
+      ctx.fillText(txt, textX, textY + fontSize);
+    }
+    textWrap.style.display = 'none';
+    textInput.value = '';
+  }
+
+  function cancelText() {
+    textWrap.style.display = 'none';
+    textInput.value = '';
+  }
+
+  textInput.addEventListener('keydown', e => {
+    if (e.key === 'Enter')  { e.preventDefault(); commitText(); }
+    if (e.key === 'Escape') cancelText();
+  });
+
+  // ── Draw helpers ─────────────────────────────────────────
+  function pos(e) {
+    const r = canvas.getBoundingClientRect();
+    const src = e.touches ? e.touches[0] : e;
+    return { x: src.clientX - r.left, y: src.clientY - r.top };
+  }
+
+  function applyStyle(erase) {
+    ctx.lineWidth   = lineWidth;
+    ctx.lineCap     = 'round';
+    ctx.lineJoin    = 'round';
+    ctx.strokeStyle = erase ? bgColor : color;
+    ctx.fillStyle   = erase ? bgColor : color;
+  }
+
+  // ── Draw events ──────────────────────────────────────────
+  function onStart(e) {
+    e.preventDefault();
+    const p = pos(e);
+    startX = p.x; startY = p.y;
+
+    if (tool === 'text') {
+      if (textWrap.style.display === 'block') commitText();
+      showTextInput(p.x, p.y);
+      return;
+    }
+
+    drawing = true;
+    saveState();
+
+    if (tool === 'pen' || tool === 'eraser') {
+      applyStyle(tool === 'eraser');
+      ctx.beginPath();
+      ctx.moveTo(startX, startY);
+    } else {
+      shapeSnap = ctx.getImageData(0, 0, canvas.width, canvas.height);
+    }
+  }
+
+  function onMove(e) {
+    if (!drawing) return;
+    e.preventDefault();
+    const p = pos(e);
+
+    if (tool === 'pen' || tool === 'eraser') {
+      applyStyle(tool === 'eraser');
+      ctx.lineTo(p.x, p.y);
+      ctx.stroke();
+    } else {
+      ctx.putImageData(shapeSnap, 0, 0);
+      applyStyle(false);
+      ctx.beginPath();
+      if (tool === 'line') {
+        ctx.moveTo(startX, startY);
+        ctx.lineTo(p.x, p.y);
+        ctx.stroke();
+      } else if (tool === 'rect') {
+        ctx.strokeRect(startX, startY, p.x - startX, p.y - startY);
+      } else if (tool === 'circle') {
+        const rx = (p.x - startX) / 2;
+        const ry = (p.y - startY) / 2;
+        ctx.ellipse(startX + rx, startY + ry, Math.abs(rx), Math.abs(ry), 0, 0, 2*Math.PI);
+        ctx.stroke();
+      }
+    }
+  }
+
+  function onEnd(e) {
+    if (!drawing) return;
+    drawing = false;
+    ctx.closePath();
+  }
+
+  canvas.addEventListener('mousedown',  onStart);
+  canvas.addEventListener('mousemove',  onMove);
+  canvas.addEventListener('mouseup',    onEnd);
+  canvas.addEventListener('mouseleave', onEnd);
+  canvas.addEventListener('touchstart', onStart, { passive: false });
+  canvas.addEventListener('touchmove',  onMove,  { passive: false });
+  canvas.addEventListener('touchend',   onEnd);
+
+  // ── Toolbar ──────────────────────────────────────────────
+  const toolBtns = {
+    'btn-pen':    'pen',
+    'btn-line':   'line',
+    'btn-rect':   'rect',
+    'btn-circle': 'circle',
+    'btn-eraser': 'eraser',
+    'btn-text':   'text',
+  };
+
+  Object.entries(toolBtns).forEach(([id, t]) => {
+    document.getElementById(id).addEventListener('click', () => {
+      if (tool === 'text') commitText();
+      tool = t;
+      canvas.className = t === 'eraser' ? 'eraser-mode' : t === 'text' ? 'text-mode' : '';
+      document.querySelectorAll('.tool-btn').forEach(b => b.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+    });
+  });
+
+  document.querySelectorAll('.swatch').forEach(s => {
+    s.addEventListener('click', () => {
+      color = s.dataset.color;
+      document.querySelectorAll('.swatch').forEach(x => x.classList.remove('active'));
+      s.classList.add('active');
+      if (tool === 'eraser') {
+        tool = 'pen';
+        canvas.className = '';
+        document.querySelectorAll('.tool-btn').forEach(b => b.classList.remove('active'));
+        document.getElementById('btn-pen').classList.add('active');
+      }
+    });
+  });
+
+  document.querySelectorAll('.bg-swatch').forEach(s => {
+    s.addEventListener('click', () => {
+      bgColor = s.dataset.bg;
+      document.querySelectorAll('.bg-swatch').forEach(x => x.classList.remove('active'));
+      s.classList.add('active');
+      drawGrid();
+    });
+  });
+
+  const slider = document.getElementById('size-slider');
+  const dot    = document.getElementById('size-dot');
+  slider.addEventListener('input', () => {
+    lineWidth = +slider.value;
+    dot.style.width = dot.style.height = Math.min(lineWidth, 20) + 'px';
+  });
+
+  document.getElementById('btn-clear').addEventListener('click', () => {
+    saveState();
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+  });
+
+  document.getElementById('btn-undo').addEventListener('click', () => {
+    if (!undoStack.length) return;
+    redoStack.push(ctx.getImageData(0, 0, canvas.width, canvas.height));
+    ctx.putImageData(undoStack.pop(), 0, 0);
+  });
+
+  document.getElementById('btn-redo').addEventListener('click', () => {
+    if (!redoStack.length) return;
+    undoStack.push(ctx.getImageData(0, 0, canvas.width, canvas.height));
+    ctx.putImageData(redoStack.pop(), 0, 0);
+  });
+
+  document.addEventListener('keydown', e => {
+    if (e.target === textInput) return;
+    if ((e.ctrlKey || e.metaKey) && e.key === 'z') {
+      e.preventDefault();
+      document.getElementById('btn-undo').click();
+    }
+    if ((e.ctrlKey || e.metaKey) && (e.key === 'y' || (e.shiftKey && e.key === 'z'))) {
+      e.preventDefault();
+      document.getElementById('btn-redo').click();
+    }
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
+<script src="/Assets/Scripts/loadcontent.js" defer></script>
+</body>
+</html>
