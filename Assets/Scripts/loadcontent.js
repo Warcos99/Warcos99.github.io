@@ -35,6 +35,7 @@ loadMarkdown('/MarkdownFiles/Projects/KantNotes1.md', 'KantNotes1');
 
 /* ---- Calls for Art page ---- */
 loadMarkdown('/MarkdownFiles/Art/ArtIndex.md', 'Art');
+loadMarkdown('/MarkdownFiles/Art/Essays/Emperor.md', 'Emperor');
 
 /* ---- Calls for CoolSites ---- */
 loadMarkdown('/MarkdownFiles/CoolSites/CoolSitesIndex.md', 'CoolSites');

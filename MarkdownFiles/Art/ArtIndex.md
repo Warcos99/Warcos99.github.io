@@ -2,9 +2,9 @@
 
 ---
 
-## Short Stories
+## Essays
 
-- links
+- [The Emperor Has No Clothes](/HTML/Art/Essays/Emperor.html)
 - links
 
 ---
