@@ -5,33 +5,12 @@
 ## Essays
 
 - [The Emperor Has No Clothes](/HTML/Art/Essays/Emperor.html)
-- links
+- [Ceaseless Hunger](/HTML/Art/Essays/Hunger.html)
 
 ---
 
-## Zines
+## Stories
 
-- links
-- links
-
----
-
-## Photography
-
-- links
-- links
+- [Existential Goo](/HTML/Art/Stories/Goo.html)
 
 ---
-
-## Paintings
-
-- links
-- links
-
----
-
-## Essays
-
-- links
-- links
-

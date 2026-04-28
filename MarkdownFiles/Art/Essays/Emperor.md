@@ -1,5 +1,5 @@
 
-*This Essay-Poem was written at a time when I was particularly angry for obvious reasons. It was preformed at a BlackBox Open Mic with a backing track as a semi-musical piece.  You can currently find it published in the Burning Down Neverland Zine produced by BlackBox.*
+*This Essay-Poem was written at a time when I was particularly angry for obvious reasons. It was preformed at a BlackBox Open Mic in February 2026 with a backing track as a semi-musical piece.  You can currently find it published in the Burning Down Neverland Zine - Vol 3.1 "Burn" produced by BlackBox.*
 
 ---
 
