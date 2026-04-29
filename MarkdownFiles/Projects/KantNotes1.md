@@ -51,6 +51,61 @@ but the rationalist holds knowledge is a priori (through the use of logic, indep
 
 ## Kant's Philosophical Revolution - A short guide to the Critique of Pure reason by Yirmiyahu Yovel
 
+At the core of the concept of "Object" lies this critique.  The book describes the "Kantian Revolution" in much the same way as the "Copernican Revolution".
+
+Before the Kantian Revolution: Human *Knowledge* orbited around the *object*.
+
+After the Kantian Revolution: The *object* became dependent on human knowledge.  The Human *subject* was at the metaphorical center now, instead of the *object*
+
+This reversal is the way in which Kant is compared to Copernicus.  
+
+>Note: Why do we insist on somethings that must be infallible truths, like science and God? As a scientist, I can confidently say that science works, but I cannot for certain promise it as a truth of reality.  It is merely observations that work.
+
+Questions about the foundations of mathematics and science & questions about the "object" are two sides of the same coin.
+
+"The Critique is first of all a mode of philosophical self-consciousness".
+
+>Note: The brain cannot escape itself. As a species that cannot escape the planet, we can still know the stars.
+
+The Knowing human must know itself before it can know anything about this world.
+
+Before Kant: Prior to setting out to know, one must understand the mechanics of knowing.
+
+After Kant: Before understanding the mechanics of knowing, one must first know the knowing being.
+
+***a priori* knowledge*** -> **Empirical Science** -> **Experimental Data**
+
+The Backbone of *a priori* knowledge is what gives empirical science legitimacy.
+
+Autonomy: deals with Action and Morality.  Restrains itself according to the laws of it's own rational nature. Thereby gets self-determination and freedom.  *Theoretical Reason* does the same.   By submitting to the limits of Reason, with all the pain and sense of loss it may entail, there lies a constructive liberating force. 
+
+**Finite Rational Beings**
+
+humans -> limited rational beings & a finite thinking being
+
+**No Intellectual Intuition**
+
+we have no intellectual intuition or intuiting intellect. 
+
+We need stimulation and  senses to gain intellect.
+
+**Spontaneity** (pure) | **Receptivity** (sensible)
+
+There must be a sharp distinction to maintain critical purity in knowledge.  "Schematism" is the problem of bridging this duality, but Kan says that you must accept this duality as a starting point. Anything else lies beyond our ability to reason.
+
+**Skepticism** & **Dogmatism** 
+
+Both bad, 
+
+Dogmatism - building groundless catles in the air -> flawed by excessive affirmation.
+
+Skepticism - undermines all grounded buildings -> flawed by excessive negation.
+
+Reason as a platonic idea is not a thing here.  Instead there are creatures who reason.  Reason comes in three parts.
+1. human mind consciousness
+2. minds pure functions (*a priori*)
+3. pure reason - Verstand and Vernunft
+
 ---
 
 The book is coming from the the Internet Archive: [Critique of Pure Reason, Immanuel Kant](https://archive.org/details/immanuelkantscri032379mbp)
@@ -74,4 +129,14 @@ We call this knowledge *a posteriori*. But there is other knowledge out there, l
  "Every change has a cause" is an example of an impure *a priori* knowledge. I guess this is because as "change" as a concept is only known *a posteriori*.
 
 ## 2. The Human Intellect, even in an Unphilosophical State, is in Possession of Certain Cognitions "a priori"
+
+Defining *a priori*
+
+1. if **proposition** - contains idea of **necessity** & not derived from from **another proposition** - then the proposition is *a priori*
+2. if **judgement** - carries strict **universality** & not derived from **experience** - then the judgement is *a priori*
+
+Necessity & Strict Universality are infallible tests for distinguishing pure from empirical knowledge. 
+>Note: I am not convinced at this point in the book of this statement, is it just a definition that we are making? or is this derived from somewhere?
+
+> Note: Philosophical Writing is so damn complex.  Scientific writing is simple. complexity in scientific writing comes from the mathematical structures we build to describe events and behaviors.  Sentences themselves are super simple.  I wonder if there is a similar framework of language that could be invented to simplify the deep and complex philosophical ideas to easier to understand sentences.
 

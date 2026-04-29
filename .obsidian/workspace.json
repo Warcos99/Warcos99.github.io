@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MarkdownFiles/HomePage.md",
+                "file": "MarkdownFiles/Projects/KantNotes1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HomePage"
+              "title": "KantNotes1"
             }
           }
         ]
@@ -185,6 +185,7 @@
   },
   "active": "d29797f53e488909",
   "lastOpenFiles": [
+    "MarkdownFiles/HomePage.md",
     "Assets/Scripts/loadcontent.js~",
     "MarkdownFiles/AboutMe.md",
     "MarkdownFiles/Projects/LinuxNotes.md",
@@ -209,7 +210,6 @@
     "MarkdownFiles/Art/Emperor.md",
     "HTML/Art/Essays/Emperor.md",
     "MarkdownFiles/Projects/ProjectsIndex.md",
-    "MarkdownFiles/HomePage.md",
     "Assets/Images/cat.jpg",
     "Assets/Images/KantNotes1/Kant.jpg",
     "MarkdownFiles/Projects/KantReadingNotes.md",
