@@ -8,10 +8,10 @@
 
 ---
 
-## Bookbinding
+## Reading Notes
 - [Notes on The Critique of Pure Reason](/HTML/Projects/KantNotes1.html)
 
 ---
 
-## Reading Notes
+## Bookbinding
 - [Beginner Bookbinding Library Program](/HTML/Projects/BeginnerBookbinding.html)
