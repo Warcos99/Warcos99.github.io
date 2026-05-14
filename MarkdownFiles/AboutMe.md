@@ -3,9 +3,13 @@
 ![cat](/Assets/Images/cat.jpg)
 
 [Substack](https://substack.com/@juanmarcosavina)
+
 [Instagram](https://www.instagram.com/whatkindofusernamedoyouwantfro/)
+
 [Youtube](https://www.youtube.com/@spazfall)
+
 <jmarcosavin@gmail.com>
+
 [BlackBox](blackboxartscollective.com)
 
 You will find I am horrendously inconsistent at being online.  All those links posted above will contain some part of me, but they are all also not a good place to regularly hear from me. If for god-forsaken reason you still wish to see what I am up to, this website is probably the place to be.
