@@ -12,11 +12,14 @@ This site functions as a public record of my commonplace notes, mostly for use a
 
 ---
 
-This page was last updated: 4/27/2026
+This page was last updated: 5/19/2026
+
+Most Recent Updates:
+- Added cd ripping abcde page
 
 To Do List:
 - Project: Obsidian Slides and MARP as a powerpoint tool
-- Project: making mixtapes - using abcdce and yt-dlp
+- Project: making mixtapes - using yt-dlp
 - Add Short Story "the bookbinder" to website
 - Add Self Portrait to About Me Page
 - Add other writing projects and essay to art tab
