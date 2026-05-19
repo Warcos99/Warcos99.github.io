@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MarkdownFiles/Projects/abcde.md",
+                "file": "MarkdownFiles/Projects/ytdlp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "abcde"
+              "title": "ytdlp"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2e79c7167ab29c86",
@@ -185,14 +186,18 @@
   },
   "active": "d29797f53e488909",
   "lastOpenFiles": [
-    "MarkdownFiles/HomePage.md",
-    "MarkdownFiles/Projects/abcde.md",
+    "Assets/header.html~",
+    "HTML/Projects/ytdlp.html~",
+    "MarkdownFiles/Projects/ProjectsIndex.md",
     "Assets/Scripts/loadcontent.js~",
+    "HTML/Projects/ytdlp.html",
+    "HTML/Projects/template.html",
+    "MarkdownFiles/Projects/ytdlp.md",
+    "MarkdownFiles/AboutMe.md",
+    "MarkdownFiles/Projects/abcde.md",
+    "MarkdownFiles/HomePage.md",
     "HTML/Projects/abcde.html~",
     "HTML/Projects/abcde.html",
-    "HTML/Projects/template.html",
-    "MarkdownFiles/Projects/ProjectsIndex.md",
-    "MarkdownFiles/AboutMe.md",
     "MarkdownFiles/Projects/KantNotes1.md",
     "MarkdownFiles/Projects/LinuxNotes.md",
     "MarkdownFiles/Projects/BeginnerBookbinding.md",
@@ -205,8 +210,6 @@
     "HTML/Art/Stories/Goo.html~",
     "HTML/Art/Stories/Goo.html",
     "HTML/Art/Stories/index.html",
-    "HTML/Art/Stories",
-    "HTML/Art/Essays/Emperor (Copy).html",
     "MarkdownFiles/Art/Essays/Untitled.md",
     "MarkdownFiles/Art/Essays/Emperor.md",
     "MarkdownFiles/Art/Emperor.md",

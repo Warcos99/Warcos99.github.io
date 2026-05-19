@@ -6,6 +6,7 @@
 - [Learning to make a website](/HTML/Projects/WebsiteHowTo.html)
 - [Linux TTY Notes](/HTML/Projects/LinuxNotes.html)
 - [Ripping CD's using abcde](/HTML/Projects/abcde)
+- [Downloading Music using yt-dlp](/HTML/Projects/ytdlp.html)
 
 ---
 
