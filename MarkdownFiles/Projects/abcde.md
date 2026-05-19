@@ -1,7 +1,9 @@
 # Ripping CDs using abcde
 
 First off, for proper documentation can always be found on the arch linux wiki.  abcde can be found on aur.
+
 [arch wiki link](https://aur.archlinux.org/packages/abcde)
+
 [abcde upstream link](https://abcde.einval.com/wiki/)
 
 ---
