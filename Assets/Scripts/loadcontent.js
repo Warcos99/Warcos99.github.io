@@ -3,49 +3,50 @@ function loadMarkdown(filePath, elementId) {
   if (!el) return; // <- stop if the element doesn't exist
 
   fetch(filePath)
-    .then(response => {
-      if (!response.ok) throw new Error('HTTP error ' + response.status);
+    .then((response) => {
+      if (!response.ok) throw new Error("HTTP error " + response.status);
       return response.text();
     })
-    .then(md => {
+    .then((md) => {
       el.innerHTML = marked.parse(md);
     })
-    .catch(error => console.error('Error loading markdown:', error));
+    .catch((error) => console.error("Error loading markdown:", error));
 }
 
 function loadHTML(filePath, elementId) {
   fetch(filePath)
-    .then(response => response.text())
-    .then(data => {
+    .then((response) => response.text())
+    .then((data) => {
       document.getElementById(elementId).innerHTML = data;
     })
-    .catch(error => console.error('Error loading HTML:', error));
+    .catch((error) => console.error("Error loading HTML:", error));
 }
 
 /* ---- Calls for Main pages ---- */
-loadMarkdown('/MarkdownFiles/HomePage.md', 'HomePage');
-loadMarkdown('/MarkdownFiles/AboutMe.md', 'AboutMe');
+loadMarkdown("/MarkdownFiles/HomePage.md", "HomePage");
+loadMarkdown("/MarkdownFiles/AboutMe.md", "AboutMe");
 
 /* ---- Calls for Projects page ---- */
-loadMarkdown('/MarkdownFiles/Projects/ProjectsIndex.md', 'Projects');
-loadMarkdown('/MarkdownFiles/Projects/WebsiteMakingNotes.md', 'WebsiteNotes');
-loadMarkdown('/MarkdownFiles/Projects/LinuxNotes.md', 'LinuxNotes');
-loadMarkdown('/MarkdownFiles/Projects/BeginnerBookbinding.md', 'Bookbinding1');
-loadMarkdown('/MarkdownFiles/Projects/KantNotes1.md', 'KantNotes1');
-loadMarkdown('/MarkdownFiles/Projects/abcde.md', 'abcde');
-loadMarkdown('/MarkdownFiles/Projects/ytdlp.md', 'ytdlp');
+loadMarkdown("/MarkdownFiles/Projects/ProjectsIndex.md", "Projects");
+loadMarkdown("/MarkdownFiles/Projects/WebsiteMakingNotes.md", "WebsiteNotes");
+loadMarkdown("/MarkdownFiles/Projects/LinuxNotes.md", "LinuxNotes");
+loadMarkdown("/MarkdownFiles/Projects/BeginnerBookbinding.md", "Bookbinding1");
+loadMarkdown("/MarkdownFiles/Projects/KantNotes1.md", "KantNotes1");
+loadMarkdown("/MarkdownFiles/Projects/abcde.md", "abcde");
+loadMarkdown("/MarkdownFiles/Projects/ytdlp.md", "ytdlp");
 
 /* ---- Calls for Art page ---- */
-loadMarkdown('/MarkdownFiles/Art/ArtIndex.md', 'Art');
-loadMarkdown('/MarkdownFiles/Art/Essays/Emperor.md', 'Emperor');
-loadMarkdown('/MarkdownFiles/Art/Essays/Hunger.md', 'Hunger');
-loadMarkdown('/MarkdownFiles/Art/Stories/Goo.md', 'Goo');
+loadMarkdown("/MarkdownFiles/Art/ArtIndex.md", "Art");
+loadMarkdown("/MarkdownFiles/Art/Essays/Emperor.md", "Emperor");
+loadMarkdown("/MarkdownFiles/Art/Essays/Hunger.md", "Hunger");
+loadMarkdown("/MarkdownFiles/Art/Stories/Goo.md", "Goo");
+loadMarkdown("/MarkdownFiles/Art/Photography/Session1.md", "PhotoSession1");
 
 /* ---- Calls for CoolSites ---- */
-loadMarkdown('/MarkdownFiles/CoolSites/CoolSitesIndex.md', 'CoolSites');
+loadMarkdown("/MarkdownFiles/CoolSites/CoolSitesIndex.md", "CoolSites");
 
 /* ---- Calls for Mixtapes page ---- */
-loadMarkdown('/MarkdownFiles/GuestBook/GuestBookIndex.md', 'GuestBook');
+loadMarkdown("/MarkdownFiles/GuestBook/GuestBookIndex.md", "GuestBook");
 
 /* ---- Calls for other files ---- */
-loadHTML('/Assets/header.html', 'header');
+loadHTML("/Assets/header.html", "header");

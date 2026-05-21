@@ -12,11 +12,10 @@ This site functions as a public record of my commonplace notes, mostly for use a
 
 ---
 
-This page was last updated: 5/19/2026
+This page was last updated: 5/21/2026
 
 Most Recent Updates:
-- Added cd ripping abcde page
-- Added playlist downloading page, yt-dlp
+- added photography to arts tab
 
 To Do List:
 - Project: Obsidian Slides and MARP as a powerpoint tool
@@ -24,5 +23,5 @@ To Do List:
 - Add Self Portrait to About Me Page
 - Add other writing projects and essay to art tab
 - Learn about hosting files for others to download.
-- Get guest book working
+- Get guest book working (that's not gonna happen, lol)
 - 

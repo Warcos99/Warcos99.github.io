@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MarkdownFiles/HomePage.md",
+                "file": "MarkdownFiles/Art/ArtIndex.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "HomePage"
+              "title": "ArtIndex"
             }
           }
         ]
@@ -185,29 +185,31 @@
   },
   "active": "d29797f53e488909",
   "lastOpenFiles": [
+    "Assets/Fonts/Bookerly Light Italic.ttf",
+    "Assets/Fonts/Bookerly Light.ttf",
+    "Assets/Fonts/Bookerly LCD Light Italic.ttf",
+    "Assets/Fonts/Bookerly LCD Italic.ttf",
+    "Assets/Fonts/Bookerly Italic.ttf",
+    "Assets/Fonts/Bookerly Display Italic.ttf",
+    "Assets/Fonts/Bookerly Display Bold Italic.ttf",
+    "Assets/Fonts/Bookerly Display Bold.ttf",
+    "Assets/Fonts/Bookerly Display.ttf",
+    "Assets/Fonts/Bookerly Bold Italic.ttf",
+    "Assets/Fonts/Bookerly Bold.ttf",
+    "MarkdownFiles/Art/Photography/Session1.md",
+    "MarkdownFiles/Art/ArtIndex.md",
+    "MarkdownFiles/HomePage.md",
     "MarkdownFiles/Projects/ytdlp.md",
-    "Assets/header.html~",
-    "HTML/Projects/ytdlp.html~",
     "MarkdownFiles/Projects/ProjectsIndex.md",
-    "Assets/Scripts/loadcontent.js~",
-    "HTML/Projects/ytdlp.html",
-    "HTML/Projects/template.html",
     "MarkdownFiles/AboutMe.md",
     "MarkdownFiles/Projects/abcde.md",
-    "MarkdownFiles/HomePage.md",
-    "HTML/Projects/abcde.html~",
-    "HTML/Projects/abcde.html",
     "MarkdownFiles/Projects/KantNotes1.md",
     "MarkdownFiles/Projects/LinuxNotes.md",
     "MarkdownFiles/Projects/BeginnerBookbinding.md",
     "MarkdownFiles/GuestBook/GuestBookIndex.md",
     "MarkdownFiles/CoolSites/CoolSitesIndex.md",
-    "MarkdownFiles/Art/ArtIndex.md",
     "MarkdownFiles/Art/Stories/Goo.md",
     "MarkdownFiles/Art/Essays/Hunger.md",
-    "HTML/Art/Essays/Hunger.html~",
-    "HTML/Art/Stories/Goo.html~",
-    "HTML/Art/Stories/Goo.html",
     "MarkdownFiles/Art/Essays/Untitled.md",
     "MarkdownFiles/Art/Essays/Emperor.md",
     "MarkdownFiles/Art/Emperor.md",

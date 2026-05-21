@@ -1,6 +1,93 @@
+/* Color Pallete */
 :root {
     --dark: #3e2c23;
     --accent1: #2fa4d7;
     --accent2: #f7c85c;
     --light: #f5e9d8;
+}
+
+/* Fonts */
+@font-face {
+    font-family: "Bookerly";
+    src: url("/Assets/Fonts/Bookerly.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bookerly";
+    src: url("/Assets/Fonts/Bookerly Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bookerly";
+    src: url("/Assets/Fonts/Bookerly Bold Italic.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Bookerly";
+    src: url("/Assets/Fonts/Bookerly Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Bookerly";
+    src: url("/Assets/Fonts/Bookerly Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bookerly";
+    src: url("/Assets/Fonts/Bookerly Light Italic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Bookerly Display";
+    src: url("/Assets/Fonts/Bookerly Display.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bookerly Display";
+    src: url("/Assets/Fonts/Bookerly Display Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bookerly Display";
+    src: url("/Assets/Fonts/Bookerly Display Bold Italic.ttf")
+        format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Bookerly Display";
+    src: url("/Assets/Fonts/Bookerly Display Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Bookerly LCD";
+    src: url("/Assets/Fonts/Bookerly LCD Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Bookerly LCD";
+    src: url("/Assets/Fonts/Bookerly LCD Light Italic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
 }
