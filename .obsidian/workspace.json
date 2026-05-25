@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MarkdownFiles/Art/ArtIndex.md",
+                "file": "MarkdownFiles/HomePage.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ArtIndex"
+              "title": "HomePage"
             }
           }
         ]
@@ -185,6 +185,7 @@
   },
   "active": "d29797f53e488909",
   "lastOpenFiles": [
+    "MarkdownFiles/Art/ArtIndex.md",
     "Assets/Fonts/Bookerly Light Italic.ttf",
     "Assets/Fonts/Bookerly Light.ttf",
     "Assets/Fonts/Bookerly LCD Light Italic.ttf",
@@ -195,9 +196,7 @@
     "Assets/Fonts/Bookerly Display Bold.ttf",
     "Assets/Fonts/Bookerly Display.ttf",
     "Assets/Fonts/Bookerly Bold Italic.ttf",
-    "Assets/Fonts/Bookerly Bold.ttf",
     "MarkdownFiles/Art/Photography/Session1.md",
-    "MarkdownFiles/Art/ArtIndex.md",
     "MarkdownFiles/HomePage.md",
     "MarkdownFiles/Projects/ytdlp.md",
     "MarkdownFiles/Projects/ProjectsIndex.md",

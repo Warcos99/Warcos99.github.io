@@ -24,4 +24,6 @@ To Do List:
 - Add other writing projects and essay to art tab
 - Learn about hosting files for others to download.
 - Get guest book working (that's not gonna happen, lol)
-- 
+
+
+V1
