@@ -6,6 +6,31 @@
     --light: #f5e9d8;
 }
 
+/* Mobile Adjustments */
+
+@media screen and (max-width: 600px) {
+    .content {
+        margin: 0px 16px;
+        padding: 20px 0px;
+    }
+    .content img {
+        max-width: 90vw;
+        margin: 0 auto;
+        display: block;
+    }
+    body {
+        font-size: 24px;
+        padding-top: 0;
+    }
+    nav ul {
+        position: static;
+        width: 100%;
+    }
+    nav ul li {
+        float: none;
+    }
+}
+
 /* Fonts */
 @font-face {
     font-family: "Bookerly";

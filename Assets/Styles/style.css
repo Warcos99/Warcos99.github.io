@@ -54,7 +54,6 @@ pre code {
 code {
     /* inline code in normal text */
     font-family: "Courier New", monospace;
-    font-size: 14px;
     color: var(--dark); /* keep your original color here */
 }
 
@@ -64,16 +63,4 @@ hr {
     border-top: 2px solid var(--dark);
     width: 100%;
     margin: 20px auto;
-}
-
-@media screen and (max-width: 600px) {
-    .content {
-        margin: 0px 16px;
-    }
-    .content img {
-        max-width: 90vw;
-    }
-    body {
-        font-size: 17px;
-    }
 }

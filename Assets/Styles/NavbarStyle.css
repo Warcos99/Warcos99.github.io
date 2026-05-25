@@ -28,16 +28,3 @@ nav ul li a:hover {
 nav ul li a.active {
     background-color: #04aa6d;
 }
-
-@media screen and (max-width: 600px) {
-    body {
-        padding-top: 0;
-    }
-    nav ul {
-        position: static;
-        width: 100%;
-    }
-    nav ul li {
-        float: none;
-    }
-}
