@@ -49,6 +49,43 @@ but the rationalist holds knowledge is a priori (through the use of logic, indep
 
 ---
 
+The book is coming from the the Internet Archive: [Critique of Pure Reason, Immanuel Kant](https://archive.org/details/immanuelkantscri032379mbp)
+The particular translation is by Kemp Smith Norman, published 1929
+
+## Prefaces to the First Edition
+
+These notes are from our discussion on the prefaces.
+Metaphysics concerns itself with "what is it for something to be present", and the bulk of our discussion lies in that field.  
+
+The Subject - The Thing in itself.
+
+Before Kant, the experience was conditioning you .  "We have certain things about us as subjects that make the world possible. we condition reality".  Aperception - Before, what makes an experience possible.  Time and Space  (YOU NEED THESE TO EXPERIENCE). The Understanding (12 categories, like cause&effect).  The Trancendental - you cannot have an experience of God, The Soul, Freedom - cannot be synthesized.  Cannot be experimental. these three things are regulative ideas. Without this limit to our thought, we could not have the rest below them
+
+## 1. Of the difference between Pure and Empirical Knowledge
+
+It is clear that knowledge in some part comes from senses (Empirical Knowledge)
+(Senses) -> (Brain) -> (Knowledge) 
+We call this knowledge *a posteriori*. But there is other knowledge out there, let's call it *a priori*. *a priori* knowledge is defined as knowledge that is known independently of the senses.  It is important to note that at this point he have not fully defined  *a priori* knowledge yet, we are just painting a picture to distinguish these two types of knowledge.
+
+ "Every change has a cause" is an example of an impure *a priori* knowledge. I guess this is because as "change" as a concept is only known *a posteriori*.
+
+## 2. The Human Intellect, even in an Unphilosophical State, is in Possession of Certain Cognitions "a priori"
+
+Defining *a priori*
+
+1. if **proposition** - contains idea of **necessity** & not derived from from **another proposition** - then the proposition is *a priori*
+2. if **judgement** - carries strict **universality** & not derived from **experience** - then the judgement is *a priori*
+
+Necessity & Strict Universality are infallible tests for distinguishing pure from empirical knowledge. 
+>Note: I am not convinced at this point in the book of this statement, is it just a definition that we are making? or is this derived from somewhere?
+
+> Note: Philosophical Writing is so damn complex.  Scientific writing is simple. complexity in scientific writing comes from the mathematical structures we build to describe events and behaviors.  Sentences themselves are super simple.  I wonder if there is a similar framework of language that could be invented to simplify the deep and complex philosophical ideas to easier to understand sentences.
+
+
+---
+
+Taking a detour through a study guide:
+
 ## Kant's Philosophical Revolution - A short guide to the Critique of Pure reason by Yirmiyahu Yovel
 
 At the core of the concept of "Object" lies this critique.  The book describes the "Kantian Revolution" in much the same way as the "Copernican Revolution".
@@ -149,9 +186,7 @@ We cannot conceive of time only, but we can conceive of space only, so time and 
 
 **Transcendental Logic**
 Here we move from Intuition to Logic. Let's draw a line from from 
-```
-general formal logic | transcendental logic
-```
+general formal logic and transcendental logic
 
 General logic is the set of rules for using the understanding in all tasks. it is interested in formal relations between objects of thought. Disregards their content and whether they exist or not.  So it's rules apply to real and imaginary objects.  General logic serves as supreme legislation.
 
@@ -160,37 +195,9 @@ Everything we think of is an object of our thought, since thinking is intentiona
 {Example}
 In order to think of a real event in nature, we must think it as a member in a universally determined causal chain in which it is both a consequence and a cause. This is not required by normal logic, it is a *logic of objects*.  a ***logic of objective being***.
 
+![](/Assets/Images/KantNotes1/TransLogic.jpg)
+
 ---
 
-The book is coming from the the Internet Archive: [Critique of Pure Reason, Immanuel Kant](https://archive.org/details/immanuelkantscri032379mbp)
-The particular translation is by Kemp Smith Norman, published 1929
-
-## Prefaces to the First Edition
-
-These notes are from our discussion on the prefaces.
-Metaphysics concerns itself with "what is it for something to be present", and the bulk of our discussion lies in that field.  
-
-The Subject - The Thing in itself.
-
-Before Kant, the experience was conditioning you .  "We have certain things about us as subjects that make the world possible. we condition reality".  Aperception - Before, what makes an experience possible.  Time and Space  (YOU NEED THESE TO EXPERIENCE). The Understanding (12 categories, like cause&effect).  The Trancendental - you cannot have an experience of God, The Soul, Freedom - cannot be synthesized.  Cannot be experimental. these three things are regulative ideas. Without this limit to our thought, we could not have the rest below them
-
-## 1. Of the difference between Pure and Empirical Knowledge
-
-It is clear that knowledge in some part comes from senses (Empirical Knowledge)
-(Senses) -> (Brain) -> (Knowledge) 
-We call this knowledge *a posteriori*. But there is other knowledge out there, let's call it *a priori*. *a priori* knowledge is defined as knowledge that is known independently of the senses.  It is important to note that at this point he have not fully defined  *a priori* knowledge yet, we are just painting a picture to distinguish these two types of knowledge.
-
- "Every change has a cause" is an example of an impure *a priori* knowledge. I guess this is because as "change" as a concept is only known *a posteriori*.
-
-## 2. The Human Intellect, even in an Unphilosophical State, is in Possession of Certain Cognitions "a priori"
-
-Defining *a priori*
-
-1. if **proposition** - contains idea of **necessity** & not derived from from **another proposition** - then the proposition is *a priori*
-2. if **judgement** - carries strict **universality** & not derived from **experience** - then the judgement is *a priori*
-
-Necessity & Strict Universality are infallible tests for distinguishing pure from empirical knowledge. 
->Note: I am not convinced at this point in the book of this statement, is it just a definition that we are making? or is this derived from somewhere?
-
-> Note: Philosophical Writing is so damn complex.  Scientific writing is simple. complexity in scientific writing comes from the mathematical structures we build to describe events and behaviors.  Sentences themselves are super simple.  I wonder if there is a similar framework of language that could be invented to simplify the deep and complex philosophical ideas to easier to understand sentences.
+back to the original text:
 
