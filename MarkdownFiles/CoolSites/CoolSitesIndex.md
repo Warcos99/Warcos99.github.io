@@ -14,3 +14,12 @@ Erik is a dear friend of mine, his philosophical ramblings have challenged my st
 
 ---
 
+
+Devyn Wood, Art of Owl, is a Colorado artist specializing in oil painting/scratchboards/and photography.  She is super cool, and has a real knack for making you feel very specific things with abstract subjects.  I don't have the right language to describe this stuff, but you should check her out! She's great (she also happens to be my wife)!
+
+I am the one who is making her website, so you might notice some similarities in the website layout.  I am still working on perfecting it!
+
+[Art of Owl](https://artofowl.com/)
+
+---
+

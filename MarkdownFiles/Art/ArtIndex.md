@@ -21,6 +21,6 @@ Click on the image below to go to the albums
 
 ### Session 1 - Spring 2026 Greeley CO.
 
-[![](/Assets/Images/Photography/Session1/8-DSC_0042.jpg)](/HTML/Art/Photography/Session1.html)
+[![](/Assets/Images/Photography/Session1/6-DSC_0109.webp)](/HTML/Art/Photography/Session1.html)
 
 

@@ -9,24 +9,27 @@ Welcome to Warcos.net, the Home of all things warcos.
 
 This site functions as a public record of my commonplace notes, mostly for use as reference material for myself, but hopefully others can use it too.  
 
+## Check out the latest submissions below!
+
+---
+
+### Blogs Coming soon!
+
+[![](/Assets/Images/placeholder.webp)](/HTML/Blogs/index.html)
+
+---
+
+### Project: Kant's CPR reading notes
+
+[![](/Assets/Images/KantNotes1/Kant.jpg)](/HTML/Projects/KantNotes1.html)
+
+---
+
+### Art: Photography Session "State Sanctioned Nature"
+
+[![](/Assets/Images/Photography/Session1/3-DSC_0042.webp)](/HTML/Art/Photography/Session1.html)
+
 
 ---
 
 This page was last updated: 6/1/2026
-
-Most Recent Updates:
-- added photography to arts tab
-- Added reading notes to Kant's CPR
-
-To Do List:
-- Project: Obsidian Slides and MARP as a powerpoint tool
-- Add Short Story "the bookbinder" to website
-- Learn about hosting files for others to download.
-- Pamphlet Style Bookbinding
-- Setting up tty writing machine laptop
-- Printable 1 page zines (State sanctioned Nature)
-- Change to GuestBook to Album Deep Dive
-	- May 2026 - Check Your Head Beastie Boys
-
-
-V1

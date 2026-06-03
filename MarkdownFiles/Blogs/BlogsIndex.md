@@ -1,3 +1,4 @@
-# Guest Book
+
+# Blogs
 
 This site is under construction!
