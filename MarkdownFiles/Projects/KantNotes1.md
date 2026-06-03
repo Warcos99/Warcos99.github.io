@@ -106,6 +106,60 @@ Reason as a platonic idea is not a thing here.  Instead there are creatures who 
 2. minds pure functions (*a priori*)
 3. pure reason - Verstand and Vernunft
 
+**Spacetime as forms of intuition**
+
+Transcendental Aesthetics = The doctrine concerning synthetic a priori elements. 
+
+Intuition is Big, it's not just the senses, it's not just merely passive.
+```
+{Passive Sensation} -> {Brain Software} -> {Intuition}
+```
+
+in this metaphor, the "Brain Software" is A Priori Knowledge.
+
+```
+            {Matter} -> Sensation
+{Intuition} <
+            {Form} -> Sensation's Location, Inter-relation within frames of time and space
+```
+
+Spacetime is not an object of sensation.
+
+Kant has to show that space and time are both *A priori* and not concept of understanding, but *Form of Intuition*.  He does so in 2 lines of argument.  The first is a direct metaphysical explication, the second is an indirect transcendental explication.
+
+**Direct Metaphysical Explanation**
+
+You cannot deduce the concept of space without relating objects in in space. Thus it cannot be deduced  through experience.  So Descarte and Leibniz argue for a relative concept of space. Very close to what Einstein came up with.  Kant Argues against this.
+
+"One can never represent that there is no space, although one can very well think that there are no objects to be encountered in it."
+
+Transcendental Aesthetics makes claims not about the structure of being itself, but about the structure and conditions of the limited human subjects we are.
+
+```
+Leibniz - Relative Space, space is well funded phenomena
+Newton - Absolute Space, space is a real being
+Kant - Absolute Space, space is a a form of human intuition
+```
+
+**Indirect Explanation**
+
+Geometry is to space like arithmetic is to time.  Their fundamentalist is a showcase of the intuitive nature of time and space.
+
+We cannot conceive of time only, but we can conceive of space only, so time and space are asymmetric. 
+
+**Transcendental Logic**
+Here we move from Intuition to Logic. Let's draw a line from from 
+```
+general formal logic | transcendental logic
+```
+
+General logic is the set of rules for using the understanding in all tasks. it is interested in formal relations between objects of thought. Disregards their content and whether they exist or not.  So it's rules apply to real and imaginary objects.  General logic serves as supreme legislation.
+
+Everything we think of is an object of our thought, since thinking is intentional and toward something.  Transcendental logic only applies to the thinking of real objects.  This is not meant to replace formal logic, but it is necessarily the subject of formal logic.
+
+{Example}
+In order to think of a real event in nature, we must think it as a member in a universally determined causal chain in which it is both a consequence and a cause. This is not required by normal logic, it is a *logic of objects*.  a ***logic of objective being***.
+
 ---
 
 The book is coming from the the Internet Archive: [Critique of Pure Reason, Immanuel Kant](https://archive.org/details/immanuelkantscri032379mbp)

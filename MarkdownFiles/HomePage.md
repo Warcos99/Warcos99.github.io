@@ -20,10 +20,12 @@ Most Recent Updates:
 To Do List:
 - Project: Obsidian Slides and MARP as a powerpoint tool
 - Add Short Story "the bookbinder" to website
-- Add Self Portrait to About Me Page
-- Add other writing projects and essay to art tab
 - Learn about hosting files for others to download.
-- Get guest book working (that's not gonna happen, lol)
+- Pamphlet Style Bookbinding
+- Setting up tty writing machine laptop
+- Printable 1 page zines (State sanctioned Nature)
+- Change to GuestBook to Album Deep Dive
+	- May 2026 - Check Your Head Beastie Boys
 
 
 V1
