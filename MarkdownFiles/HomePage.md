@@ -12,10 +12,11 @@ This site functions as a public record of my commonplace notes, mostly for use a
 
 ---
 
-This page was last updated: 5/21/2026
+This page was last updated: 6/1/2026
 
 Most Recent Updates:
 - added photography to arts tab
+- Added reading notes to Kant's CPR
 
 To Do List:
 - Project: Obsidian Slides and MARP as a powerpoint tool
