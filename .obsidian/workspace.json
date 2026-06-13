@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MarkdownFiles/HomePage.md",
+                "file": "MarkdownFiles/Blogs/BlogsIndex.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "HomePage"
+              "title": "BlogsIndex"
             }
           }
         ]
@@ -185,10 +185,17 @@
   },
   "active": "d29797f53e488909",
   "lastOpenFiles": [
+    "MarkdownFiles/HomePage.md",
+    "MarkdownFiles/Blogs/Tensions.md",
+    "MarkdownFiles/Blogs/BlogsIndex.md",
+    "Assets/Images/Blogs/Tensions/IMG_5952.webp",
+    "Assets/Images/Blogs/Tensions",
+    "Assets/Images/Blogs",
+    "HTML/Blogs/Tensions.html",
+    "HTML/Blogs/template.html",
     "MarkdownFiles/Art/ArtIndex.md",
     "MarkdownFiles/Art/Photography/Session1.md",
     "Assets/Scripts/lightbox.js",
-    "MarkdownFiles/HomePage.md",
     "MarkdownFiles/CoolSites/CoolSitesIndex.md",
     "Assets/Images/Photography/Session1/1-DSC_0006.webp",
     "Assets/Images/Photography/Session1/2-DSC_0031.webp",
@@ -199,8 +206,6 @@
     "Assets/Images/Photography/Session1/7-DSC_0118.webp",
     "Assets/Images/Photography/Session1/8-DSC_0123.webp",
     "Assets/Images/Photography/Session1/9-DSC_0172.webp",
-    "Assets/Images/Photography/Session1/10-DSC_0196.webp",
-    "MarkdownFiles/Blogs/BlogsIndex.md",
     "HTML/Blogs/index.html",
     "HTML/Blogs",
     "MarkdownFiles/Projects/KantNotes1.md",
@@ -208,10 +213,6 @@
     "Assets/Fonts/Bookerly Light Italic.ttf",
     "Assets/Fonts/Bookerly Light.ttf",
     "Assets/Fonts/Bookerly LCD Light Italic.ttf",
-    "Assets/Fonts/Bookerly LCD Italic.ttf",
-    "Assets/Fonts/Bookerly Italic.ttf",
-    "Assets/Fonts/Bookerly Display Italic.ttf",
-    "Assets/Fonts/Bookerly Display Bold Italic.ttf",
     "MarkdownFiles/Projects/ytdlp.md",
     "MarkdownFiles/Projects/ProjectsIndex.md",
     "MarkdownFiles/Projects/abcde.md",

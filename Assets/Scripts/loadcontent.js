@@ -28,6 +28,7 @@ loadMarkdown("/MarkdownFiles/AboutMe.md", "AboutMe");
 
 /* ---- Calls for Blogs page ---- */
 loadMarkdown("/MarkdownFiles/Blogs/BlogsIndex.md", "Blogs");
+loadMarkdown("/MarkdownFiles/Blogs/Tensions.md", "Tensions");
 
 /* ---- Calls for Projects page ---- */
 loadMarkdown("/MarkdownFiles/Projects/ProjectsIndex.md", "Projects");

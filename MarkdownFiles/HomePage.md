@@ -13,9 +13,9 @@ This site functions as a public record of my commonplace notes, mostly for use a
 
 ---
 
-### Blogs Coming soon!
+### Blog: A Theory of Tensions
 
-[![](/Assets/Images/placeholder.webp)](/HTML/Blogs/index.html)
+[![](/Assets/Images/Blogs/Tensions/IMG_5952.webp)](/HTML/Blogs/Tensions.html)
 
 ---
 
@@ -32,4 +32,4 @@ This site functions as a public record of my commonplace notes, mostly for use a
 
 ---
 
-This page was last updated: 6/1/2026
+This page was last updated: 6/13/2026
