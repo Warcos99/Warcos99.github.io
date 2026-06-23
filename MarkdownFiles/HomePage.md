@@ -19,9 +19,9 @@ This site functions as a public record of my commonplace notes, mostly for use a
 
 ---
 
-### Project: Kant's CPR reading notes
+### Project: Learning JavaScript
 
-[![](/Assets/Images/KantNotes1/Kant.jpg)](/HTML/Projects/KantNotes1.html)
+[![](/Assets/Images/placeholder.webp)](/HTML/Projects/JavaScriptNotes1.html)
 
 ---
 
