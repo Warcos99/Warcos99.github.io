@@ -223,3 +223,197 @@ counter = counter + x;
 counter += x;
 counter++; //this only works if x = 1
 ```
+
+---
+
+## Chapter 4: functions
+
+Examples of defining a function:
+
+```
+const square1 = function(x){ //function notation
+  return x*x;
+};
+
+function square2(x){ //simplified function notation : this is read by JS before anything else.  it ignores top-to-bottom code reading, goes to top automatically.
+  return x*x;
+}
+
+const square3 = (x) =>{ //arrow notation
+  return x*x;
+};
+
+const square4 = x => x*x; //simplified arrow notation: this one only works with functions with 1 input and 1 output.
+```
+
+**Some notes about functions.**
+
+Keeping track of the scope of the variables is a key element of understanding functions.  A variable declared inside of a function will only exist locally within that function.  This means that if it is called outside of the function, that will not work.  Also, this means that calling a function several times will call the variable several times, each time it will have no memory and be completely independent from other instances of it being called.
+
+Putting an `=` in the parameter of the function will make it so that if the user leaves that parameter empty, the function will default to the parameter you have chosen.  This can be used to create optional parameters.
+
+```
+// in this example, if the user leaves "step" blank, the function will default to 1.
+function roundTo(n,step=1){
+  let remainder = n%step;
+  return n-remainder+(remainder<step.2 ? 0:step);
+}
+```
+
+Closure is a confusing topic that I'm sure I will need to go back to, but for now, all that really means is that it allows you to nest functions.
+```
+function multiplier(factor){ return number => number*factor;}
+let twice = multiplier(2);
+console.log(twice(5));//->10
+```
+
+Recursion is OK, so long as you don't overflow the stack
+```
+function power(base, exponent){
+  if (exponent == 0){
+    return 1;
+  } else {
+    return base*power(base,exponent-1);
+  }
+}
+```
+
+---
+
+## Chapter 5: Data Structures, Objects and Arrays
+
+An array stores a sequence of values. You denote an array using square brackets and commas.  You can call on a specific value in the array with square brackets as well.
+```
+let listOfNumbers = [2,3,5,7,11];
+console.log(listOfNumbers[2]; //-> 5)
+```
+
+Arrays can have properties (in fact all JavaScript values have properties).  Some examples are things like `.length` as it is found in string.length.
+```
+console.log(listOfNumbers.length); //-> 5
+```
+
+Properties can be accessed in one of two syntaxes, both slightly different:
+```
+value.x
+/* and */
+value[x]
+```
+when using the dot, x is the literal name of the property.  When using square brackets, x is the evaluation of the property.  So `value.x` is fetching a property named "x" and `value[x]` is fetching the value of the variable named "x" and spitting that out as the property name.
+
+Some properties like `toUpperCase` actually contain functions.  `value.toUpperCase` returns the string capitalized. Properties that contain functions are called *methods* .
+
+```
+//some examples of methods
+let word = "TesT";
+let sequence = [1,2,3];
+console.log(word.toUpperCase); //->TEST
+console.log(word.toLowerCase); //->test
+sequence.push(4);
+sequence.push(5);
+console.log(sequence); //-> [1,2,3,4,5]
+console.log(sequence.pop()); //->5
+console.log(sequence); //-> [1,2,3,4]
+// push adds an element to the array, pop removes an element
+```
+
+**Objects**
+Values of the type *object* are an arbitrary collection of properties. Here is an example of how to create an object:
+```
+let day1 = {
+  squirrel : false,
+  events: ["work","touched tree","pizza"]
+};
+```
+Inside the curly brackets you write a list of properties separated by commas.  After each property you use a colon to write out it's values.
+
+```
+//operators for objects
+let anObject = {left: 1, right: 2};
+delete anObject.left; //delete removes the property from the object. this is different from setting the property to undefined, in that it completely removes it.
+
+console.log("left" in anObject); //-> false
+console.log("right" in anObject); //-> true
+
+//Object.keys tells you what properties an object has
+console.log(Object.keys(anObject)); //-> ['left', 'right']
+
+//Object.assign copies properties from one object to another
+let anObject2 = {up:3, down:4};
+Object.assign(anObject, anObject2);
+console.log(anObject); //-> { left: 1, right: 2, up: 3, down: 4 }
+```
+
+A way to create a function that adds to an object:
+```
+let journal = [];
+
+function addEntry(events,squirrel){
+  journal.push({events,squirrel});
+}
+
+addEntry(["work", "touched tree", "pizza", "running",
+          "television"], false);
+addEntry(["work", "ice cream", "cauliflower", "lasagna",
+          "touched tree", "brushed teeth"], false);
+addEntry(["weekend", "cycling", "break", "peanuts",
+          "beer"], true);
+```
+
+**Further Arrayology**
+`push` and `pop` work for adding and removing elements at the *end* of an array.  `unshift` and `shift` add and remove elements at the *beginning* of an array.  
+
+To search for a specific value in an array from the beginning towards the end, use `indexOf`.  To search from the end towards the beginning us `lastIndexOf`.
+
+```
+let arr=[1,2,3,2,1];
+console.log(arr.indexOf(2)); //-> 1
+console.log(arr.lastIndexOf(2)); //-> 3
+```
+
+`slice` takes the start and end parameters and returns the elements between them.  If one of the parameters is not given, it will take the upper or lower bound as the start or end of the array.
+
+```
+let arr=[0,1,2,3,4];
+arr.slice(2,4); //-> [2,3]
+arr.slice(2); //-> [2,3,4]
+arr.slice(,2); //-> [0,1,2]
+```
+`concat` is used to concatenate two arrays.  Much like the `+` operators with strings.
+
+
+**string properties**
+
+```
+string.slice(x,y); //slice of string 
+string.indexOf("x"); //returns the index of the character
+string.trim(); // returns string without white spaces
+string.padStart(x,"y"); // pads the string with x number of "y"s at the beggining of the string
+string.split("x"); //splits string at the point where "x" is found. removes "x".
+string.join("x"); //joins strings with "x" in the middle, in this example, string is an array of strings, and join makes it into a single string.
+string.repeat(x); //repeats string x amount of times
+string.length; // returns length of string
+string[x]; //returns element in x index of string
+```
+
+
+**The Math Object**
+
+```
+Math.cos() //cosine
+Math.sin() //sine
+Math.tan() //tangent
+Math.acos() //inverse cosine
+Math.asin() //inverse sine
+Math.atan() //inverse tangent
+Math.PI //the value Pi
+Math.random() //random number between 0 (inclusive) and 1 (exclusive)
+Math.floor() //round down to nearest whole number
+Math.ceil() //round up to nearest whole number
+Math.abs() //absolute value
+Math.sqrt() //square root
+```
+
+---
+
+
