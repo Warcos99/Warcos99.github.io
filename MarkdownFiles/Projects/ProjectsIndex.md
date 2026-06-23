@@ -7,6 +7,7 @@
 - [Linux TTY Notes](/HTML/Projects/LinuxNotes.html)
 - [Ripping CD's using abcde](/HTML/Projects/abcde.html)
 - [Downloading Music using yt-dlp](/HTML/Projects/ytdlp.html)
+- [Learning JavaScript](/HTML/Projects/JavaScriptNotes1.html)
 
 ---
 

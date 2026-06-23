@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7845ec8a4fa4242a",
+        "id": "f8d7d8ee42fc87e3",
         "type": "tabs",
         "children": [
           {
-            "id": "d29797f53e488909",
+            "id": "f3efbda42f5938c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MarkdownFiles/Blogs/BlogsIndex.md",
-                "mode": "source",
-                "source": true
+                "file": "MarkdownFiles/Projects/JavaScriptNotes.md",
+                "mode": "preview",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "BlogsIndex"
+              "title": "JavaScriptNotes"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2e79c7167ab29c86",
@@ -183,36 +184,40 @@
       "bases:Create new base": false
     }
   },
-  "active": "d29797f53e488909",
+  "active": "f3efbda42f5938c5",
   "lastOpenFiles": [
+    "Assets/Scripts/javascript.js~",
+    "html.google.com.md",
+    "MarkdownFiles/Projects/JavaScriptNotes.md",
     "MarkdownFiles/HomePage.md",
     "MarkdownFiles/Blogs/Tensions.md",
+    "Secret/GallerySummary.md",
+    "Assets/Images/Secret/2026Q3Gallery/TheoAltmaier/horsetooth - Theo Altmaier.jpg",
+    "Assets/Images/Secret/2026Q3Gallery/TheoAltmaier/headshot - Theo Altmaier.jpg",
+    "Assets/Images/Secret/2026Q3Gallery/TheoAltmaier/Torn 2025 - Theo Altmaier.jpg",
+    "Assets/Images/Secret/2026Q3Gallery/TheoAltmaier/Our Lady of Witchcraft - Theo Altmaier.jpg",
+    "Assets/Images/Secret/2026Q3Gallery/TheoAltmaier/Mother of 1000 hands - Theo Altmaier.jpg",
+    "Assets/Images/Secret/2026Q3Gallery/TheoAltmaier/Mary Still loves us 2025 - Theo Altmaier.jpg",
+    "Assets/Images/Secret/2026Q3Gallery/TheoAltmaier/IMG_2997 - Theo Altmaier.JPG",
+    "Assets/Images/Secret/2026Q3Gallery/TheoAltmaier/IMG_2988 - Theo Altmaier.JPG",
+    "Assets/Images/Secret/2026Q3Gallery/TheoAltmaier/IMG_2977 - Theo Altmaier.JPG",
+    "Assets/Images/Secret/2026Q3Gallery/TheoAltmaier",
+    "Assets/Images/Secret/2026Q3Gallery/ParkerMcGuire/PXL_20260504_015847162~2 - Parker Mcguire.jpg",
+    "Assets/Images/Secret/2026Q3Gallery/ParkerMcGuire",
+    "Assets/Images/Secret/2026Q3Gallery/name",
+    "Assets/Images/Secret/2026Q3Gallery/MikiArrivas",
+    "Assets/Images/Secret/2026Q3Gallery/MaceyBoren",
+    "Assets/Images/Secret/2026Q3Gallery/KatFleetwood",
+    "Assets/Images/Secret/2026Q3Gallery/JaedynFritzler",
+    "Assets/Images/Secret/2026Q3Gallery/EveyHaight",
+    "Assets/Images/Secret/2026Q3Gallery/ClareFesker",
+    "Assets/Images/Secret/2026Q3Gallery/AspenFlores",
     "MarkdownFiles/Blogs/BlogsIndex.md",
-    "Assets/Images/Blogs/Tensions/IMG_5952.webp",
-    "Assets/Images/Blogs/Tensions",
-    "Assets/Images/Blogs",
-    "HTML/Blogs/Tensions.html",
-    "HTML/Blogs/template.html",
     "MarkdownFiles/Art/ArtIndex.md",
     "MarkdownFiles/Art/Photography/Session1.md",
-    "Assets/Scripts/lightbox.js",
     "MarkdownFiles/CoolSites/CoolSitesIndex.md",
-    "Assets/Images/Photography/Session1/1-DSC_0006.webp",
-    "Assets/Images/Photography/Session1/2-DSC_0031.webp",
-    "Assets/Images/Photography/Session1/3-DSC_0042.webp",
-    "Assets/Images/Photography/Session1/4-DSC_0089.webp",
-    "Assets/Images/Photography/Session1/5-DSC_0094.webp",
-    "Assets/Images/Photography/Session1/6-DSC_0109.webp",
-    "Assets/Images/Photography/Session1/7-DSC_0118.webp",
-    "Assets/Images/Photography/Session1/8-DSC_0123.webp",
-    "Assets/Images/Photography/Session1/9-DSC_0172.webp",
-    "HTML/Blogs/index.html",
-    "HTML/Blogs",
     "MarkdownFiles/Projects/KantNotes1.md",
     "MarkdownFiles/AboutMe.md",
-    "Assets/Fonts/Bookerly Light Italic.ttf",
-    "Assets/Fonts/Bookerly Light.ttf",
-    "Assets/Fonts/Bookerly LCD Light Italic.ttf",
     "MarkdownFiles/Projects/ytdlp.md",
     "MarkdownFiles/Projects/ProjectsIndex.md",
     "MarkdownFiles/Projects/abcde.md",
@@ -226,8 +231,6 @@
     "HTML/Art/Essays/Emperor.md",
     "MarkdownFiles/Projects/KantReadingNotes.md",
     "MarkdownFiles/Projects/WebsiteMakingNotes.md",
-    "www.britannica.com/biography/Immanuel-Kant.md",
-    "MarkdownFiles/Writing/WritingIndex.md",
-    "MarkdownFiles/Portfolio/PortfolioIndex.md"
+    "www.britannica.com/biography/Immanuel-Kant.md"
   ]
 }

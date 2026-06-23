@@ -38,6 +38,7 @@ loadMarkdown("/MarkdownFiles/Projects/BeginnerBookbinding.md", "Bookbinding1");
 loadMarkdown("/MarkdownFiles/Projects/KantNotes1.md", "KantNotes1");
 loadMarkdown("/MarkdownFiles/Projects/abcde.md", "abcde");
 loadMarkdown("/MarkdownFiles/Projects/ytdlp.md", "ytdlp");
+loadMarkdown("/MarkdownFiles/Projects/JavaScriptNotes1.md", "JavaScriptNotes1");
 
 /* ---- Calls for Art page ---- */
 loadMarkdown("/MarkdownFiles/Art/ArtIndex.md", "Art");

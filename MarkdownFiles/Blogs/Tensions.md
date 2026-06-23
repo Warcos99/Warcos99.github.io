@@ -16,7 +16,7 @@ And before we get too far here, I want to clearly and flatly express some truths
 4. The Industrial revolution and the advent of mass market manufacturing is putting a great strain on the planet, from the creation of greenhouse gasses to the accumulation of too much trash for us to handle.  
 5. Late stage capitalism is grinding the common man to dust for the benefit of the elite few.
 
-If you have issue with any of these statements, you probably actually have an issue with the secondary conclusions one might draw from these statements (or you just refuse to see the truth).  You might see the strain we are putting on the planet and draw one of several conclusions.  Some popular examples of conclusions others have draw are:
+If you have issues with any of these statements, you probably actually have an issue with the secondary conclusions one might draw from these statements (or you just refuse to see the truth).  You might see the strain we are putting on the planet and draw one of several conclusions.  Some popular examples of conclusions others have draw are:
 - we need to take better care of the planet in every respect, including personal responsibility to up-cycle and recycle
 - we need to hold companies accountable for the mess they are creating, and we need to add legislature to control and fix how these companies pollute. Asking regular people to bear the weight of the problem is a tactic used by these companies to remove responsibility from themselves
 - relying on governments to solve this problem is a fools errand, we need to think of more radical solutions, since corporations cannot be trusted to do the right thing, politicians cannot be trusted to not be bought.
