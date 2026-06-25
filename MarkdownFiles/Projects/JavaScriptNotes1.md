@@ -41,9 +41,9 @@ Boolean Values are spit out from a plethora of different situations.  Here are s
 3<2; //-> false
 "Ardvark" < "Zoroaster"; //-> true
 ```
-One quick note about the getting a boolean value from strings, the value of a string is dependendent on it's alphabetical position.  A's will be above B's above C's etc...  But uppercase letters will always be above lowercase letters, and lowercase letters will always be above non-characters.
+One quick note about the getting a boolean value from strings, the value of a string is dependendent on it's alphabetical position.  A's will be below B's below C's etc...  But uppercase letters will always be below lowercase letters.
 ```
-"A">"Z">"a">"z">"?"
+"A"<"Z"<"a"<"z"
 ```
 
 NaN is the only value that is not equal to itself.
@@ -70,12 +70,12 @@ false ? 1 : 2; //->2
 ```
 
 **Weirdsies**
-Why do people hate JavaScript?  Well, here are some probably reasons.  If you do operations on values that of the wrong type, the language will not spit out an error, it will instead try to convert the value into the correct type.  This sounds helpful until you realize that conversion is not done in any sort of intuitive way.
+Why do people hate JavaScript?  Well, here are some probable reasons.  If you do operations on values that of the wrong type, the language will not spit out an error, it will instead try to convert the value into the correct type.  This sounds helpful until you realize that conversion is not done in any sort of intuitive way.
 Here are some examples of weird choices that JavaScript makes for you without telling you.
 ```
 8*null; //-> 0
 "5"-1; //-> 4
-"5"+1; //-> 51
+"5"+1; //-> "51""
 "five"*2; //-> NaN
 false == 0; //-> true
 null == undefined; //-> true
@@ -157,6 +157,7 @@ while (number <=12){
 ```
 
 **do**
+
 do loops are much like a while loop, except it runs the loop once first, THEN it checks if it should run the loop again.
 ```
 let yourName;
@@ -167,6 +168,7 @@ console.log("Hello"+yourName);
 ```
 
 **for**
+
 the for loop consists of 3 arguments in the function.
 - 1 - `let num=0;` - this initializes the loop
 - 2 - `num <= 12;` - checks for the loop to continue
@@ -204,6 +206,7 @@ switch (true){
 ```
 
 **break**
+
 Use `break;` to end the loop early.
 the following example finds the first number bigger than 20 that is divisible by 7.
 ```
@@ -216,6 +219,7 @@ for (let current=20; ;current++){
 ```
 
 **counter**
+
 You can update a counter in a loop in a couple different ways:
 ```
 // let x be the amount you want to increase the counter by
@@ -231,19 +235,26 @@ counter++; //this only works if x = 1
 Examples of defining a function:
 
 ```
-const square1 = function(x){ //function notation
+// regular function notation
+const square1 = function(x){
   return x*x;
 };
 
-function square2(x){ //simplified function notation : this is read by JS before anything else.  it ignores top-to-bottom code reading, goes to top automatically.
+// alternative notation.  this is 
+//read by JS before any other code, no 
+//matter where it's placed in the code.
+function square2(x){
   return x*x;
 }
 
-const square3 = (x) =>{ //arrow notation
+// arrow notation
+const square3 = (x) =>{
   return x*x;
 };
 
-const square4 = x => x*x; //simplified arrow notation: this one only works with functions with 1 input and 1 output.
+// simplified arrow notation.  Only works 
+// if you have 1 input and 1 output
+const square4 = x => x*x;
 ```
 
 **Some notes about functions.**

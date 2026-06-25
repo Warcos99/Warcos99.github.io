@@ -172,4 +172,84 @@ switch (true){
 - Chapter 4: Functions -
 -----------------------*/
 
+//examples defining a function
+const square = function(x){
+  return x*x;
+};
+console.log(square(12)); //-> 144
 
+const makeNoise = function(){
+  console.log("Pling!");
+};
+makeNoise(); //-> Pling!
+
+const roundTo = function(n,step){
+  let remainder = n % step;
+  return n-remainder + (remainder < step / 2 ? 0 : step);
+};
+console.log(roundTo(23,10)); //-> 20
+
+/* 
+ * variables have a scope.  variables defined outside of any function
+ * block, or module, they are global.
+ * variables defined inside of a function can only be referenced in that function
+ * There is isolation between new instances of the function and its variables
+ * to each other.
+ */
+
+// if not using const, you can redefine functions.  the name of the function
+// and the function itself are technically different things.
+
+let launchMissiles = function(){
+  missileSystem.launch("now");
+};
+if (safeMode){
+  launchMissiles = function(){/*do nothing*/};
+}
+
+// slightly shorter way to define functions
+function square(x){
+  return x*x;
+}
+// this method does not require a ; at the end. you start with "function"
+// declaring functions in this way does not follow regular top-to-bottom code
+// functions declrared in this way are automatically given priority and everything
+// in the same scope can see it, regardless of where it is on the code list
+
+//arrow functions
+const roundTo = (n,step) => {
+  let remainder = n % step;
+  return n- remainder + (remainder < step / 2 ? 0 : step);
+};
+const square1 = (x) => {return x*x;};
+const square2 = x => x*x; //same as square 1, but with only one input and output, you can rewrite it like this
+
+//if you put a = in the parameter, then the function will default to the value
+//you put down if one is not provided. This makes some arguments optional
+function roundTo(n, step=1){
+  let remainder = n%step;
+  return n-remainder+(remainder<step/2?0:step);
+};
+console.log(roundTo(4.5)); //-> 5
+console.log(roundTo(4.5,2)); //-> 4
+
+//closure...kinda confusing, but lets you nest functions
+function multiplier(factor){
+  return number => number*factor;
+}
+let twice = multiplier(2);
+console.log(twice(5)); //-> 10
+
+//Recursion is ok so long as you don't overflow the stack
+function power(base,exponent){
+  if (exponent == 0){
+    return 1;
+  } else {
+    return base*power(base,exponent-1);
+  }
+}
+console.log(power(2,3)); //-> 8
+// but running a loop is generally cheaper than running a recursive function.  so this is slow
+
+
+/* Data structures: Objects and Arrays */
