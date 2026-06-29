@@ -427,4 +427,6 @@ Math.sqrt() //square root
 
 ---
 
+## Higher-Order Functions
+
 

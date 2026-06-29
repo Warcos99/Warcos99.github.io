@@ -21,7 +21,7 @@ This site functions as a public record of my commonplace notes, mostly for use a
 
 ### Project: Learning JavaScript
 
-[![](/Assets/Images/placeholder.webp)](/HTML/Projects/JavaScriptNotes1.html)
+[![](/Assets/Images/cat.jpg)](/HTML/Projects/JavaScriptNotes1.html)
 
 ---
 
@@ -32,4 +32,4 @@ This site functions as a public record of my commonplace notes, mostly for use a
 
 ---
 
-This page was last updated: 6/13/2026
+This page was last updated: 6/28/2026

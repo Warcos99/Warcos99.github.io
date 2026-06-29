@@ -50,6 +50,9 @@ loadMarkdown("/MarkdownFiles/Art/Photography/Session1.md", "PhotoSession1");
 /* ---- Calls for CoolSites ---- */
 loadMarkdown("/MarkdownFiles/CoolSites/CoolSitesIndex.md", "CoolSites");
 
+/*---- Calls for WebApps --- */
+loadMarkdown("/MarkdownFiles/WebApps/WebAppsIndex.md", "WebApps");
+
 /* ---- Calls for Mixtapes page ---- */
 loadMarkdown("/MarkdownFiles/GuestBook/GuestBookIndex.md", "GuestBook");
 
