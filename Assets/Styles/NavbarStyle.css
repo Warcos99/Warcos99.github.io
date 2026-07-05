@@ -1,3 +1,5 @@
+/* nav ul - unordered list 
+ * the whole list container */
 nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -10,10 +12,14 @@ nav ul {
     top: 0;
     width: 100%;
 }
+
+/* nav ul li - list item inside of unordered list */
 nav ul li {
     /* remove float: left entirely */
 }
 
+/* nav ul il a - <a> item inside of list inside of unordered list. 
+ * the actual link text, alignment colors, etc..*/
 nav ul li a {
     display: block;
     color: var(--light);
@@ -22,17 +28,31 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* hover effect over clickable button */
 nav ul li a:hover {
     background-color: var(--accent1);
 }
 
+/* alternate color for active page */
 nav ul li a.active {
     background-color: #04aa6d;
 }
 
+/* adjustments for mobile version */
 @media (max-width: 600px) {
-    nav ul li a {
-        padding: 6px 8px;
-        font-size: 0.8rem;
-    }
+  nav ul {
+    position: static;
+    width: 100%;
+  }
+  
+  nav ul li{
+    /* blank */
+  }
+
+  nav ul li a {
+    padding: 6px 8px;
+    font-size: 0.8rem;
+    font-size: 24px;
+  }
+
 }

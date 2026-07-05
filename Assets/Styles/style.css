@@ -98,7 +98,19 @@ main img {
 /* for mobile readibility */
 @media (max-width: 600px) {
   .content {
-    margin: 0 20px;
+    margin: 0 16px;
+    padding: 20px 0px;
+  }
+
+  .content img{
+    max-width: 90vw;
+    margin: 0 auto;
+    display: block;
+  }
+
+  body{
+    font-size:24px;
+    padding-top: 0;
   }
 
   h1 {
