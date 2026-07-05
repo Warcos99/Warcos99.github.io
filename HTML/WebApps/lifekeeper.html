@@ -2,6 +2,7 @@
 <html>
   <head>
         <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Life Tracker</title>
         <!-- insert title -->
         <link rel="stylesheet" href="/Assets/Styles/global.css" />
@@ -12,6 +13,27 @@
             display: flex;
             gap: 80px;
             justify-content: center;
+            flex-wrap: wrap;
+          }
+
+          button {
+            padding: 12px 20px;
+            font-size: 1rem;
+            margin: 4px;
+          }
+
+          @media (max-width: 600px) {
+            .content {
+              margin: 0 20px;
+            }
+
+            h1 {
+              font-size: 1.5rem;
+            }
+
+            .tracker-columns {
+              gap: 20px;
+            }
           }
         </style>
   </head>
