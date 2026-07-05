@@ -1,16 +1,17 @@
 nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: var(--dark);
     position: fixed;
     top: 0;
     width: 100%;
 }
-
 nav ul li {
-    float: left;
+    /* remove float: left entirely */
 }
 
 nav ul li a {
@@ -27,4 +28,11 @@ nav ul li a:hover {
 
 nav ul li a.active {
     background-color: #04aa6d;
+}
+
+@media (max-width: 600px) {
+    nav ul li a {
+        padding: 6px 8px;
+        font-size: 0.8rem;
+    }
 }
