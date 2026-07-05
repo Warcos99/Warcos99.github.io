@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+  <head>
+        <meta charset="UTF-8" />
+        <title>Life Tracker</title>
+        <!-- insert title -->
+        <link rel="stylesheet" href="/Assets/Styles/global.css" />
+        <link rel="stylesheet" href="/Assets/Styles/style.css" />
+        <link rel="stylesheet" href="/Assets/Styles/NavbarStyle.css" />
+        <style>
+          .tracker-columns {
+            display: flex;
+            gap: 80px;
+            justify-content: center;
+          }
+        </style>
+  </head>
+  <body>
+
+    <div class="layout">
+      <div id="header"></div>
+    </div>
+    
+    <div class="content">
+      <h1>Magic the Gathering Life Tracker</h1>
+      <p>For Commander format</p>
+      <hr>
+      <div class="tracker-columns">
+        <div> <!-- Life -->
+          <h2>Life</h2>
+          <div id="life">40</div>
+          <button id="oneDamage">-1</button>
+          <button id="fiveDamage">-5</button>
+          <button id="oneLife">+1</button>
+          <button id="fiveLife">+5</button>
+          <button id="customLife">Set Life</button>
+          <button id="reset">Reset Life</button> 
+        </div>
+        <div> <!-- Commander Tax -->
+          <h2>Commander Tax</h2>
+          <div id="tax">0</div>
+          <button id="oneDeath">+2</button>
+          <button id="resetTax">Reset Tax</button>
+        </div>
+      </div>
+      <hr>
+      <h2>Commander Damamge</h2>
+        <div class="tracker-columns">
+          <div> <!-- Red Commander Damage -->
+            <h3>Red</h3>
+            <div id="RedCom">0</div>
+            <button id="redOneDamage">+1</button>
+            <button id="redFiveDamage">+5</button>
+            <button id="redReset">Reset</button>
+          </div>
+          <div> <!-- Blue Commander Damage -->
+            <h3>Blue</h3>
+            <div id="BlueCom">0</div>
+            <button id="blueOneDamage">+1</button>
+            <button id="blueFiveDamage">+5</button>
+            <button id="blueReset">Reset</button>
+          </div>
+          <div> <!-- Green Commander Damage -->
+            <h3>Green</h3>
+            <div id="GreenCom">0</div>
+            <button id="greenOneDamage">+1</button>
+            <button id="greenFiveDamage">+5</button>
+            <button id="greenReset">Reset</button>
+          </div>
+          <div> <!-- Orange Commander Damage -->
+            <h3>Orange</h3>
+            <div id="OrangeCom">0</div>
+            <button id="orangeOneDamage">+1</button>
+            <button id="orangeFiveDamage">+5</button>
+            <button id="orangeReset">Reset</button>
+          </div>
+        </div>
+    </div>
+
+    <!-- script for the main life buttons -->
+  <script>
+  // ----- Reusable counter setup -----
+  function setupCounter(displayId, initialValue, buttonConfigs) {
+    let value = initialValue;
+    const display = document.getElementById(displayId);
+    display.textContent = value; // sync display with starting value
+    buttonConfigs.forEach(({ id, amount }) => {
+      document.getElementById(id).addEventListener("click", () => {
+        if (amount === "reset") {
+          value = initialValue;
+        } else if (amount === "custom") {
+          const input = prompt("Set custom life");
+          if (!input) return;
+          value = Number(input);
+          } else {
+            value += amount;
+          }
+          display.textContent = value;
+      });
+    });
+  }
+
+    // ----- Life Tracker -----
+    setupCounter("life", 40, [
+        { id: "oneDamage", amount: -1 },
+        { id: "fiveDamage", amount: -5 },
+        { id: "oneLife", amount: 1 },
+        { id: "fiveLife", amount: 5 },
+        { id: "customLife", amount: "custom" },
+        { id: "reset", amount: "reset" }
+    ]);
+
+    // ----- Commander Tax -----
+    setupCounter("tax", 0, [
+        { id: "oneDeath", amount: 2 },
+        { id: "resetTax", amount: "reset" }
+    ]);
+
+    // ----- Commander Damage -----
+    setupCounter("RedCom", 0, [
+        { id: "redOneDamage", amount: 1 },
+        { id: "redFiveDamage", amount: 5 },
+        { id: "redReset", amount: "reset" }
+    ]);
+
+    setupCounter("BlueCom", 0, [
+        { id: "blueOneDamage", amount: 1 },
+        { id: "blueFiveDamage", amount: 5 },
+        { id: "blueReset", amount: "reset" }
+
+    ]);
+
+    setupCounter("GreenCom", 0, [
+        { id: "greenOneDamage", amount: 1 },
+        { id: "greenFiveDamage", amount: 5 },
+        { id: "greenReset", amount: "reset" }
+
+    ]);
+
+    setupCounter("OrangeCom", 0, [
+        { id: "orangeOneDamage", amount: 1 },
+        { id: "orangeFiveDamage", amount: 5 },
+        { id: "orangeReset", amount: "reset" }
+
+    ]);
+  </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="/Assets/Scripts/loadcontent.js"></script>
+    <script src="/Assets/Scripts/lightbox.js"></script>
+  </body>
+</html>
