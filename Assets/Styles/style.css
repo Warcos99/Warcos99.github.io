@@ -94,3 +94,18 @@ article img,
 main img {
     cursor: zoom-in;
 }
+
+/* for mobile readibility */
+@media (max-width: 600px) {
+  .content {
+    margin: 0 20px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .tracker-columns {
+    gap: 20px;
+  }
+}
