@@ -92,10 +92,10 @@ hr {
 article img,
 .content img,
 main img {
-    cursor: zoom-in;
+    cursor: pointer;
 }
 
-/* for mobile readibility */
+/* adjustments for mobile version */
 @media (max-width: 600px) {
   .content {
     margin: 0 16px;
@@ -109,14 +109,14 @@ main img {
   }
 
   body{
-    font-size:24px;
+    font-size:20px;
     padding-top: 0;
   }
-
+  /*
   h1 {
     font-size: 1.5rem;
   }
-
+*/
   .tracker-columns {
     gap: 20px;
   }

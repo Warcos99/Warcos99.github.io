@@ -2,12 +2,13 @@
 
 <div style="text-align: center;">Whiteboard</div>
 
-[![whiteboard banner](/Assets/Images/WebApps/WhiteBoardBanner.webp)](/HTML/WebApps/whiteboard.html)
+[![whiteboard banner](/Assets/Images/banners/whiteboard.webp)](/HTML/WebApps/whiteboard.html)
 
 ---
 WIP:
 [TTRPG Dice Roller]()
 
 ---
-WIP:
-[MTG Life Tracker](/HTML/WebApps/lifekeeper.html)
+<div style="text-align: center;">MTG Life Tracker</div>
+
+[![life tracker](/Assets/Images/banners/lifetracker.webp)](/HTML/WebApps/lifekeeper.html)
