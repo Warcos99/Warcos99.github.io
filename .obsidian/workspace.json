@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MarkdownFiles/Blogs/HowToArt.md",
+                "file": "MarkdownFiles/HomePage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HowToArt"
+              "title": "HomePage"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "2e79c7167ab29c86",

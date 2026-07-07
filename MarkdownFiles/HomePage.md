@@ -32,4 +32,4 @@ This site functions as a public record of my commonplace notes, mostly for use a
 
 ---
 
-This page was last updated: 7/05/2026
+This page was last updated: 7/07/2026
