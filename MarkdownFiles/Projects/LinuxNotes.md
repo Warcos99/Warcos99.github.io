@@ -142,13 +142,13 @@ Once you have that code above in the bash_profile file, then to set the header, 
 ```
 FIFO="/tmp/dvtm-status.$$"
 
-[ -p "FIFO" ] || mkfifo -m 600 "$FIFO" || exit 1
+[ -p "$FIFO" ] || mkfifo -m 600 "$FIFO" || exit 1
 
 while true; do
 
 	#battery info
 	battery=$(acpi -b 2>/dev/null | sed -n 's/^Battery [0-9]: \([^,]*\),\([^,]*\),.*$/\1 \2/p')
-	[ -z "battery" ] && battery="NoBat"
+	[ -z "$battery" ] && battery="NoBat"
 
 	#Internet connectivity
 	if ping -c 1 -W 1 google.com >/dev/null 2>&1; then
@@ -172,6 +172,12 @@ dvtm -s "$FIFO" "$@" 2> /dev/null
 kill $STATUS_PID
 wait $STATUS_PID 2> /dev/null
 rm -f "$FIFO"
+```
+
+Once this script is in place, make sure it is executable, run the following code:
+
+```
+chmod +x ~/bin/dvtm-launch
 ```
 
 This should set it so when you log into tty1 you will log into a running session of dvtm with the status bar at the top.
