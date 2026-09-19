@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MarkdownFiles/Blogs/ProjectLoudMouth.md",
+                "file": "MarkdownFiles/Projects/ArduDeck.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ProjectLoudMouth"
+              "title": "ArduDeck"
             }
           }
         ],
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MarkdownFiles/Blogs/ProjectLoudMouth.md",
+                "file": "MarkdownFiles/Projects/ArduDeck.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MarkdownFiles/Blogs/ProjectLoudMouth.md",
+                "file": "MarkdownFiles/Projects/ArduDeck.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -202,6 +202,7 @@
   },
   "active": "17fce32a60c15bfc",
   "lastOpenFiles": [
+    "MarkdownFiles/Blogs/ProjectLoudMouth.md",
     "MarkdownFiles/Projects/ArduDeck.md",
     "MarkdownFiles/Projects/ProjectsIndex.md",
     "HTML/Projects/ArduDeck.html",
@@ -225,7 +226,6 @@
     "Assets/Images/Photography/Trash/7-DSC_0104.webp",
     "Assets/Images/Photography/Trash",
     "MarkdownFiles/Blogs/BlogsIndex.md",
-    "MarkdownFiles/Blogs/ProjectLoudMouth.md",
     "MarkdownFiles/Blogs/Tensions.md",
     "HTML/Blogs/ProjectLoudMouth.html",
     "HTML/Blogs/Tensions copy.html",
