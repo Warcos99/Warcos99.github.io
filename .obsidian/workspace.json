@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MarkdownFiles/Projects/ArduDeck.md",
+                "file": "MarkdownFiles/Blogs/ProjectLoudMouth.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ArduDeck"
+              "title": "ProjectLoudMouth"
             }
           }
         ],
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MarkdownFiles/Projects/ArduDeck.md",
+                "file": "MarkdownFiles/Blogs/ProjectLoudMouth.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MarkdownFiles/Projects/ArduDeck.md",
+                "file": "MarkdownFiles/Blogs/ProjectLoudMouth.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -202,8 +202,8 @@
   },
   "active": "17fce32a60c15bfc",
   "lastOpenFiles": [
-    "MarkdownFiles/Projects/ProjectsIndex.md",
     "MarkdownFiles/Projects/ArduDeck.md",
+    "MarkdownFiles/Projects/ProjectsIndex.md",
     "HTML/Projects/ArduDeck.html",
     "MarkdownFiles/WebApps/WebAppsIndex.md",
     "HTML/Projects/WebsiteHowTo copy.html",
