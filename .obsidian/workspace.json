@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MarkdownFiles/Projects/ProjectsIndex.md",
+                "file": "MarkdownFiles/Projects/ArduDeck.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ProjectsIndex"
+              "title": "ArduDeck"
             }
           }
         ],
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MarkdownFiles/Projects/ProjectsIndex.md",
+                "file": "MarkdownFiles/Projects/ArduDeck.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MarkdownFiles/Projects/ProjectsIndex.md",
+                "file": "MarkdownFiles/Projects/ArduDeck.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -202,6 +202,7 @@
   },
   "active": "17fce32a60c15bfc",
   "lastOpenFiles": [
+    "MarkdownFiles/Projects/ProjectsIndex.md",
     "MarkdownFiles/Projects/ArduDeck.md",
     "HTML/Projects/ArduDeck.html",
     "MarkdownFiles/WebApps/WebAppsIndex.md",
@@ -212,7 +213,6 @@
     "MarkdownFiles/HomePage.md",
     "HTML/Art/Photography/Trash.html",
     "HTML/Art/Photography/Session1 copy.html",
-    "MarkdownFiles/Projects/ProjectsIndex.md",
     "Assets/Images/banners/TrashBanner.webp",
     "Assets/Images/banners/Trash.webp",
     "Assets/Images/banners/DSC_0207.webp",
