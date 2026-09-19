@@ -1,8 +1,7 @@
 
 # State Sanctioned Nature
 
-### Taken around the walking trails in Greeley, CO. in the Spring of 2026
-
+### You are allowed to enjoy this
 
 
 ![](/Assets/Images/Photography/Session1/1-DSC_0006.webp)

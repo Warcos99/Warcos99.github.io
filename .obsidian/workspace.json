@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MarkdownFiles/HomePage.md",
+                "file": "MarkdownFiles/Art/Photography/Session1.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "HomePage"
+              "title": "Session1"
+            }
+          },
+          {
+            "id": "17fce32a60c15bfc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MarkdownFiles/Projects/ProjectsIndex.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "ProjectsIndex"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -41,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -94,8 +111,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MarkdownFiles/HomePage.md",
-                "collapseAll": false,
+                "file": "MarkdownFiles/Projects/ProjectsIndex.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -104,7 +121,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for HomePage"
+              "title": "Backlinks"
             }
           },
           {
@@ -156,21 +173,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MarkdownFiles/HomePage.md",
+                "file": "MarkdownFiles/Projects/ProjectsIndex.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HomePage"
+              "title": "Outline"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,53 +200,52 @@
       "bases:Create new base": false
     }
   },
-  "active": "f3efbda42f5938c5",
+  "active": "17fce32a60c15bfc",
   "lastOpenFiles": [
+    "MarkdownFiles/Projects/ArduDeck.md",
+    "HTML/Projects/ArduDeck.html",
+    "MarkdownFiles/WebApps/WebAppsIndex.md",
+    "HTML/Projects/WebsiteHowTo copy.html",
+    "MarkdownFiles/Art/ArtIndex.md",
+    "MarkdownFiles/Art/Photography/Trash.md",
+    "MarkdownFiles/Art/Photography/Session1.md",
+    "MarkdownFiles/HomePage.md",
+    "HTML/Art/Photography/Trash.html",
+    "HTML/Art/Photography/Session1 copy.html",
+    "MarkdownFiles/Projects/ProjectsIndex.md",
+    "Assets/Images/banners/TrashBanner.webp",
+    "Assets/Images/banners/Trash.webp",
+    "Assets/Images/banners/DSC_0207.webp",
+    "Assets/Images/Photography/Trash/2-DSC_0140.webp",
+    "Assets/Images/Photography/Trash/1-DSC_0001.webp",
+    "Assets/Images/Photography/Trash/3-DSC_0144.webp",
+    "Assets/Images/Photography/Trash/4-DSC_0207.webp",
+    "Assets/Images/Photography/Trash/5-DSC_0209.webp",
+    "Assets/Images/Photography/Trash/6-DSC_0067.webp",
+    "Assets/Images/Photography/Trash/7-DSC_0104.webp",
+    "Assets/Images/Photography/Trash",
+    "MarkdownFiles/Blogs/BlogsIndex.md",
+    "MarkdownFiles/Blogs/ProjectLoudMouth.md",
+    "MarkdownFiles/Blogs/Tensions.md",
+    "HTML/Blogs/ProjectLoudMouth.html",
+    "HTML/Blogs/Tensions copy.html",
+    "MarkdownFiles/Projects/BeginnerBookbinding.md",
+    "MarkdownFiles/Projects/JavaScriptNotes1.md",
+    "MarkdownFiles/Projects/KantNotes1.md",
+    "MarkdownFiles/Projects/LinuxNotes.md",
+    "MarkdownFiles/Projects/WebsiteMakingNotes.md",
+    "MarkdownFiles/Projects/ytdlp.md",
+    "MarkdownFiles/CoolSites/CoolSitesIndex.md",
     "MarkdownFiles/Blogs/HowToArt.md",
     "Assets/Scripts/javascript.js~",
     "html.google.com.md",
     "MarkdownFiles/Projects/JavaScriptNotes.md",
-    "MarkdownFiles/HomePage.md",
-    "MarkdownFiles/Blogs/Tensions.md",
     "Secret/GallerySummary.md",
-    "Assets/Images/Secret/2026Q3Gallery/TheoAltmaier/horsetooth - Theo Altmaier.jpg",
-    "Assets/Images/Secret/2026Q3Gallery/TheoAltmaier/headshot - Theo Altmaier.jpg",
-    "Assets/Images/Secret/2026Q3Gallery/TheoAltmaier/Torn 2025 - Theo Altmaier.jpg",
-    "Assets/Images/Secret/2026Q3Gallery/TheoAltmaier/Our Lady of Witchcraft - Theo Altmaier.jpg",
-    "Assets/Images/Secret/2026Q3Gallery/TheoAltmaier/Mother of 1000 hands - Theo Altmaier.jpg",
-    "Assets/Images/Secret/2026Q3Gallery/TheoAltmaier/Mary Still loves us 2025 - Theo Altmaier.jpg",
-    "Assets/Images/Secret/2026Q3Gallery/TheoAltmaier/IMG_2997 - Theo Altmaier.JPG",
-    "Assets/Images/Secret/2026Q3Gallery/TheoAltmaier/IMG_2988 - Theo Altmaier.JPG",
-    "Assets/Images/Secret/2026Q3Gallery/TheoAltmaier/IMG_2977 - Theo Altmaier.JPG",
     "Assets/Images/Secret/2026Q3Gallery/TheoAltmaier",
-    "Assets/Images/Secret/2026Q3Gallery/ParkerMcGuire/PXL_20260504_015847162~2 - Parker Mcguire.jpg",
     "Assets/Images/Secret/2026Q3Gallery/ParkerMcGuire",
-    "Assets/Images/Secret/2026Q3Gallery/name",
-    "Assets/Images/Secret/2026Q3Gallery/MikiArrivas",
-    "Assets/Images/Secret/2026Q3Gallery/MaceyBoren",
-    "Assets/Images/Secret/2026Q3Gallery/KatFleetwood",
-    "Assets/Images/Secret/2026Q3Gallery/JaedynFritzler",
-    "Assets/Images/Secret/2026Q3Gallery/EveyHaight",
-    "Assets/Images/Secret/2026Q3Gallery/ClareFesker",
-    "MarkdownFiles/Blogs/BlogsIndex.md",
-    "MarkdownFiles/Art/ArtIndex.md",
-    "MarkdownFiles/Art/Photography/Session1.md",
-    "MarkdownFiles/CoolSites/CoolSitesIndex.md",
-    "MarkdownFiles/Projects/KantNotes1.md",
     "MarkdownFiles/AboutMe.md",
-    "MarkdownFiles/Projects/ytdlp.md",
-    "MarkdownFiles/Projects/ProjectsIndex.md",
     "MarkdownFiles/Projects/abcde.md",
-    "MarkdownFiles/Projects/LinuxNotes.md",
-    "MarkdownFiles/Projects/BeginnerBookbinding.md",
     "MarkdownFiles/Art/Stories/Goo.md",
-    "MarkdownFiles/Art/Essays/Hunger.md",
-    "MarkdownFiles/Art/Essays/Untitled.md",
-    "MarkdownFiles/Art/Essays/Emperor.md",
-    "MarkdownFiles/Art/Emperor.md",
-    "HTML/Art/Essays/Emperor.md",
-    "MarkdownFiles/Projects/KantReadingNotes.md",
-    "MarkdownFiles/Projects/WebsiteMakingNotes.md",
-    "www.britannica.com/biography/Immanuel-Kant.md"
+    "MarkdownFiles/Art/Essays/Hunger.md"
   ]
 }

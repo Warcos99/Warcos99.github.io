@@ -1,153 +1,166 @@
-# How to make art in a surveillance state
+# Project: Loudmouth
 
-## Ramblings about self expression in a world where where they know all that you do and think.
+![](/Assets/Images/banners/projectloudmouth.webp)
 
-- Data collection on your life is on a massive scale
-- AI is now capable of actually processing all that data
-	- AI is also capable of being wrong
-- expressions that are overtly critical of the current establishment are being met with unreasonable punishments
-- If they deem that you are too effective in criticizing them, they will find a way to arrest you
-- so how to make art? how to be critical? but also be safe
-- being safe is important. you will not be a martyr. you will be a prisoner.
-- how to avoid them using their outlandish power and money to get leverage over you?
-1. you stopping is what they want.  If they can make a few examples out of people, everyone else will be too scared, and free speech will be silenced.
-2. obfuscation techniques.
-  - they only need a couple paragraphs of work to correctly identify the author with stylography.
-  - digital obfuscation resources
-  - rhetorical obfuscation
-  - other obfuscation techniques
-- Yellow print dots that serialize prints.  Can we remove them?
-- Does anonymizing writers help protect anything?
-- let's move away from google for the zine specifically.
-- we can do alot to remove ourselves from the systems that surveil us, but honestly, it doesn't feel realistic that we can truly become invisible
-  - So if can't truly escape surveilance, what do we do?
-  - encode messages such that scanners don't get tripped by key words.  what are those key words?
-  - continue to operate.  How threatening we are to the current rhetoric is what determines if they take action against us
-    - so operate on a level that won't trigger their censors
-  - jokes, anectdotes, stories, and gossip are tools of dissent.  An assertion can covertly be made through them.
-  - simple sabotage is a tool of dissent that can be made under the guise of ineptitude.
+In the 18th century, philosopher and social theorist Jeremy Bentham came up with a concept that would go on to become incredibly important in understandings of the modern surveillance state.  This concept may be familiar to you already, it is the panopticon.  To briefly explain it, imagine a cylindrical tower functioning as a prison.  All the prison cells line the exterior walls of this tower. At the cylinder's core lies an observation deck.  This observation deck features one way glass, such that a guard on the inside could look at any of the cells and see what any particular prisoner is up to, but the prisoners themselves cannot see when they are being observed. A prisoner, never being fully sure that they are being watched, but being aware that they could be watched at any moment, then has to assume he is being observed, and thus self-regulates his behavior to be in line with what the singular guard wants. 
+
+The modern world is similar to that with all of our data out there and the ever looming thought that though someone is probably not looking at your personal digital footprint, they could be. So we are compelled to self-regulate, become more inert, and assume that what we say and what we do could be used against us.
+
+We live in interesting times, populist rhetoric is pushing society towards two extremes, one aching for revolution and another so ready to accept techno-fascism.  Throughout this essay I will be referring to an "adversary" but it is important to know that this adversary is no specific party. The adversary is whoever holds power over us, over you.  At this particular moment in history, this is corporations and governments unafraid to crib the fascist playbook, using the wealth of data they have access to, to control the social conversation, and arrest anyone who wishes to express critical opinions. If tomorrow, all the politicians and CEO's making our world gross disappeared, this problem would not.  The adversary exists whenever there is still an imbalance of power.  A world where the amount of information capable of being leveraged or weaponized against us is allowed to exist and persist without our consent will yield another adversary, one more skilled at hiding their abuse of said power.
+
+Do not read this as a specific guide for how to be loud in this particular situation, but rather, let this inspire to you be loud in every particular situation. 
+
+The essay will be structured into 3 parts.
+1. How the Adversary Knows - We will discuss all the ways in which the adversary keeps track of you.
+2. Actionable Steps towards your privacy - We will discuss some simple steps you can take to be more in control of your own data.
+3. When you can't obfuscate yourself - We will discuss what to do with the reality that you can't truly disengage from this system of surveillance.
+
+---
+
+## 1. How the Adversary knows you
+
+### Cameras and Microphones
+
+There are cameras and microphones everywhere.  I will refer to cameras and microphones as "cameras"for the rest of this section, as the two are intricately connected.  You already know there are cameras in your phones and computers.  There is security footage in almost every public space. Cameras exist in our homes, via devices like Ring Doorbells and voice activated smart speakers (i.e. Amazon Echo or Google Home). There are cameras in roads and parks that can identify licences plates and faces (such as the current influx of Flock cameras).  You should always assume that there is an camera in a space that you are unfamiliar with.  
+
+A lot of this camera footage is not stored securely and may even be accessed through rudimentary hacking efforts. Police forces use this network of cameras to track people without their consent. In certain cases, these cameras have even been used by ICE in coordination with stores like Home Depot to find and kidnap people.   Under the guise of keeping the peace, the adversary can use these camera networks to avoid getting warrants.
+
+### Loyalty Programs
+
+Stores will trade you offers and credits for membership to their free loyalty program.  Except it's not free.  As you may have guessed, they keep track of everything you buy with them.  If you have a loyalty card to King Soopers for example, King Soopers will know your exact shopping habits, and be able to build a profile about the kind of person you are based on the things you buy.
+
+### Printer Identification
+
+Every print from every printer ever will have a secret invisible mark.  This mark can tie a print job to a specific printer.  If the adversary finds a printout they want to pursue; they can find the printer that printed that document, and without a doubt connect the two.  If this printer is associated with you, they can directly connect you to your printout.  If this printer is in a public space, like a print-shop, they can look at camera footage to connect you to the print.
+
+There are ways to remove this invisible mark, but they are incredibly technical.  These methods also raise a lot of suspicions. If the adversary finds your printout moderately problematic, but they notice no mark, they might instead consider it greatly problematic, and actually begin to pursue you.
+
+If you print from a public library, libraries are not allowed to disclose any information to the police unless they have a warrant.  Most of the time, the police will be too lazy to actually go get a warrant, so that is moderately safe.  But if they really wanted to, they could get access to security camera information through a warrant and still connect you to the print.
+
+### Social Media
+
+Media that we post on social platforms have metadata that tell when and where the the media was created was taken.  Images reveal our location and text posts helps the adversary to build a profile from which they can do stylometry from.  If you have social media open in a tab, that site now has access to see every single tab you also have open.  Meta is the big offender here, but they are not the only ones keeping track of this stuff. Using this data about your neighboring tabs, social media companies can build a profile of the person you are.  If you are connecting with a friend through the internet, and social media is spying on you, they will also be able to spy on your friend, even if your friend is not on that social platform at all. This in turn lets the social media company build a profile even for people that are not within their system.
+
+### Social Engineering
+
+Let's say you successfully disconnect digitally from every source of digital surveillance. You remove yourself from every database you can find, live in the most remote part of the country, and refuse to engage with computers or cellphones.  Are you also disconnecting from your friends and family?  People organize themselves into networks, and as such, are prone to being "hacked" just the same.
+
+Social Engineering or Social Hacking is the process of using "human" methods to infiltrate and gather data where digital methods would fail.  For example, someone might call your phone company, claiming to be your partner, and in the process, getting the person on the phone to disclose your address or phone number. Somebody might enter your friend's friend group as a guise for getting information about you.  Am I saying this is going to happen to you? But I just want to highlight that unless you train everyone in your circle to cognizant of every style of social engineering attack out there, and keep up with developments in this space, you will never truly be able to disconnect from the system.  The idea of disengaging with this network of surveillance fully is a fantasy.
+
+### Stylometry
+
+Stylometry is the ability to determine authorship on an anonymous piece of writing. Here is how it works:  Imagine you write a zine, pamphlet, manifesto, or whatever else that you leave as anonymous.  As long as you have 6500 words for the adversary to analyze in that piece of writing, and they have access to more of your writing elsewhere (let's say social media or your website) that they can attribute to you, then they will be able to isolate your writing style and determine with some certainty whether this anonymous piece of writing was authored by you. 
+
+If this piece of writing is online, metadata on whatever site is hosting the writing can lead to more clues.  If this piece of writing is printed and dispersed, printer identification codes on the printouts themselves can also lead them to you.
+
+There is not much that can  be done to combat this.  There is really only 3 choices if this is something you are keen to fight. 
+
+1. Write as if you were a different author, with a different voice.  This is incredibly difficult to do correctly, and it is certain that elements of your own voice will appear in the cracks that can still be used to identify you.
+2. Write as if you had no voice.  This is easier to do, all you gotta do is write incredibly bland.  However this comes at a social cost.  Do we really want the manifestos of our time to read like instruction manuals?  As a society, there is something we are losing by doing this.
+3. Take your writing through a translator app, than take that and translate it again, and again.  After several iterations, translate back to it's intended language.  The downside of this one is that this is a pretty destructive process, and some of the original meaning of the piece is liable to be distorted or destroyed.
+
+### AI
+
+There is a lot of ways that the adversary can gather data about you, but they are all separate mechanisms. Combining them into one singular profile is rather labor intensive.  So much so that for a while we could believe that only the people in the direct eye of the adversary would have these specific profiles made. These profiles would be simulated personalities made in the mold of their digital footprint.  
+
+AI changes this. one of the things that AI is really good at is processing a lot of information, and it is becoming trivial for the adversary to take all these separate pieces of data and make profiles for lots and lots of people. It is feasible that each of us could have individual profiles in some database somewhere. The adversary could know everything they want about any of us now, because the labor involved in making these profiles is no longer a barrier.
+
+---
+
+## 2. Actionable steps towards your privacy
+
+### Plugins for Browser
+
+#### Plugin: AdNauseam
+
+This extension is an ad blocker with a special function. AdNauseam will block any ads from showing up on your feeds in your browser, and in the background will "click" on every single ad it sees.  The ad hosting companies will see that you show interests in everything, from pet food to tractor supplies.  That process of clicking on everything obfuscates your actual interests, as the ad hosting companies cannot differentiate what products AdNauseam is claiming you are interested in and what products you are actually interested in.  Data brokers getting data from these ad agencies then also loose the ability to make reliable profiles for people obfuscating their interests this way.
+
+#### Plugin: Privacy Badger
+
+This extension blocks hidden trackers on your tabs. The way that social media sites can track what tabs you have open so long as you have one of their tabs open is through these hidden trackers. Privacy Badger then essentially stops the ability for someone like Facebook to know what other tabs you have open so long as the plugin enabled.
+
+#### Plugin: TrackMeNot
+  
+  This extension will automatically send in random search queries through Google and other popular search engines.  Much like AdNauseam, by constantly sending out search queries of all sorts, it becomes difficult for search engines to build an accurate profile about what you are actually searching for.
+  
+### VPNs (Virtual Private Networks)
+
+The subject of VPNs can be very overwhelming, in overly simplified terms the main function of a VPN is to take all of your web-traffic, and funnel it through a different network, so that your ISP (Internet Service Provider) can not see what individual website you go to.  All your ISP will be able to see is that all web-traffic is going to this VPN.
+
+Why do we want to keep our web-traffic hidden from our internet service provider?  The biggest reason why your ISP is not a good steward of your data is that they often sell that browsing data to data brokers. That alone is bad enough, but depending on the adversary, they may use this ISP data to censor certain sites or build profiles of people using the internet, this way.  Your ISP as is now, is getting a complete profile from internet habits. It knows what websites you go to, what devices you use, what search history you have, and so on.  A good VPN will stop that.
+
+Obviously this is helpful in the sense that it blocks your activity from your ISP, and your ISP cannot use that data against you anymore.  A VPN does present two drawbacks though.
+
+1. The information of your activity is not destroyed from the system.  Whatever service you are using as your VPN provider, they now have all your browsing data.  And a VPN provider is not inherently less evil than an ISP.  Meaning you have to be very careful about what you choose as your VPN.  I encourage you to research which VPN options properly encrypt their data so that not even they have access to it, but if you need a place to start, I will make a specific suggestion.  Proton's business model leaves a bad taste in my mouth, as they are a for profit business that masquerades as a non-profit, selling you your privacy. That being said, so far as one can tell, the free tier of their VPN for the phone is very robust, and it really does seem like they are properly encrypting their data.  Start there, and then take some time to research a more complete alternative.  
+2. VPNs will slow down your connection.  It won't be a significant delay, but it will happen.  The more steps you take to put something in between you and the corporations spying on you, the more steps your internet connection will have to go through as well. For most use cases, you might not even notice, though.
+### TOR
+
+This will be a super simplified explanation of TOR, the software used to access "the dark web".  Personal research is advised at this point, as this is a fairly complex topic.
+
+There is a public conception out there that if you are using a TOR browser, you are on the dark-web and you must only be up to no good.  The truth is that only 6%-7% of web traffic through tor is interacting with what might be considered the "dark web", the rest of the web traffic is benign and normal.  TOR works in a peculiar way.  In a normal browser situation, if you wish to go to the website HelloWorld.com, you will be sending a data packet to the HelloWorld.com server. That data packet will contain a message saying "Hey, I want to see this page, please send me the data for it to display on my screen".  HelloWorld.com will see that packet and send it's own packet back to you with all that information requested. In this scenario, the adversary could keep track of what packets are coming to certain websites, and follow them back to see which users are requesting those packets. The adversary could also see exactly what is inside those packets, and be able to figure out even more about users on those websites.  
+
+TOR's changes come in how computers request packets from websites.  Everyone using TOR becomes a single node in a huge network of nodes. When someone sends out a packet intended for HelloWorld.com, instead of going directly to HelloWorld.com, it goes to another node in the network (another TOR user). That other node realizes this packet is not intended for it, so it just pushes it forward into another node, this process repeats several times until eventually it reaches the HelloWorld.com server. the HelloWorld.com server sees this packet, and sends a response back, and the response packet makes its way through that network of nodes until it makes its way back to the original user who requested it.  
+
+From that user's perspective, everything looked mostly the same, they sent out a packet requesting information, and received that response. But from the adversary's perspective, when they saw a packet arrive at the website they are observing, they can not be sure if the computer that sent that request is actually the one that sent out the original packet, or if it is just a node in this network of TOR using computers.
+
+TOR and other systems like it work best when lots of people are using the system.  If only two people ever used it, it would be pretty easy to decipher who was sending what, but if everyone used it, it would make it's security much stronger.  Perhaps the mythical nature of the "dark web" and the stigma associated with it are narratives deliberately planted in our culture to dissuade us from protecting our selves with it.  
+
+### Leave your phone behind
+
+This is well documented, but even when a phone is powered off, it can still record and send data to the adversary. The adversary can put up fake phone tower signals that can connect to your phone, and collect your data.
+
+Some believe Faraday cages could be a solution, but Faraday cages you might buy that advertise the ability to block the phone from all signals are hit or miss, and not advisable to depend on.
+
+If you attending a rally, protest, or any sort of event expressing anything critical of the adversary, please leave your phone behind.  The adversary will know you were present.  There is a good chance they might know you would be likely to go to this event already based on the profile they would be able to build from the data they already have, but you don't need to give them the information to confirm that their profile is accurate.
+
+If you must, bring in walkie-talkies or better yet, a mesh device.
+
+### Meshtastic / Meshcore
+
+By "mesh device" I am referring to a device capable of connecting to a Meshtastic or Meshcore network.  There are other protocols for other types of mesh networks, but these two are the most popular. I will focus on explaining Meshtastic, as it is the most popular and has the most infrastructure and communities built around it.
+
+The simplest way I can describe what a mesh-device and a Meshtastic network are is this way: Imagine a handheld radio that has a limited range.  Now imagine this radio has the capability to transmit and receive complex data packets (like texts) instead of simple audio waves. That is a mesh device.  Meshtastic is a network of mesh devices configured to extend the range and usability of these devices. Below is a simple explanation of how it all works.
+
+To understand a Meshtastic network Imagine you have a potato, and you want to send it to your friend that is 3 miles away.  Individually, you can only toss the potato several meters, so you toss it to someone next to you. That person next to you catches it and tosses it several meters forward to someone next to them. This process repeats until the potato finally reaches your friend.  Now imagine instead a collection of radios sending messages instead of throwing potatoes. This is a mesh network, and the most popular mesh protocol, Meshtastic is so abundant that most major cities now have a healthy network you can already jump into.  You can create your own Meshtastic device pretty easily with some simple parts, but you can also buy one for relatively cheap.  You can add dongles to your phone to make that Meshtastic device and do the same for your computer.  The barrier for entry for this network of communication gets lower and lower each year.  
+
+Like TOR, Meshtastic (and Meshcore) is a system that gets more powerful the more people embrace it.  It is a way to communicate with others completely independent of phone or internet companies.  This is an open source project, so for every company that tries to capitalize on this, you have independent people who make their own improvements and devices for free.  
+
+The user experience is admittedly more complicated than just sending a text, but you have complete independence when doing so, and each year the community makes the process easier and easier.
+
+### Loyalty Card Exchange
+
+This one is simple, intuitive, and effective.  Stores track what you buy, especially if you have some sort of loyalty card.  If you are buying groceries at King Soopers, and you present your loyalty card to get discounts or gas credits, King Soopers is keeping a tally on what you are buying, and building a profile on you.  
+
+If you give your loyalty card to your friend, and your friend gives you their loyalty card, suddenly, the store cannot build an appropriate profile.  Did you buy that orange juice? Or was it your friend?  By making a network of loyalty card exchanges between several people, where you rotate loyalty cards on a regular basis, it gets even more difficult to identify who is buying what? 
+
+You can even find groups online to exchange loyalty cards in a much much larger network, making it nearly impossible to identify who is buying what.
+
 
 
 ---
 
-## Notes on Obfuscation by Finn Brunton and Helen Nissenbaum
+## 3. When you can't obfuscate yourself
 
-- Babble Tapes
-  - Recordings of many voices talking over each other.  The voices of the people having an actual conversation must also be a part of this voice spaghetti.  Makes it nearly impossible to figure out who is talking about what, if you are being recorded.
-- Tor Relays
-  - asdf
-- TrackMeNot
-- AdNauseam
-- Vortex: Cookie Obfuscation Game
-- Swapping Loyalty Cards
-  - Joining an online community of swapping loyalty cards destroys reliance on information about you or your community.  This can potentially be bad for a grocery store.
-  - Swapping loyalty cards in a local community retains diagnostic information a store might need to operate successfully.  But it will destroy information about your personal spending habbits.
-- Stylometry
-  - The art of identifying an author based on how they write. 
-  - An author can be identified with as few as 6,500 words (as of 2016, probably fewer now with new technologies)
-  - Three different attack vectors to avoid this
-    1. Translation Attack
-      - Translate text to different language. then keep translating for several chains. Translate back to english.
-      - this removes stylometry information.  But it also can destroy or distort the meaning of the text
-    2. Imitation Attack
-      - Try to immitate someone else's style
-      - results will point to that other person's style, but it won't match, so secondary stylometric behaviors will be identified, and they will most likely point to you.  It is very hard to pull this off correctly.
-    3. obfuscation attack
-      - remove all stylometric information by writing really bland.  This can be achieved with digital tools.
-      - But as a society we loose political manifestos that strive for rhetorical greatness
+The first section talked about every way in which the adversary can build a profile on you. The second section talked about ways in which you could obfuscate that profile.  But writers, artists, and creatives must be cognizant that the work they create will inevitably be identified as being authored by them. As expressed earlier, escaping from this system of surveillance is a fantasy.  Knowing that authorship will likely not be obfuscated, let's talk about what you can obfuscate instead to protect yourself.
 
-*Obfuscation is about goals*
+### Obfuscate your intention
 
-- Will it work? - it depends. what are you trying to achieve?
-- Teens under alot of scrutiny are looking to share *content* without sharing *meaning*
-  - limiting access to meaning is how they deal with having no ability to create private spaces with each other.
-  - the goal is not to disappear or maintain total informational control. It is to limit and shape the community that can accurately interpret actions that everyone can see.
-- Examples of obfuscations tend to fall into these categories
-  - buying time
-    - radar chaff example in WW2
-    - tend to be elegantly simple. but require deep appreciation of the inner mechancis
-    - dealing with bauracracy
-    - slowing processing time
-    - using identical confederates
-    - false information
-  - provide cover
-    - Keeping adversary from definitively connecing particular activities, outcomes, or objects to an actor.
-    - babble tapes
-  - for deniability
-    - does not hide the action. hides the *decision*, making it hard to connect actor to action with certainty.
-    - TOR relays
-    - Simulated uploads
-    - shuffling SIM cards
-  - to prevent individual exposure
-    - Specifically, ways to keep the social utility of data without identifying individual people
-    - CacheCloak
-    - Swapping loyalty cards
-  - to interfere with profiling
-    - Vortex
-    - TrackMeNot
-  - To express protest
-    - many of the methods above are also forms of protest
-    - is your obfuscation intended to keep you un-noticed? To make you seem innocuous? Or to make your dissent known?
+Obfuscate your intention, a simple example of this would be the way that Winnie the pooh is used in china to make fun of Xi Jingping.  This "funny meme" has been completely censored because it's not just a "funny meme" it's powerful political message, but it has the power that someone sharing this message can simply claim they are sharing a funny picture.  The Adversary there cannot be sure if someone is engaging in political commentary or if they are simply making funny jokes.
 
-*Q2 Individual or Collective?*
+Humor and satire is not the only way to obfuscate intention, but it is the most common.
 
-- An obfuscation technique that builds collective action can spur adoption through the "network effect".
-- A technique that relies on obscurity - or something an adversary is not looking for - benefits from exclusivity
+### Obfuscate your meaning
 
-*Q3 Known or Uknown?*
+Sometimes, what you ought to do is to hide your meaning in your work in such a way that people who would seek to destroy it would not understand it.  Maybe your painting features an obvious subject, but the way in which it is painted is actually telling a deeper truth that is only accessible to someone who is willing to engage with the material.
 
-- can your method work if your adversary knows it is being employed?
-- for time buying techniques, the answers don't matter. But more complex methods will require thinking about this.
+Figuring out how both of these methods of obfuscation apply to your art and your voice is for you to figure out.  
 
-*Q4 Selective or General?*
+## Final note
 
-- an understanding of the adversary is necessary
-- what information do they have? how do they use it? etc...
-- is it a general attempt at covering your tracks? or is it a directed technique meant to tackle a specific threat?
-- Is the adversary targeting you? or more general data aggregation?
-  - if they are targeting you, you must find ways to mirepresent your data.
-- is your technique supposed to provide selective benefit? or general benefit?
-  - For example, if TrackMeNot works, not only is it casting doubt on your profile, but also on other profiles on the batch.
-- Is your obfuscation trying to make it so no one knows what is real and obfuscation? or is it so that your adversary can't get any value from that data?
+Be aware of vectors of attack on your privacy and data.
 
-*Q5 Short term or long term?*
+Protect yourself as much as you can.
 
-- certain data may be innoquous now, but regime change or change of hands may render it dangerous.
-- Its important to think of these things now so that you don't come up on any issues in the future.
+Don't let them scare you into silence, be loud.
 
----
-
-
-# Draft 1
-
-It is becoming increasingly clear that the adversary is quickly developing the technology to surveil us with totality.  The data has always been there, since the rise of social media, an alarming amount of information about your personal life is out and about for people to find.  Even if you refuse to participate in the technology that is trading people's privacy for comforts, you are still subject to their surveilance.  Facebook for example can not only keep track of a facebook user's activities within the platform, but outside of it too.  If you have facebook open in a tab, facebook has the ability to see what other tabs you have open.  If you connect with an individual that is not on facebook, they can start building a profile of this individual based on your interactions with them.  At first this was all concerning on paper, but I don't think people truly believed the user would be treated like some sort of prisoner.  I think this overwhelming social neglect for the protection of our privacy came about for three reasons.
-
-1. Nobody actually believed a government or corporation could become tyranical.  They do so all the time, but in the western world, we are so shielded to the atrocities that are commited in the name of business that even when we hear about them, it's easier to pretend they are not real, or maybe they are not as bad as people say, than it is to process the inhumane torment that is caused on entire peoples because corporations really need to make sure your banana is the cheapest fruit in the fruit isle.  We are so far removed from that pain, that I don't trust we as a society actually believe is real.  This is not any form of judgement, It makes sense that we would be blind to the things those in power want us to be blind to.  You cannot expect every citizen to be able to spend time researching every fruit they buy, especially when money is tight.  But that is not to indicate that this status quo of being should be kept as is.  
-2. Social Media as a technology for converting private lives into convenience was still very new when these facts started to surface.  People really did not understand what it meant for someone to have "your data".  Since then we have had over a decade to begin to understand the implications of what is really at steak here.  At first stories of parents finding out their daughter is pregnant from Target adds were curiosities to be in awe about.  Now, stories of people going to jail for making zines, Disney not taking accountability for the death of a woman, because the husband had "agreed to the terms of use of Disney+", and much are coming to light.  It's becoming clear now that not only will companies and governments will know more than you could possibly imagine about you, they will happily use it against you.
-3. The fact was that back then, there was so much data that sorting through all of it was kind of impossible. One craft data scientist might be able to take all of that data and make really intelligent guesses about demographics of people.  And while they might be able to identify you in that demographic, making a dedicated profile for individuals was not in the realm of possibilities at a large enough scale.  So I think we all had the thought that so long as we don't become a high profile target, we are not going to be subjected to individualized surveilance.  Well now that is also no longer true. The Advent of Generative AI is a field that you will notice the biggest tech companies and governments in the world race to perfect.  If you think this is because they want to make a good product, then you are wrong.  Generative AI is bad at a lot of things, but one thing it's particularly good at is sorting through lots of data and making lots of little profiles from it.  Cameras in the streets, in parking lots, in stores, and in front porches now come armed with AI features that let them identify who is in frame.  AI is used to take at all this data and identify an individual's commute throughout the surveiled city.  In a lot of ways, police won't need to bother filing warrants if they have unrestricted access to this information. Were you at the library printing revolutionary zines?  They don't need a warant to examine the library, if they have footage of you going into the library from your home, and they can trace your zine to the correct printer. (They would need a warrant to examine the printer, but that the point still stands).
-
-So to summarize, privacy as a point of concern used to be put to the side as other things seemed more pressing, like the destruction of the planet, or the atrocities commitied on third world countries.  But as companies and governments become more bold and authoritarian even within our shielded western world, it becomes clear that you need to have a plan in place to protect yourself as you make art in a surveilance state.
-
-## Fear as a tactic
-
-Not to introduce cliche'd explanations of the panopticon, but learning about all this stuff can lead someone to believe that the safest route is to comply, to be safe in your art.  That is the ultimate goal of an authoritarian state.  They don't need to expend their resources and energy forcing people to comply if the fear of their retribution keeps people docile.
-
-You might think that I am telling you to create actively revolutionary art, but that is not what I am saying.  What I explicitely mean to express is that an authoritarian government will interpret anything that is not comensurate with their worldview as problematic. You like art that is abstract and messy?  Fascist government does not, if it is not hyper-realistic landscapes, then they cannot allow for it.  See Art works on a deeply internal level. The first wave of punk rock was not problematic because they were actively critical of the political estate.  No, Iggy Pop, the Ramones, and that whole first wave of music was problematic because it challenged what it meant for established music studios to have control over the music industry.  It wasn't until the 2nd generation of punk music that it started to become actively political.  The same goes for any art that you might create.  The simple virtue of an artist expressing themselves without fear is means enough for concern. 
-
-So when I say that the response of creating art in a "safe" capicity is wrong, I don't mean to say that the right answer is to be actively antagonistic, but rather, the right answer is to express yourself free from fear of retribution.  Despite how much the right will co-opt the term "free speech" to justify their hate speech, you still have an actual right to free speech.
-
-As we continue talking in this essay about the cunundrum and the danger of creating in a surveilance state, I implore you to keep creating powerful and deeply true art.
-
-## Actual Tactics to Obfuscate yourself
-
-First, I want to go over some simple tactics that will give you more freedom to maneuver, but in the next section I will also explain why that won't be enough, and why you will need to tackle this problem from a "self-philosophical" point of view.
-
-1.Plugins for your browser
-  - AdNauseam : This extension is an addblocker with a special function. AdNauseam will block any adds from showing up on your feeds in your browser, and in the background will "click" on every single add it sees.  The Ad hosting companies will see that you show interestes in everything, from pet food to sex toys.  And with that, it will become impossible to tell what products you actually are interested in and what products AdNauseam is claiming you are interested in.  Ad agencies will loose the ability to build a reliable profile about your shopping habbits.
-  - Privacy Badger : This extension blocks hidden trackers on your tabs. Remember how i mentioned that facebook can see what tabs you have open if you have facebook open in any tab in your browser?  Privacy Badger stops that.  This is not exclusively for facebook, but every Meta website does this, and every website that Meta is connected to can do this too.  Have your facebook account attached to canva? Well, now canva can spy on you too.  Privacy Badger will help a little in that respect.
-  - TrackMeNot : This extension will automatically send in random search queries through google and other popular search engines.  Much like AdNauseam, by constantly sending out search queries of all sorts, it becomes difficult for search engines to build an accurate profile about what you are actually searching for.
-2. VPNs
-  - The subject of VPNs can be very overwhelming, so I will simplify it as much as I can. As you may be aware the main function of a VPN is to take all of your webtraffic, and funnel through a different network, so that your ISP (Internet Service Provider) can not see what individual website you go to, instead all it sees is that all of your webtraffic is going to this VPN.  
-  - This is helpful because you are no longer exposing your website behaviors to your ISP.  But if you are not careful about what VPN you choose, all of that webtraffic you are trying to hide will still be visible to the VPN itself, and if they are breached your data will become visible that way.  Also, it is well within the means of the VPN provider to sell the data they collect on you themselves.
-  - What you want is a VPN that is verified to encrypt your data so that not even they can access it.  There is alot to research here, but in the spirit of keeping things simple, Proton VPN seems to be a safe choice, and their free option should be more than enough for most people.  Personally, I don't love proton, their commodification of privacy puts a bad taste in my mouth, but I won't deny that as far as free VPNs go, this is a pretty solid option.
 

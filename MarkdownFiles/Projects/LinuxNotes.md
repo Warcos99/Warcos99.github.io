@@ -1,28 +1,5 @@
 # Notes for my Linux Terminal PC
 
-I have an old laptop that is too old to run anything by arch Linux running on pure tty.  Running any sort of graphical interface is just too damn slow.
-
-So here, I am putting some notes that make running a computer on terminal only usable.
-
----
-
-### Downloading apps
-
-```
-sudo pacman -S [appname]
-```
-or 
-```
-yay -S [appname]
-```
-
-and Updating all just run:
-
-```
-sudo pacman -Syu
-```
-
-
 
 ---
 

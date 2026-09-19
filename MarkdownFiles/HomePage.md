@@ -13,23 +13,23 @@ This site functions as a public record of my commonplace notes, mostly for use a
 
 ---
 
-### Blog: A Theory of Tensions
+### Blog: Project LoudMouth
 
-[![](/Assets/Images/Blogs/Tensions/IMG_5952.webp)](/HTML/Blogs/Tensions.html)
-
----
-
-### Project: Learning JavaScript
-
-[![](/Assets/Images/cat.jpg)](/HTML/Projects/JavaScriptNotes1.html)
+[![](Assets/Images/banners/projectloudmouth.webp)](/HTML/Blogs/ProjectLoudMouth.html)
 
 ---
 
-### Art: Photography Session "State Sanctioned Nature"
+### Project: ArduDeck
 
-[![](/Assets/Images/Photography/Session1/3-DSC_0042.webp)](/HTML/Art/Photography/Session1.html)
+[![](/Assets/Images/cat.jpg)](/HTML/Projects/ArduDeck.html)
+
+---
+
+### Art: Photography Session "Trash"
+
+[![](Assets/Images/banners/TrashBanner.webp)](/HTML/Art/Photography/Trash.html)
 
 
 ---
 
-This page was last updated: 7/07/2026
+This page was last updated: 9/18/2026

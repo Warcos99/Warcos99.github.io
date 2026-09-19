@@ -29,6 +29,7 @@ loadMarkdown("/MarkdownFiles/AboutMe.md", "AboutMe");
 /* ---- Calls for Blogs page ---- */
 loadMarkdown("/MarkdownFiles/Blogs/BlogsIndex.md", "Blogs");
 loadMarkdown("/MarkdownFiles/Blogs/Tensions.md", "Tensions");
+loadMarkdown("/MarkdownFiles/Blogs/ProjectLoudMouth.md", "ProjectLoudMouth");
 
 /* ---- Calls for Projects page ---- */
 loadMarkdown("/MarkdownFiles/Projects/ProjectsIndex.md", "Projects");
@@ -39,6 +40,7 @@ loadMarkdown("/MarkdownFiles/Projects/KantNotes1.md", "KantNotes1");
 loadMarkdown("/MarkdownFiles/Projects/abcde.md", "abcde");
 loadMarkdown("/MarkdownFiles/Projects/ytdlp.md", "ytdlp");
 loadMarkdown("/MarkdownFiles/Projects/JavaScriptNotes1.md", "JavaScriptNotes1");
+loadMarkdown("/MarkdownFiles/Projects/ArduDeck.md", "ArduDeck");
 
 /* ---- Calls for Art page ---- */
 loadMarkdown("/MarkdownFiles/Art/ArtIndex.md", "Art");
@@ -46,6 +48,7 @@ loadMarkdown("/MarkdownFiles/Art/Essays/Emperor.md", "Emperor");
 loadMarkdown("/MarkdownFiles/Art/Essays/Hunger.md", "Hunger");
 loadMarkdown("/MarkdownFiles/Art/Stories/Goo.md", "Goo");
 loadMarkdown("/MarkdownFiles/Art/Photography/Session1.md", "PhotoSession1");
+loadMarkdown("/MarkdownFiles/Art/Photography/Trash.md", "Trash");
 
 /* ---- Calls for CoolSites ---- */
 loadMarkdown("/MarkdownFiles/CoolSites/CoolSitesIndex.md", "CoolSites");
