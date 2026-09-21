@@ -13,7 +13,7 @@ This site functions as a public record of my commonplace notes, mostly for use a
 
 ---
 
-### Blog: Project LoudMouth
+### Blog: LoudMouth
 
 [![](Assets/Images/banners/projectloudmouth.webp)](/HTML/Blogs/ProjectLoudMouth.html)
 
@@ -21,7 +21,7 @@ This site functions as a public record of my commonplace notes, mostly for use a
 
 ### Project: ArduDeck
 
-[![](/Assets/Images/cat.jpg)](/HTML/Projects/ArduDeck.html)
+[![](Assets/Images/projects/ArduDeck/Schematic_ArduDeck3.0_2026-09-19.webp)](/HTML/Projects/ArduDeck.html)
 
 ---
 
@@ -32,4 +32,4 @@ This site functions as a public record of my commonplace notes, mostly for use a
 
 ---
 
-This page was last updated: 9/18/2026
+This page was last updated: 9/20/2026
