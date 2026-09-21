@@ -67,4 +67,7 @@ This does bring a final point though, all these other files that are not officia
 
 ## 2. Wiring Diagram, PCB, and Housing
 
-![](Assets/Images/projects/ArduDeck/Schematic_ArduDeck3.0_2026-09-19.webp)
+Here is a schematic for the circuit. You can find the Gerber files for a PCB you can order in the GitHub page.
+
+![](/Assets/Images/projects/ArduDeck/Schematic_ArduDeck3.0_2026-09-19.webp)
+

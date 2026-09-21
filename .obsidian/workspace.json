@@ -29,7 +29,7 @@
               "state": {
                 "file": "MarkdownFiles/Projects/ArduDeck.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "ArduDeck"
