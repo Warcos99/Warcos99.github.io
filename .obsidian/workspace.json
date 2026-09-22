@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MarkdownFiles/Projects/ArduDeck.md",
+                "file": "MarkdownFiles/Blogs/ProjectLoudMouth.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ArduDeck"
+              "title": "ProjectLoudMouth"
             }
           }
         ],
@@ -203,8 +203,8 @@
   },
   "active": "17fce32a60c15bfc",
   "lastOpenFiles": [
-    "MarkdownFiles/HomePage.md",
     "MarkdownFiles/Projects/ArduDeck.md",
+    "MarkdownFiles/HomePage.md",
     "Assets/Images/projects/ArduDeck/555BounceFreeSwitch.webp",
     "Assets/Images/projects/ArduDeck/555Debounce.webp",
     "MarkdownFiles/Blogs/ProjectLoudMouth.md",
