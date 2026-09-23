@@ -1,5 +1,7 @@
 # ArduDeck
 
+![](/Assets/Images/projects/ArduDeck/ArduDeck.webp)
+
 ArduDeck is an *Arduino cyber-deck* or something like it.  It is a printable PCB and code base that allows for a quick integration of an Arduino, screen, buttons, and menu.  This in theory should allow anyone using this infrastructure to make whatever apps they wish for their Arduino based cyber-deck.
 
 You can find the GitHub page here with the code and a very simple readme file: [GitHub](https://github.com/Warcos99/ArduDeck)
