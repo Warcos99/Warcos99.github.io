@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MarkdownFiles/Art/ArtIndex.md",
+                "file": "MarkdownFiles/WebApps/WebAppsIndex.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ArtIndex"
+              "title": "WebAppsIndex"
             }
           }
         ],
@@ -203,8 +203,8 @@
   },
   "active": "17fce32a60c15bfc",
   "lastOpenFiles": [
-    "MarkdownFiles/Blogs/BlogsIndex.md",
     "MarkdownFiles/Art/ArtIndex.md",
+    "MarkdownFiles/Blogs/BlogsIndex.md",
     "MarkdownFiles/Art/Photography/Session1.md",
     "MarkdownFiles/Projects/ArduDeck.md",
     "MarkdownFiles/Blogs/ProjectLoudMouth.md",
