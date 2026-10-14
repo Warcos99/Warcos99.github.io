@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MarkdownFiles/WebApps/WebAppsIndex.md",
+                "file": "MarkdownFiles/Blogs/BlogsIndex.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "WebAppsIndex"
+              "title": "BlogsIndex"
             }
           }
         ],
@@ -203,8 +203,9 @@
   },
   "active": "17fce32a60c15bfc",
   "lastOpenFiles": [
-    "MarkdownFiles/Art/ArtIndex.md",
     "MarkdownFiles/Blogs/BlogsIndex.md",
+    "MarkdownFiles/WebApps/WebAppsIndex.md",
+    "MarkdownFiles/Art/ArtIndex.md",
     "MarkdownFiles/Art/Photography/Session1.md",
     "MarkdownFiles/Projects/ArduDeck.md",
     "MarkdownFiles/Blogs/ProjectLoudMouth.md",
@@ -213,7 +214,6 @@
     "Assets/Images/projects/ArduDeck/555Debounce.webp",
     "MarkdownFiles/Projects/ProjectsIndex.md",
     "HTML/Projects/ArduDeck.html",
-    "MarkdownFiles/WebApps/WebAppsIndex.md",
     "HTML/Projects/WebsiteHowTo copy.html",
     "MarkdownFiles/Art/Photography/Trash.md",
     "HTML/Art/Photography/Trash.html",

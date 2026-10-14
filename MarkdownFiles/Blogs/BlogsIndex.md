@@ -13,6 +13,12 @@
 
 [![](/Assets/Images/Blogs/Tensions/IMG_5952.webp)](/HTML/Blogs/Tensions.html)
 
-- [The Emperor Has No Clothes](/HTML/Art/Essays/Emperor.html)
-- [Ceaseless Hunger](/HTML/Art/Essays/Hunger.html)
+<div style="text-align: center;">2026: The Emperor has no clothes</div>
+
+[![](/Assets/Images/Blogs/Tensions/IMG_5952.webp)](/HTML/Art/Essays/Emperor.html)
+
+<div style="text-align: center;">2025: Ceaseless Hunger</div>
+
+[![](/Assets/Images/Blogs/Tensions/IMG_5952.webp)](/HTML/Art/Essays/Hunger.html)
+
 
