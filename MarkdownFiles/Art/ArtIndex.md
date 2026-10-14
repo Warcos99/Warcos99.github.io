@@ -1,15 +1,4 @@
-# Art
-
----
-
-## Essays
-
-- [The Emperor Has No Clothes](/HTML/Art/Essays/Emperor.html)
-- [Ceaseless Hunger](/HTML/Art/Essays/Hunger.html)
-
----
-
-## Photography
+# Photography
 
 ### Trash - Summer 2026 Greeley CO.
 
