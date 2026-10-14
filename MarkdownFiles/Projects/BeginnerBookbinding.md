@@ -14,7 +14,6 @@
 	- Book Arts, Bookbinding, Book Restoration
 - Discuss the composition of a book and terminology
 - Practice simple but high impact techniques
-- Create a simple book as an exercise to practice these techniques
 
 ---
 
@@ -28,7 +27,7 @@ The tools needed to produce good quality books are very humble.
 - Needle and Thread
 - Awl
 - Beeswax
-- Bricks (not in this kit)
+- Bricks
 
 ---
 
