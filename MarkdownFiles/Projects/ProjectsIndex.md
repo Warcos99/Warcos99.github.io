@@ -17,7 +17,7 @@
 ---
 
 ## Bookbinding
-- [Beginner Bookbinding Library Program](/HTML/Projects/BeginnerBookbinding.html)
+- [Beginner Bookbinding Notes](/HTML/Projects/BeginnerBookbinding.html)
 
 ---
 

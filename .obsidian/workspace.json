@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MarkdownFiles/Blogs/BlogsIndex.md",
+                "file": "MarkdownFiles/Projects/ProjectsIndex.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "BlogsIndex"
+              "title": "ProjectsIndex"
             }
           }
         ],
@@ -203,6 +203,7 @@
   },
   "active": "17fce32a60c15bfc",
   "lastOpenFiles": [
+    "MarkdownFiles/Projects/BeginnerBookbinding.md",
     "MarkdownFiles/Blogs/BlogsIndex.md",
     "MarkdownFiles/WebApps/WebAppsIndex.md",
     "MarkdownFiles/Art/ArtIndex.md",
@@ -230,7 +231,6 @@
     "MarkdownFiles/Blogs/Tensions.md",
     "HTML/Blogs/ProjectLoudMouth.html",
     "HTML/Blogs/Tensions copy.html",
-    "MarkdownFiles/Projects/BeginnerBookbinding.md",
     "MarkdownFiles/Projects/JavaScriptNotes1.md",
     "MarkdownFiles/Projects/KantNotes1.md",
     "MarkdownFiles/Projects/LinuxNotes.md",

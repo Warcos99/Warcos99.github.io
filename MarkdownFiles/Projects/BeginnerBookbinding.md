@@ -1,7 +1,8 @@
-Below is a transcript of the slides used in a presentation I gave on beginner bookbinding for the Library.
 
+# Notes for Beginner Bookbinders
 
 <img src="/Assets/Images/BeginnerBookbinding/cover.jpg" style="height:80vh">
+
 
 ---
 
@@ -267,54 +268,3 @@ Can be highly technical, requiring knowledge of historical bookbinding technique
 
 <img src="/Assets/Images/BeginnerBookbinding/wax.jpg" style="width:80vw">
 
----
-
-# Pamphlet Style Sewing Pattern
-
-<img src="/Assets/Images/BeginnerBookbinding/pamphlet1.png" style="width:80vw">
-
----
-
-# Pamphlet Style Sewing Pattern
-
----
-
-# Other Projects: Coptic Stitch
-
-- No gluing required
-- Aesthetically Pretty Visible thread on outside
-- Book lays flat
-
-<img src="/Assets/Images/BeginnerBookbinding/copticstitch.jpg" style="width:80vw">
-
----
-
-# Other Projects: French Link Stitch
-
-- For more traditional books
-- No ribbons or chords in the spine required
-- Sewing provides a lot of structural strength to spine
-
-<img src="/Assets/Images/BeginnerBookbinding/frenchlink.jpg" style="width:80vw">
-
----
-
-# Other Projects: Perfect Binding
-
-- No sewing required, Binding with only glue
-- Used in magazine style binding
-- Used to bind single sheets together
-
-<img src="/Assets/Images/BeginnerBookbinding/perfectbinding.jpg" style="width:80vw">
-
----
-
-# Other Resources
-
-- Non-Adhesive Binding - Keith A. Smith
-- Hand Bookbinding - Aldren A. Watson
-- Bookbinding: A step by step guide - Kathy Abott
-- Bound to Be Beautiful - Zaki Bari
-- Bookbinding - Edith Diehl
-- DAS Bookbinding (Youtube)
-- Four Keys Book Arts (youtube)
