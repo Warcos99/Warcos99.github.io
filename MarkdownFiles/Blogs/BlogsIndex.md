@@ -1,24 +1,25 @@
-# Latest Blogs
+# Latest Blog
 
+#### Loudmouth (2026/09/18)
 
-<div style="text-align: center;">2026/9/18: Project Loudouth</div>
+*You live in a surveillance state. You must continue to make art.*
 
 [![](/Assets/Images/banners/projectloudmouth.webp)](/HTML/Blogs/ProjectLoudMouth.html)
 
+
+
+
 ---
+
 
 ### Other Blogs
 
-<div style="text-align: center;">2026/6/13: A Theory of Tensions</div>
-
-[![](/Assets/Images/Blogs/Tensions/IMG_5952.webp)](/HTML/Blogs/Tensions.html)
-
-<div style="text-align: center;">2026: The Emperor has no clothes</div>
-
-[![](/Assets/Images/Blogs/Tensions/IMG_5952.webp)](/HTML/Art/Essays/Emperor.html)
-
-<div style="text-align: center;">2025: Ceaseless Hunger</div>
-
-[![](/Assets/Images/Blogs/Tensions/IMG_5952.webp)](/HTML/Art/Essays/Hunger.html)
-
+- [Loudmouth (2026/09/18)](/HTML/Blogs/ProjectLoudMouth.html)
+    - You live in a surveillance state. You must continue to make art.
+- [A theory of tensions (2026/06/13)](/HTML/Blogs/Tensions.html)
+    - A visual exploration of how complex ideas pull on each other.
+- [The Emperor has no clothes (2026)](/HTML/Art/Essays/Emperor.html)
+    - We must state what we see to be true, no matter how obvious it is.
+- [Ceaseless Hunger (2024)](/HTML/Art/Essays/Hunger.html)
+    - or the cult of capitalism
 
