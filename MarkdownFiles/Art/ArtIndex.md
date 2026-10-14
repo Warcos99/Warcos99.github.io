@@ -9,12 +9,6 @@
 
 ---
 
-## Stories
-
-- [Existential Goo](/HTML/Art/Stories/Goo.html)
-
----
-
 ## Photography
 
 ### Trash - Summer 2026 Greeley CO.
