@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MarkdownFiles/HomePage.md",
+                "file": "MarkdownFiles/Projects/ArduDeck.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "HomePage"
+              "title": "ArduDeck"
             }
           }
         ]
@@ -188,16 +188,17 @@
   },
   "active": "17fce32a60c15bfc",
   "lastOpenFiles": [
+    "MarkdownFiles/HomePage.md",
+    "MarkdownFiles/WebApps/WebAppsIndex.md",
+    "MarkdownFiles/AboutMe.md",
     "Secret/lu576613zmx.tmp",
     "MarkdownFiles/Projects/BeginnerBookbinding.md",
     "MarkdownFiles/Blogs/BlogsIndex.md",
     "MarkdownFiles/Projects/ProjectsIndex.md",
-    "MarkdownFiles/WebApps/WebAppsIndex.md",
     "MarkdownFiles/Art/ArtIndex.md",
     "MarkdownFiles/Art/Photography/Session1.md",
     "MarkdownFiles/Projects/ArduDeck.md",
     "MarkdownFiles/Blogs/ProjectLoudMouth.md",
-    "MarkdownFiles/HomePage.md",
     "Assets/Images/projects/ArduDeck/555BounceFreeSwitch.webp",
     "Assets/Images/projects/ArduDeck/555Debounce.webp",
     "HTML/Projects/ArduDeck.html",
@@ -229,8 +230,6 @@
     "MarkdownFiles/Projects/JavaScriptNotes.md",
     "Secret/GallerySummary.md",
     "Assets/Images/Secret/2026Q3Gallery/TheoAltmaier",
-    "Assets/Images/Secret/2026Q3Gallery/ParkerMcGuire",
-    "MarkdownFiles/AboutMe.md",
     "MarkdownFiles/Projects/abcde.md",
     "MarkdownFiles/Art/Stories/Goo.md",
     "MarkdownFiles/Art/Essays/Hunger.md"

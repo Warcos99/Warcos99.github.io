@@ -1,6 +1,5 @@
 # Hello World
 
-<!--- For images, use straight html, markdown is not enough to set an image correctly.--->
 <div style="text-align: center;">
   <img src="/Assets/Images/image.jpg" alt="A Possum!" style="width:80vw">
 </div>

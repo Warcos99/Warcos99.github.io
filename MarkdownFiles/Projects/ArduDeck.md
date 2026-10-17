@@ -9,17 +9,17 @@ You can find the GitHub page here with the code and a very simple readme file: [
 This particular page is devoted to a detailed exploration of how to make this damn thing, and some interesting realizations regarding the code.  Below is a list of all the points we will be discussing.
 
 
-**1.  How Arduino Code Works**
+**1.  How Arduino code works**
 
 **2.  Wiring Diagram, PCB, and Housing**
 
-**3.  How to Program a Menu**
+**3.  How to program a menu**
 
-**4.  How to make a persistent Button System**
+**4.  How to make a persistent button system**
 
 **5.  Powering the device**
 
-**6.  Applet Files, basics**
+**6.  Applet files, basics**
 
 **7.  PROGMEM for storing lots of text**
 
@@ -90,3 +90,76 @@ As far as Housing goes, I using a little plastic box I found lying around that h
 ---
 
 ## 3. How to Program a Menu
+
+The first thing to do when making a functioning menu is to draw out the desired functionality of the menu, so you can visualize exactly what needs to happen.  Here is an example of such a diagram:
+
+```
+case = 0
+  display "applet1"
+  if click
+    Functionality of applet1
+    if menuClick
+      go back to menu
+case = 1
+  display "applet2"
+  if click 
+    Functionality of applet2
+    if menuClick
+      go back to menu
+case = 2
+  display "applet3"
+  if click
+    Functionality of applet3
+    if menuClick 
+      go back to menu
+```
+
+From here, we might imagine using a switch statement where each case is set to an integer that corresponds to a different applet, and within each case is a function that corresponds to that applet.  That way, all you need to do is write out different functions for each applet.  There are two issues with this though.  
+
+Number 1, does displaying the menu itself belong to a case? Or is the menu display in the main loop?  But if the menu itself is in the main loop, does that mean that every time you run the loop, the program needs to run the menu, then run the applet, depending on the case?  We need a way to display the menu, and in a sense, the menu will be it's own applet that get's displayed when necessary.  
+
+Problem number 2 is that some applets might require you to create more functions and to set more variables.  You would not be able to do this from within that applet's function, you would need to go to declare all these extra bits outside the main loop. So, in order to create a new applet, not only would you need to create the applet function, you would need to go through the entire file to add variables and functions all over the place.  As the program gets bigger, this will be more and more unwieldy.  We need a way to be able to create our own functions and variables without having to stray to far from the chunk of code where the applet will live. 
+
+To do this, in the main loop all we run is a function we create called `runscreen()`.  this function is defined in the `functions.ino` file.  What it does is that it checks for any user input, and displays an object we created called `currentScreen`.  This object is defined in forward declarations as an object with these properties:
+```
+struct Screen {
+  void (*onSingleClick)();
+  void (*onMenuClick)();
+  void (*onClockWise)();
+  void (*onCounterClockWise)();
+  void (*onEnter)();
+  void (*update)();
+};
+```
+
+Essentially what we are going to do is that we are going to define what each button does during each applet.  For example, if we have a dice rolling applet, we can define "clockwise" and "counterclockwise" from the user as changing the style of dice and "singleclick" as rolling the dice.  We can also define "onenter" and "update" functions for what the program does upon entering and how it updates the screen.  From within that applet's `.ino` file, we will have all these functions specifying events defined.  Then at the end of the applet file you will see a declaration of the screen with variables named specifically to this applet:
+
+```
+Screen diceScreen = {
+  dice_singleClick,
+  dice_menuClick,
+  dice_clockWise,
+  dice_counterClockWise,
+  dice_onEnter,
+  dice_update
+};
+```
+
+In `applet.ino`, an example file name for a dedicated applet, you would be able to declare as many variables and functions as you need.  You would also declare the event functions, to properly display what happens depending on different events throughout the applet.  This would all be fine because this code would not be running in the loop. It would just exist outside the loop, and the loop would refer to it whenever it needed to.
+
+Finally, in `menu.ino` we have a switch statement that determines which screen object is active, based on the case that it is.  If the screen object is set to "menu" then `menu.ino` will display.  But `menu.ino` will change what the screen object is set to depending on user action.
+
+Please check the git for an actual example of it all in action.
+
+In `ArduDeck2.ino` you will find the main loop function.
+
+In `functions.ino` you will find `runscreen`
+
+In `appletDice.ino` you will find an example of all these screen functions.
+
+In `menu.ino` you will find an example of how the menu is run.
+
+---
+
+## 4. How to make a persistent button system
+
