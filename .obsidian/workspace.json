@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f3efbda42f5938c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MarkdownFiles/Blogs/BlogsIndex.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "BlogsIndex"
-            }
-          },
-          {
             "id": "17fce32a60c15bfc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MarkdownFiles/Projects/BeginnerBookbinding.md",
+                "file": "MarkdownFiles/HomePage.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "BeginnerBookbinding"
+              "title": "HomePage"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,9 +188,10 @@
   },
   "active": "17fce32a60c15bfc",
   "lastOpenFiles": [
-    "MarkdownFiles/Projects/ProjectsIndex.md",
+    "Secret/lu576613zmx.tmp",
     "MarkdownFiles/Projects/BeginnerBookbinding.md",
     "MarkdownFiles/Blogs/BlogsIndex.md",
+    "MarkdownFiles/Projects/ProjectsIndex.md",
     "MarkdownFiles/WebApps/WebAppsIndex.md",
     "MarkdownFiles/Art/ArtIndex.md",
     "MarkdownFiles/Art/Photography/Session1.md",

@@ -33,3 +33,7 @@ This site functions as a public record of my commonplace notes, mostly for use a
 ---
 
 This page was last updated: 9/20/2026
+
+---
+
+[Rent Breakdown](/Secret/RentBreakdown.html)
