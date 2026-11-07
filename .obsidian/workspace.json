@@ -11,14 +11,10 @@
             "id": "17fce32a60c15bfc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MarkdownFiles/CoolSites/CoolSitesIndex.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "CoolSitesIndex"
+              "title": "New tab"
             }
           }
         ]
@@ -188,6 +184,8 @@
   },
   "active": "17fce32a60c15bfc",
   "lastOpenFiles": [
+    "MarkdownFiles/CoolSites/CoolSitesIndex.md",
+    "Secret/list.md",
     "MarkdownFiles/Projects/ArduDeck.md",
     "MarkdownFiles/HomePage.md",
     "MarkdownFiles/WebApps/WebAppsIndex.md",
@@ -223,7 +221,6 @@
     "MarkdownFiles/Projects/LinuxNotes.md",
     "MarkdownFiles/Projects/WebsiteMakingNotes.md",
     "MarkdownFiles/Projects/ytdlp.md",
-    "MarkdownFiles/CoolSites/CoolSitesIndex.md",
     "MarkdownFiles/Blogs/HowToArt.md",
     "Assets/Scripts/javascript.js~",
     "html.google.com.md",
