@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MarkdownFiles/Projects/ArduDeck.md",
+                "file": "MarkdownFiles/CoolSites/CoolSitesIndex.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ArduDeck"
+              "title": "CoolSitesIndex"
             }
           }
         ]
@@ -188,6 +188,7 @@
   },
   "active": "17fce32a60c15bfc",
   "lastOpenFiles": [
+    "MarkdownFiles/Projects/ArduDeck.md",
     "MarkdownFiles/HomePage.md",
     "MarkdownFiles/WebApps/WebAppsIndex.md",
     "MarkdownFiles/AboutMe.md",
@@ -197,7 +198,6 @@
     "MarkdownFiles/Projects/ProjectsIndex.md",
     "MarkdownFiles/Art/ArtIndex.md",
     "MarkdownFiles/Art/Photography/Session1.md",
-    "MarkdownFiles/Projects/ArduDeck.md",
     "MarkdownFiles/Blogs/ProjectLoudMouth.md",
     "Assets/Images/projects/ArduDeck/555BounceFreeSwitch.webp",
     "Assets/Images/projects/ArduDeck/555Debounce.webp",
