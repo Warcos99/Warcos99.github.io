@@ -42,6 +42,14 @@ loadMarkdown("/MarkdownFiles/Projects/ytdlp.md", "ytdlp");
 loadMarkdown("/MarkdownFiles/Projects/JavaScriptNotes1.md", "JavaScriptNotes1");
 loadMarkdown("/MarkdownFiles/Projects/ArduDeck.md", "ArduDeck");
 
+/* --- Calls for Recipee page ---*/
+loadMarkdown("/MarkdownFiles/Projects/Recipes/griddledOnionBurger.md", "burger1");
+loadMarkdown("/MarkdownFiles/Projects/Recipes/sweetAndSpicyBurger.md", "burger2");
+loadMarkdown("/MarkdownFiles/Projects/Recipes/caramelizedOnionBurger.md", "burger3");
+loadMarkdown("/MarkdownFiles/Projects/Recipes/smashedBurger.md", "burger4");
+loadMarkdown("/MarkdownFiles/Projects/Recipes/breakfastPorkBurger.md", "burger5");
+loadMarkdown("/MarkdownFiles/Projects/Recipes/crispyParmBurger.md", "burger6");
+
 /* ---- Calls for Art page ---- */
 loadMarkdown("/MarkdownFiles/Art/ArtIndex.md", "Art");
 loadMarkdown("/MarkdownFiles/Art/Essays/Emperor.md", "Emperor");

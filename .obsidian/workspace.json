@@ -11,13 +11,32 @@
             "id": "17fce32a60c15bfc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "MarkdownFiles/Projects/Recipes/crispyParmBurger.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "crispyParmBurger"
+            }
+          },
+          {
+            "id": "02e1586f00048b89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MarkdownFiles/Projects/ProjectsIndex.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "ProjectsIndex"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,28 +201,40 @@
       "bases:Create new base": false
     }
   },
-  "active": "17fce32a60c15bfc",
+  "active": "02e1586f00048b89",
   "lastOpenFiles": [
+    "HTML/Projects/Recipes/crispyParmBurger.html",
+    "HTML/Projects/Recipes/breakfastPorkBurger.html",
+    "HTML/Projects/Recipes/template copy.html",
+    "HTML/Projects/Recipes/smashedBurger.html",
+    "HTML/Projects/Recipes/caramelizedOnionBurger.html",
+    "HTML/Projects/Recipes/template.html",
+    "MarkdownFiles/Projects/Recipes/crispyParmBurger.md",
+    "MarkdownFiles/Projects/Recipes/breakfastPorkBurger.md",
+    "MarkdownFiles/Projects/Recipes/smashedBurger.md",
+    "MarkdownFiles/Projects/Recipes/caramelizedOnionBurger.md",
+    "MarkdownFiles/Projects/Recipes/griddledOnionBurger.md",
+    "MarkdownFiles/Projects/Recipes/sweetAndSpicyBurger.md",
+    "MarkdownFiles/Projects/ProjectsIndex.md",
+    "HTML/Projects/Recipes/sweetAndSpicyBurger.html",
+    "HTML/Projects/Recipes/griddledOnionBurger.html",
+    "HTML/Projects/Recipes",
+    "HTML/Projects/Recipees/sweetAndSpicyBurger.html",
+    "HTML/Projects/Recipees/template.html",
     "MarkdownFiles/CoolSites/CoolSitesIndex.md",
     "Secret/list.md",
     "MarkdownFiles/Projects/ArduDeck.md",
     "MarkdownFiles/HomePage.md",
     "MarkdownFiles/WebApps/WebAppsIndex.md",
     "MarkdownFiles/AboutMe.md",
-    "Secret/lu576613zmx.tmp",
     "MarkdownFiles/Projects/BeginnerBookbinding.md",
     "MarkdownFiles/Blogs/BlogsIndex.md",
-    "MarkdownFiles/Projects/ProjectsIndex.md",
     "MarkdownFiles/Art/ArtIndex.md",
     "MarkdownFiles/Art/Photography/Session1.md",
     "MarkdownFiles/Blogs/ProjectLoudMouth.md",
     "Assets/Images/projects/ArduDeck/555BounceFreeSwitch.webp",
     "Assets/Images/projects/ArduDeck/555Debounce.webp",
-    "HTML/Projects/ArduDeck.html",
-    "HTML/Projects/WebsiteHowTo copy.html",
     "MarkdownFiles/Art/Photography/Trash.md",
-    "HTML/Art/Photography/Trash.html",
-    "HTML/Art/Photography/Session1 copy.html",
     "Assets/Images/banners/TrashBanner.webp",
     "Assets/Images/banners/Trash.webp",
     "Assets/Images/banners/DSC_0207.webp",
@@ -212,23 +243,11 @@
     "Assets/Images/Photography/Trash/3-DSC_0144.webp",
     "Assets/Images/Photography/Trash/4-DSC_0207.webp",
     "Assets/Images/Photography/Trash/5-DSC_0209.webp",
-    "Assets/Images/Photography/Trash",
     "MarkdownFiles/Blogs/Tensions.md",
-    "HTML/Blogs/ProjectLoudMouth.html",
-    "HTML/Blogs/Tensions copy.html",
     "MarkdownFiles/Projects/JavaScriptNotes1.md",
     "MarkdownFiles/Projects/KantNotes1.md",
     "MarkdownFiles/Projects/LinuxNotes.md",
     "MarkdownFiles/Projects/WebsiteMakingNotes.md",
-    "MarkdownFiles/Projects/ytdlp.md",
-    "MarkdownFiles/Blogs/HowToArt.md",
-    "Assets/Scripts/javascript.js~",
-    "html.google.com.md",
-    "MarkdownFiles/Projects/JavaScriptNotes.md",
-    "Secret/GallerySummary.md",
-    "Assets/Images/Secret/2026Q3Gallery/TheoAltmaier",
-    "MarkdownFiles/Projects/abcde.md",
-    "MarkdownFiles/Art/Stories/Goo.md",
-    "MarkdownFiles/Art/Essays/Hunger.md"
+    "MarkdownFiles/Projects/ytdlp.md"
   ]
 }
