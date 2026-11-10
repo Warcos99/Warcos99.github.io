@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MarkdownFiles/Projects/Recipes/crispyParmBurger.md",
+                "file": "MarkdownFiles/Art/Zines/heist.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "crispyParmBurger"
+              "title": "heist"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MarkdownFiles/Projects/ProjectsIndex.md",
+                "file": "MarkdownFiles/HomePage.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ProjectsIndex"
+              "title": "HomePage"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,35 +200,37 @@
       "bases:Create new base": false
     }
   },
-  "active": "02e1586f00048b89",
+  "active": "17fce32a60c15bfc",
   "lastOpenFiles": [
+    "MarkdownFiles/HomePage.md",
+    "MarkdownFiles/Art/Zines/heist.md",
+    "HTML/Art/Zines/heist.html",
+    "HTML/Art/Zines/Trash.html",
+    "Assets/PDFs/Heist ttrpg full.pdf",
+    "MarkdownFiles/Art/ArtIndex.md",
+    "HTML/Art/Zines/Untitled.md",
+    "HTML/Art/Zines",
+    "HTML/Art/Untitled.md",
+    "MarkdownFiles/Art/Zines",
+    "MarkdownFiles/Projects/Recipes/crispyParmBurger.md",
+    "MarkdownFiles/Projects/ProjectsIndex.md",
     "HTML/Projects/Recipes/crispyParmBurger.html",
     "HTML/Projects/Recipes/breakfastPorkBurger.html",
     "HTML/Projects/Recipes/template copy.html",
     "HTML/Projects/Recipes/smashedBurger.html",
     "HTML/Projects/Recipes/caramelizedOnionBurger.html",
-    "HTML/Projects/Recipes/template.html",
-    "MarkdownFiles/Projects/Recipes/crispyParmBurger.md",
     "MarkdownFiles/Projects/Recipes/breakfastPorkBurger.md",
     "MarkdownFiles/Projects/Recipes/smashedBurger.md",
     "MarkdownFiles/Projects/Recipes/caramelizedOnionBurger.md",
     "MarkdownFiles/Projects/Recipes/griddledOnionBurger.md",
     "MarkdownFiles/Projects/Recipes/sweetAndSpicyBurger.md",
-    "MarkdownFiles/Projects/ProjectsIndex.md",
-    "HTML/Projects/Recipes/sweetAndSpicyBurger.html",
-    "HTML/Projects/Recipes/griddledOnionBurger.html",
-    "HTML/Projects/Recipes",
-    "HTML/Projects/Recipees/sweetAndSpicyBurger.html",
-    "HTML/Projects/Recipees/template.html",
     "MarkdownFiles/CoolSites/CoolSitesIndex.md",
     "Secret/list.md",
     "MarkdownFiles/Projects/ArduDeck.md",
-    "MarkdownFiles/HomePage.md",
     "MarkdownFiles/WebApps/WebAppsIndex.md",
     "MarkdownFiles/AboutMe.md",
     "MarkdownFiles/Projects/BeginnerBookbinding.md",
     "MarkdownFiles/Blogs/BlogsIndex.md",
-    "MarkdownFiles/Art/ArtIndex.md",
     "MarkdownFiles/Art/Photography/Session1.md",
     "MarkdownFiles/Blogs/ProjectLoudMouth.md",
     "Assets/Images/projects/ArduDeck/555BounceFreeSwitch.webp",
@@ -245,9 +246,6 @@
     "Assets/Images/Photography/Trash/5-DSC_0209.webp",
     "MarkdownFiles/Blogs/Tensions.md",
     "MarkdownFiles/Projects/JavaScriptNotes1.md",
-    "MarkdownFiles/Projects/KantNotes1.md",
-    "MarkdownFiles/Projects/LinuxNotes.md",
-    "MarkdownFiles/Projects/WebsiteMakingNotes.md",
-    "MarkdownFiles/Projects/ytdlp.md"
+    "MarkdownFiles/Projects/KantNotes1.md"
   ]
 }

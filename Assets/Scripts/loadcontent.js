@@ -57,6 +57,7 @@ loadMarkdown("/MarkdownFiles/Art/Essays/Hunger.md", "Hunger");
 loadMarkdown("/MarkdownFiles/Art/Stories/Goo.md", "Goo");
 loadMarkdown("/MarkdownFiles/Art/Photography/Session1.md", "PhotoSession1");
 loadMarkdown("/MarkdownFiles/Art/Photography/Trash.md", "Trash");
+loadMarkdown("/MarkdownFiles/Art/Zines/heist.md", "heist");
 
 /* ---- Calls for CoolSites ---- */
 loadMarkdown("/MarkdownFiles/CoolSites/CoolSitesIndex.md", "CoolSites");

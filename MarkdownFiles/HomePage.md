@@ -18,17 +18,18 @@ This site functions as a public record of my commonplace notes, mostly for use a
 
 ---
 
-### Project: ArduDeck
+### Project: Added Recipes
 
-[![](Assets/Images/projects/ArduDeck/Schematic_ArduDeck3.0_2026-09-19.webp)](/HTML/Projects/ArduDeck.html)
+Started adding some recipes, and will continue to do so.  Right now it's just some burgers.   On the Projects page, scroll down a bit to see them.
 
----
-
-### Art: Photography Session "Trash"
-
-[![](Assets/Images/banners/TrashBanner.webp)](/HTML/Art/Photography/Trash.html)
-
+[Projects](/HTML/Projects)
 
 ---
 
-This page was last updated: 10/17/2026
+### Art: Heist a ttrpg
+
+[Heist: a poker inspired ttrpg](/HTML/Art/Zines/heist.html)
+
+---
+
+This page was last updated: 11/09/2026
