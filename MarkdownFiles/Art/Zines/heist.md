@@ -8,10 +8,8 @@ The game is still in development, so there will be some issues.  Mainly, i'm sti
 
 The game was intended to be printed into an 8-fold one page zine. You will need one zine for the rules and one zine for the character archetypes and moves.  I encourage you to experience the game this way.
 
-- [8-fold printable zine](/Assets/PDFs/Heist%20Zine%20Print.pdf)
+- [8-fold printable zine](/Assets/PDFs/HEIST-Zine.pdf)
 
-If a physical zine is not a workable version for you below are digital pdfs.  The full version includes everything you need to play, the rule set and the character moves.   If you just need only one of those two, for whatever reason, you can also find them here.
+If a physical zine is not a workable version for you below is a standard pdf.
 
-- [Heist: Rules](/Assets/PDFs/Heist%20Rules.pdf)
-- [Heist: Player Moves](/Assets/PDFs/Heist%20Characters.pdf)
-- [Heist: Full Version](/Assets/PDFs/Heist%20ttrpg%20full.pdf)
+- [Heist: Rules](/Assets/PDFs/HEIST-Full.pdf)
