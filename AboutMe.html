@@ -1,25 +1,58 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>About Me</title>
-        <!--- insert title --->
-        <link rel="stylesheet" href="/Assets/Styles/global.css" />
-        <link rel="stylesheet" href="/Assets/Styles/style.css" />
-        <link rel="stylesheet" href="/Assets/Styles/NavbarStyle.css" />
-    </head>
-    <body>
-        <div class="layout">
-            <div id="header"></div>
-            <div class="content">
-                <div id="AboutMe"></div>
-                <!--- insert ID --->
-            </div>
-        </div>
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="/Assets/Styles/global.css" />
+    <link rel="stylesheet" href="/Assets/Styles/style.css" />
+    <link rel="stylesheet" href="/Assets/Styles/NavbarStyle.css" />
+  </head>
+ 
+  <body>
+    <div class="layout">
+      <div id="header"></div>
+      <div class="content">
+        <h1>About Me</h1>
+        <p>Find me online:
+        <a href="https://substack.com/@juanmarcosavina">Substack</a>
+        <a href="https://www.instagram.com/whatkindofusernamedoyouwantfro/">Instagram</a>
+        <a href="https://www.youtube.com/@spazfall">Youtube</a>
+        <a href="blackboxartscollective.com">BlackBox</a>
+        </p>
+        <p>You will find I am horrendously inconsistent at being online. All those links posted above will contain some amount of my online presence but will be updated really sporadically.  If this website is updated on a monthly basis, those social media sites are updated like twice a year.</p>
+        <p>In any case, my name is Marcos, and the domain name for this website is "warcos" because I found the "Wario" joke funny enough to spend 7 dollars a year on it.  I am a library worker, have a bachelors degree in mathematical physics, and like to engage in all sorts of art projects.</p>
+     
+        <img src="/Assets/Images/cat.jpg">
 
-        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-        <script src="/Assets/Scripts/loadcontent.js"></script>
-        <script src="/Assets/Scripts/lightbox.js"></script>
-    </body>
+        <hr>
+
+        <!-- Contact Form -->
+        <form action="https://formsubmit.co/jmarcosavin@gmail.com" method="POST">
+          <h3> Contact Me </h3>
+          <p> Fill out this form to send me a message! </p>
+
+          <input type="text" name="name" placeholder="Your name" required>
+          <textarea name="message" placeholder="Your message" required></textarea>
+
+          <!-- Optional: custom subject line -->
+          <input type="hidden" name="_subject" value="New message from my website">
+
+          <!-- Optional: honeypot to catch bots (leave hidden and empty) -->
+          <input type="text" name="_honey" style="display:none">
+
+          <button type="submit">Send</button>
+        </form>
+
+        <hr>
+
+      </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="/Assets/Scripts/loadcontent.js"></script>
+    <script src="/Assets/Scripts/lightbox.js"></script>
+  </body>
+
 </html>

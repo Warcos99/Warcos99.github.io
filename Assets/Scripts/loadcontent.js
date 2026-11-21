@@ -69,4 +69,4 @@ loadMarkdown("/MarkdownFiles/WebApps/WebAppsIndex.md", "WebApps");
 loadMarkdown("/MarkdownFiles/GuestBook/GuestBookIndex.md", "GuestBook");
 
 /* ---- Calls for other files ---- */
-loadHTML("/Assets/header.html", "header");
+loadHTML("/header.html", "header");
