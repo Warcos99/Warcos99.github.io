@@ -1,16 +1,7 @@
-/* Global css settings and styles
- * 1. Colors
- * 2. Fonts */
+/******************/
+/*    Fonts       */
+/******************/
 
-/* 1. Color Pallete */
-:root {
-    --dark: #3e2c23;
-    --accent1: #2fa4d7;
-    --accent2: #f7c85c;
-    --light: #f5e9d8;
-}
-
-/* 2. Fonts */
 @font-face {
     font-family: "Bookerly";
     src: url("/Assets/Fonts/Bookerly.ttf") format("truetype");
