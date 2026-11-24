@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Blogs</title>
+        <link rel="stylesheet" href="/Assets/Styles/fonts.css" />
+        <link rel="stylesheet" href="/Assets/Styles/style.css" />
+        <link rel="stylesheet" href="/Assets/Styles/navbar.css" />
+    </head>
+    <body>
+        <div class="layout">
+            <div id="header"></div>
+            <div class="content">
+                <h1>Latest Blog</h1>
+                <h4><a href="/Blogs/ProjectLoudMouth.html">Loudmouth</a></h4?
+                <p> : You live in a surveillance state. You must continue to make art.</p>
+                <img src="/Assets/Images/banners/projectloudmouth.webp">
+                <hr>
+                <h3>Other Blogs</h3>
+                <ul>
+                    <li><a href="/Blogs/ProjectLoudMouth.html">Loudmouth (2026/09/18)</a>
+                    <p>You live in a surveillance state. You must continue to make art.</p></li>
+                    <li><a href="/Blogs/Tensions.html">A theory of tensions(2026/06/13)</a>
+                    <p>A visual exploration of how complex ideas pull on each other.</p></li>
+                    <li><a href="/Blogs/Emperor.html">The Emperor has no clothes (2026)</a>
+                    <p>We must state what we see to be true, no matter how obvious it is.</p></li>
+                    <li><a href="/Blogs/Hunger.html">Ceaseless Hunger (2024)</a>
+                    <p>or the cult of capitalism</p></li>
+                </ul>
+            </div>
+        </div>
+
+        <script src="/Assets/Scripts/lightbox.js"></script>
+        <script>
+            fetch("/header.html")
+                .then(response => response.text())
+                .then(html => {
+                    document.getElementById("header").innerHTML = html;
+                });
+        </script>
+    </body>
+</html>
